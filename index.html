@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rubicon × Sagan — Hiring Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#070b0a; --bg2:#0b110f;
+    --panel:rgba(255,255,255,.026); --panel-2:rgba(255,255,255,.045);
+    --line:rgba(255,255,255,.085); --line-2:rgba(255,255,255,.16);
+    --txt:#e9f1ea; --txt-2:#b6c4bb; --mut:#7e9087; --mut-2:#566359;
+    --green:#2fbf71; --green-bright:#52e08c; --green-deep:#0c5e37; --glow:rgba(47,191,113,.30);
+    --blue:#4a9eff; --amber:#f5b13d; --violet:#b08cff; --teal:#34d8c4; --rose:#ff6b81; --gray:#6b7a72;
+    --r:18px; --r-sm:11px;
+    --mono:'IBM Plex Mono',ui-monospace,monospace;
+    --disp:'Fraunces',Georgia,serif;
+    --ui:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:var(--ui);color:var(--txt);min-height:100vh;-webkit-font-smoothing:antialiased;
+    background:var(--bg);
+    background-image:
+      radial-gradient(900px 600px at 78% -10%, rgba(47,191,113,.16), transparent 60%),
+      radial-gradient(700px 500px at 0% 8%, rgba(40,120,200,.08), transparent 55%);
+    background-attachment:fixed;
+  }
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+    background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+    background-size:46px 46px;mask-image:radial-gradient(circle at 50% 0%, #000, transparent 80%);}
+  a{color:inherit;text-decoration:none;}
+  ::selection{background:var(--green);color:#04130b;}
+
+  .mono{font-family:var(--mono);}
+
+  /* ── GATE ── */
+  #gate{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;
+    background:radial-gradient(700px 500px at 50% 30%, rgba(47,191,113,.14), transparent 60%), var(--bg);}
+  #gate.hidden{display:none;}
+  .gate-card{width:100%;max-width:400px;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:42px 36px;text-align:center;backdrop-filter:blur(14px);box-shadow:0 30px 80px rgba(0,0,0,.5);}
+  .gate-logo{width:54px;height:54px;border-radius:15px;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-family:var(--disp);font-weight:600;font-size:27px;color:#04130b;background:linear-gradient(150deg,var(--green-bright),var(--green));box-shadow:0 0 34px var(--glow);}
+  .gate-mark{font-family:var(--mono);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--green-bright);margin-bottom:14px;}
+  .gate-card h1{font-family:var(--disp);font-weight:500;font-size:27px;color:var(--txt);line-height:1.15;margin-bottom:8px;}
+  .gate-card p{color:var(--mut);font-size:13px;margin-bottom:26px;}
+  .gate-card input{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--line-2);background:rgba(0,0,0,.3);color:#fff;font-size:15px;outline:none;text-align:center;letter-spacing:2px;font-family:var(--mono);transition:border-color .15s,box-shadow .15s;}
+  .gate-card input:focus{border-color:var(--green);box-shadow:0 0 0 4px var(--glow);}
+  .gate-card button{width:100%;margin-top:13px;padding:14px;border:none;border-radius:12px;background:linear-gradient(150deg,var(--green-bright),var(--green));color:#04130b;font-weight:700;font-size:14px;cursor:pointer;transition:transform .12s,box-shadow .15s;font-family:var(--ui);}
+  .gate-card button:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--glow);}
+  .gate-err{color:#ff9aa8;font-size:12px;margin-top:13px;min-height:16px;}
+
+  /* ── TOPBAR ── */
+  .wrap{position:relative;z-index:1;}
+  .topbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    padding:14px 30px;background:rgba(7,11,10,.7);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);}
+  .brand{display:flex;align-items:center;gap:13px;}
+  .brand-logo{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:var(--disp);font-weight:600;font-size:21px;color:#04130b;background:linear-gradient(150deg,var(--green-bright),var(--green));box-shadow:0 0 22px var(--glow);}
+  .b-name{font-family:var(--disp);font-size:18px;font-weight:600;line-height:1.05;}
+  .b-sub{font-family:var(--mono);color:var(--mut);font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;margin-top:2px;}
+  .top-right{display:flex;align-items:center;gap:16px;}
+  .top-meta{text-align:right;}
+  .top-meta .t-1{font-size:12.5px;font-weight:600;color:var(--txt-2);}
+  .top-meta .t-2{font-family:var(--mono);font-size:10.5px;color:var(--mut);}
+  .live{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--green-bright);text-transform:uppercase;letter-spacing:1.5px;padding:6px 12px;border:1px solid rgba(47,191,113,.3);border-radius:30px;background:rgba(47,191,113,.07);}
+  .live .dot{width:7px;height:7px;border-radius:50%;background:var(--green-bright);box-shadow:0 0 0 0 var(--glow);animation:pulse 2s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(82,224,140,.5);}70%{box-shadow:0 0 0 9px rgba(82,224,140,0);}100%{box-shadow:0 0 0 0 rgba(82,224,140,0);}}
+
+  .page{max-width:1340px;margin:0 auto;padding:38px 26px 80px;}
+
+  /* ── HERO ── */
+  .hero{margin-bottom:42px;}
+  .hero .eye{font-family:var(--mono);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--green-bright);margin-bottom:16px;}
+  .hero h1{font-family:var(--disp);font-weight:500;font-size:clamp(30px,5vw,50px);line-height:1.04;letter-spacing:-.5px;max-width:18ch;}
+  .hero h1 em{font-style:italic;color:var(--green-bright);}
+  .hero p{color:var(--txt-2);font-size:15px;margin-top:14px;max-width:60ch;line-height:1.55;}
+
+  /* ── STAT STRIP ── */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:0;margin-top:34px;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--panel);backdrop-filter:blur(8px);}
+  .stat{padding:22px 22px 20px;border-right:1px solid var(--line);position:relative;animation:rise .55s both;}
+  .stat:last-child{border-right:none;}
+  .stat::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--sc,var(--green));opacity:.85;box-shadow:0 0 14px var(--sc,var(--green));}
+  .stat .v{font-family:var(--mono);font-weight:600;font-size:38px;line-height:1;letter-spacing:-1px;color:var(--txt);}
+  .stat .v small{font-size:18px;color:var(--mut);}
+  .stat .l{font-size:12.5px;font-weight:600;color:var(--txt-2);margin-top:10px;}
+  .stat .h{font-family:var(--mono);font-size:10.5px;color:var(--mut);margin-top:3px;}
+  @media(max-width:640px){.stat{border-right:none;border-bottom:1px solid var(--line);}.stat:last-child{border-bottom:none;}}
+
+  /* ── SECTION HEAD ── */
+  .head{display:flex;align-items:baseline;gap:14px;margin:48px 0 20px;}
+  .head h2{font-family:var(--disp);font-weight:500;font-size:24px;}
+  .head .n{font-family:var(--mono);font-size:11px;color:var(--mut);letter-spacing:1.5px;text-transform:uppercase;}
+  .head .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--line-2),transparent);}
+
+  /* ── REQUISITION CARDS ── */
+  .hr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px;}
+  .hr-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:22px;backdrop-filter:blur(8px);
+    display:flex;flex-direction:column;gap:15px;transition:transform .2s,border-color .2s,box-shadow .2s;animation:rise .55s both;position:relative;overflow:hidden;}
+  .hr-card::after{content:'';position:absolute;inset:0;border-radius:var(--r);pointer-events:none;opacity:0;transition:opacity .25s;
+    background:radial-gradient(420px 180px at 80% -20%, var(--glow), transparent 70%);}
+  .hr-card:hover{transform:translateY(-4px);border-color:var(--line-2);box-shadow:0 24px 60px rgba(0,0,0,.45);}
+  .hr-card:hover::after{opacity:1;}
+  .hr-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;}
+  .hr-role{font-family:var(--disp);font-size:19px;font-weight:600;line-height:1.18;}
+  .hr-meta{font-family:var(--mono);font-size:10.5px;color:var(--mut);margin-top:6px;letter-spacing:.3px;line-height:1.6;}
+  .hr-pill{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;padding:6px 11px;border-radius:30px;white-space:nowrap;border:1px solid;}
+  .hr-progress{display:flex;gap:4px;}
+  .hr-progress span{flex:1;height:5px;border-radius:3px;background:rgba(255,255,255,.07);transition:background .3s,box-shadow .3s;}
+  .hr-cands{font-family:var(--mono);font-size:11px;color:var(--txt-2);display:flex;align-items:center;gap:8px;}
+  .hr-cands i{width:8px;height:8px;border-radius:50%;display:inline-block;box-shadow:0 0 8px currentColor;}
+  .hr-note{font-size:12.5px;color:var(--txt-2);background:rgba(255,255,255,.03);border:1px solid var(--line);border-left:2px solid var(--green);border-radius:10px;padding:10px 12px;line-height:1.5;}
+  .hr-foot{display:flex;gap:16px;flex-wrap:wrap;align-items:center;padding-top:2px;}
+  .hr-link{font-family:var(--mono);font-size:11.5px;font-weight:500;color:var(--green-bright);display:inline-flex;align-items:center;gap:6px;letter-spacing:.3px;}
+  .hr-link .arr{transition:transform .15s;}
+  .hr-link:hover .arr{transform:translateX(4px);}
+
+  /* ── FUNNEL ── */
+  .funnel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:24px 26px;backdrop-filter:blur(8px);margin-bottom:22px;}
+  .funnel-row{display:flex;align-items:center;gap:16px;padding:9px 0;}
+  .funnel-row .fl{width:130px;font-family:var(--mono);font-size:11px;color:var(--txt-2);text-transform:uppercase;letter-spacing:.6px;text-align:right;flex-shrink:0;}
+  .funnel-bar{flex:1;height:30px;background:rgba(255,255,255,.04);border-radius:8px;overflow:hidden;position:relative;}
+  .funnel-bar span{position:absolute;inset:0 auto 0 0;border-radius:8px;display:flex;align-items:center;padding-left:12px;font-family:var(--mono);font-weight:600;font-size:13px;color:#04130b;min-width:34px;transition:width .8s cubic-bezier(.2,.7,.2,1);box-shadow:0 0 20px -2px var(--fc);}
+  .funnel-row .fc{width:42px;font-family:var(--mono);font-weight:600;font-size:15px;text-align:left;}
+
+  /* ── FILTERS ── */
+  .filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:20px;}
+  .fbtn{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.4px;padding:8px 15px;border-radius:30px;border:1px solid var(--line-2);background:transparent;color:var(--txt-2);cursor:pointer;transition:all .15s;}
+  .fbtn:hover{border-color:var(--green);color:var(--green-bright);}
+  .fbtn.active{background:var(--green);border-color:var(--green);color:#04130b;font-weight:600;}
+
+  /* ── BOARD ── */
+  .board{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;}
+  @media(max-width:1080px){.board{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:560px){.board{grid-template-columns:1fr;}}
+  .col{display:flex;flex-direction:column;gap:11px;min-width:0;}
+  .col-head{display:flex;align-items:center;justify-content:space-between;padding:0 2px 9px;border-bottom:1px solid var(--line);position:relative;}
+  .col-head::after{content:'';position:absolute;left:0;bottom:-1px;width:42px;height:2px;background:var(--cc);box-shadow:0 0 10px var(--cc);}
+  .col-head .nm{font-family:var(--mono);font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--txt-2);}
+  .col-head .ct{font-family:var(--mono);font-size:11px;font-weight:600;color:#04130b;background:var(--cc);min-width:22px;height:20px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;padding:0 7px;}
+  .cand{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px 14px;transition:transform .15s,border-color .15s,box-shadow .15s;animation:rise .5s both;position:relative;}
+  .cand::before{content:'';position:absolute;left:0;top:13px;bottom:13px;width:2px;border-radius:2px;background:var(--cc);box-shadow:0 0 8px var(--cc);}
+  .cand:hover{transform:translateY(-3px);border-color:var(--line-2);box-shadow:0 16px 40px rgba(0,0,0,.4);}
+  .cand .nm{font-size:14.5px;font-weight:700;color:var(--txt);}
+  .cand .sub{font-family:var(--mono);font-size:10.5px;color:var(--mut);margin-top:4px;display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
+  .cand .sub .sal{color:var(--green-bright);font-weight:600;}
+  .cand .rl{display:inline-block;font-family:var(--mono);font-size:9.5px;font-weight:500;color:var(--txt-2);background:rgba(255,255,255,.05);border:1px solid var(--line);padding:3px 8px;border-radius:6px;margin-top:9px;letter-spacing:.4px;}
+  .cand .note{font-size:11.5px;color:var(--mut);margin-top:9px;line-height:1.45;padding-top:9px;border-top:1px solid var(--line);}
+  .cand .links{display:flex;gap:7px;margin-top:10px;}
+  .clink{font-family:var(--mono);font-size:10.5px;font-weight:500;padding:4px 10px;border-radius:7px;display:inline-flex;align-items:center;gap:5px;border:1px solid;}
+  .clink.cv{color:var(--green-bright);border-color:rgba(47,191,113,.3);background:rgba(47,191,113,.08);}
+  .clink.vid{color:var(--violet);border-color:rgba(176,140,255,.3);background:rgba(176,140,255,.08);}
+  .clink:hover{filter:brightness(1.2);}
+  .flag{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rose);margin-left:5px;box-shadow:0 0 7px var(--rose);}
+  .col-empty{font-family:var(--mono);font-size:10.5px;color:var(--mut-2);text-align:center;padding:18px 8px;border:1px dashed var(--line);border-radius:12px;}
+
+  .foot{margin-top:54px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:var(--mono);font-size:10.5px;color:var(--mut);letter-spacing:.3px;}
+  .foot b{color:var(--green-bright);font-weight:500;}
+  @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+
+<!-- ── GATE ── -->
+<div id="gate">
+  <div class="gate-card">
+    <div class="gate-logo">R</div>
+    <div class="gate-mark">Rubicon × Sagan</div>
+    <h1>Hiring Command Center</h1>
+    <p>Private dashboard. Enter your access code to continue.</p>
+    <input id="gate-input" type="password" placeholder="• • • • • • • •" autocomplete="off" />
+    <button id="gate-btn">Enter Command Center</button>
+    <div class="gate-err" id="gate-err"></div>
+  </div>
+</div>
+
+<!-- ── APP ── -->
+<div id="app" class="wrap" style="display:none;">
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-logo">R</div>
+      <div>
+        <div class="b-name">Rubicon Hiring</div>
+        <div class="b-sub">Powered by Sagan</div>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="top-meta">
+        <div class="t-1" id="meta-contact">—</div>
+        <div class="t-2" id="meta-updated">—</div>
+      </div>
+      <span class="live"><span class="dot"></span> Live</span>
+    </div>
+  </div>
+
+  <div class="page">
+    <section class="hero">
+      <div class="eye">Hiring Command Center</div>
+      <h1>Every open role and <em>every candidate</em>, in one signal.</h1>
+      <p>A real-time control room for Rubicon's hiring with Sagan. Track each requisition from kickoff to placement, see exactly where every candidate stands, and open resumes and intro videos in one click.</p>
+      <div class="stats" id="stats"></div>
+    </section>
+
+    <div class="head"><h2>Open requisitions</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
+    <div class="hr-grid" id="hr-grid"></div>
+
+    <div class="head"><h2>Candidate pipeline</h2><span class="n">flow by stage</span><div class="rule"></div></div>
+    <div class="funnel" id="funnel"></div>
+    <div class="filters" id="filters"></div>
+    <div class="board" id="board"></div>
+
+    <div class="foot">
+      <div>Confidential · prepared for <b>Rubicon</b> by Sagan. Candidate data only.</div>
+      <div id="foot-updated"></div>
+    </div>
+  </div>
+</div>
+
+<!-- seed data: overwritten by live rubicon-data.json when deployed -->
+<script id="seed" type="application/json">{
+  "updated": "2026-06-16T14:40:00.000Z",
+  "customer": "Rubicon",
+  "contact": "JossLyn Castor",
+  "advisor": "Vicky",
+  "requests": [
+    {
+      "hr": "HR70870",
+      "role": "Sr Developer, Business Intelligence",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "June 8, 2026",
+      "datePlaced": "",
+      "notes": "Surfacing candidates."
+    },
+    {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "June 8, 2026",
+      "datePlaced": "",
+      "notes": "4 candidates presented June 11 — pending feedback."
+    },
+    {
+      "hr": "HR47113",
+      "role": "Regional Sourcing Associate",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "June 8, 2026",
+      "datePlaced": "",
+      "notes": "4 candidates presented June 11 — pending feedback."
+    },
+    {
+      "hr": "HR38830",
+      "role": "Client Services Team Lead",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "May 7, 2026",
+      "datePlaced": "",
+      "notes": "Kelly — 2nd interview this week."
+    },
+    {
+      "hr": "HR95911",
+      "role": "Client Service Associate",
+      "status": "6. Job Offer Letter / Signature",
+      "advisor": "Vicky",
+      "kickoff": "May 7, 2026",
+      "datePlaced": "June 5, 2026",
+      "notes": "Genesis & Ricardo — JOL sent, background checks in progress."
+    },
+    {
+      "hr": "HR95269",
+      "role": "Intake Analyst",
+      "status": "6. Job Offer Letter / Signature",
+      "advisor": "Vicky",
+      "kickoff": "May 26, 2026",
+      "datePlaced": "",
+      "notes": "Alex to be hired — background checks in progress."
+    },
+    {
+      "hr": "HR60297",
+      "role": "Key Account Analyst",
+      "status": "6. Job Offer Letter / Signature",
+      "advisor": "Vicky",
+      "kickoff": "May 28, 2026",
+      "datePlaced": "June 12, 2026",
+      "notes": "Emilio — job offer letter."
+    },
+    {
+      "hr": "N/A",
+      "role": "Accounts Payable Operations Analyst",
+      "status": "6. Job Offer Letter / Signature",
+      "advisor": "Vicky",
+      "kickoff": "June 2, 2026",
+      "datePlaced": "June 2, 2026",
+      "notes": "Judy — finalizing pre-offer details, draft sent June 15."
+    }
+  ],
+  "rows": [
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Judy A",
+      "email": "judy.avila0208@gmail.com",
+      "location": "Colombia",
+      "salary": "1,300",
+      "status": "Offered",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-f24q1vkFfmus/9268c387-dc98-4841-92ad-a7a67a3cada5-jfvjoLMZO5dEnM2aN4WcnhznCDNUJxIVqpC1JrcRl26kvo4Vx7kKKFArgCNLJImGa4gws5TH4fiDu24IqAA4s3VeAzPihBqRZbS/JudyAvila-Resume.pdf",
+      "video": "https://drive.google.com/file/d/1mGiKPM5qVELO5FXZ0Odz4Qq0D9VJS4C7/view?usp=drive_link",
+      "notes": "Offer sent to JoseLynn, offered for the Accounts Payable Operations Analyst role"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Gilma A",
+      "email": "gialarca2013@gmail.com",
+      "location": "Colombia",
+      "salary": "1,200",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-tfsiX2DCJQus/2259fb89-7464-4d10-bacc-0d1b4ea32793-8EgYNsjiMrjiA8XYS4RIBdvavaKvgY9oyZ3V6R2A3Dnb5Xj0yEUQqQQLrhRzuD8zlDS7Hq25mt1XM8oX1vQExiIDxG9nSfij24V/GILMAAC---RESUME.pdf_20260227_090338_0000.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/9a3fc2dd-bfdf-43a3-b9e6-15218a7d5528",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Juan G",
+      "email": "fsjuanguevara@gmail.com",
+      "location": "Colombia",
+      "salary": "1,500",
+      "status": "First Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-cgcDDCcLshus/09dd2da2-3c9a-485f-9fc4-389c25c53edc-44p8mwGUZrQiwpmGZBC1ZQHECIxxwrpFUAin2qPBUxjBL9bZaIvg5W4SKnSQ3OrDBlRk0O4Nrdb44X0oSOXeXQHeWsqMyGnMTFx/Juan_Guevara_Customer_Service_Representative.pdf.pdf",
+      "video": "https://drive.google.com/file/d/1D4ZYthdlOcWJWlYvy6h9OtUYgUURH2_T/view?usp=drive_link",
+      "notes": "Accepted another offer"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Luis V",
+      "email": "luismiguelvasquezvelez@gmail.com",
+      "location": "Colombia",
+      "salary": "1,200",
+      "status": "Final Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-byRsdrRbNeus/d770b0c1-6669-42bb-8e4d-d067e109fe79-zYmUWKEBkPfsNheq3fr2C1eG5OgHNYRQs0b3IjdYcCvfFNfxmM4HFiFKoHMXyUi5JV5ZSrcs1DvnL8EmWE3nVjErEZvfbsT6jzI/RESUME.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/f7048023-3d2e-41af-aeba-4ad8c9bd83a7",
+      "notes": "Waiting feedback after his second interview"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Juan H",
+      "email": "juansebastianmeloherrera@gmail.com",
+      "location": "Colombia",
+      "salary": "1,400",
+      "status": "Final Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-adQ1ZDtS8jus/c3d331c5-4e24-457b-a8fb-4199239fed6e-fZf7zQgaiHKv7bsh7l28Tjh5zbDwZtlixtz499JWaNIXXdgaQcfGxXHkLIhb48htJA3LcJJmrbfqJhfXWRCUNG1yewYATkYYRA3/Juan_Sebastian_Melo_Resume.pdf",
+      "video": "https://drive.google.com/file/d/1835QD8-Xl9Zc_e1m0ofuQ_6FOT63V_Gw/view",
+      "notes": "Waiting feedback after his second interview"
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Evanan C",
+      "email": "evanan.castellano@gmail.com",
+      "location": "Colombia",
+      "salary": "1,700",
+      "status": "First Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-rHCZP5p3erus/c1eae61f-15a6-40e1-a98a-5f2ece28380f-0MIJpv8738fOjKsjEh8ntS9jcxrj0iv6SuLslBVYqPCHMjD0nefq1wGxbc0beE9XbXocaot1u8HSy4uKn0DwHKCzR33wYoOpV7z/CV-Evanan_Castellano-Ops_Team_Leader-MAR2026.pdf",
+      "video": "https://candidate-video.com/uploads/fac99832-48dc-41ae-abd0-ef24ab8ea99f",
+      "notes": "Waiting feedback after his first interview"
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Tatiana R",
+      "email": "tatianavanesa1999@hotmail.com",
+      "location": "Colombia",
+      "salary": "1,800",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/1FlVaVOhgO3znn6KM-26x8Gv3UGrfoFe7/view?usp=drive_link",
+      "video": "https://drive.google.com/file/d/1YppN7apPHrnnkNCfADNcwsaaa6d5ihyN/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Sofia C",
+      "email": "sofiaj.cuevasr@gmail.com",
+      "location": "Colombia",
+      "salary": "1,500",
+      "status": "First Interview",
+      "resume": "https://drive.google.com/file/d/1tab0_psueC40pwBHRZabvPF_TM8eFCJ5/view?usp=drive_link",
+      "video": "https://candidate-video.com/uploads/2e860b2e-3aaf-409e-9a48-bb5245161366",
+      "notes": "Waiting for feedback after her first interview"
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Camilo M",
+      "email": "olimac-_@hotmail.com",
+      "location": "Colombia",
+      "salary": "1,800",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/1bjQgGGeC4EdhLbtP6aBj7VYvueIt7Baz/view?usp=drive_link",
+      "video": "https://candidate-video.com/uploads/162f2b52-5c24-409d-83e5-326c7f44a2df",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Ricardo B",
+      "email": "ricardobarqueroc@gmail.com",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Offered",
+      "resume": "https://drive.google.com/file/d/135MXLrG6RxjvxMLcdj3xjfE_MBP0xmeD/view?usp=drive_link",
+      "video": "https://drive.google.com/file/d/1_vjZBlWYsYugE6mfbMorchK9xhseYS_t/view?usp=drive_link",
+      "notes": "Waiitng for the Background check clearance"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Gabriel R",
+      "email": "gabyrd2002@gmail.com",
+      "location": "Argentina",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/16HuAPe9G0ggnnPr97hq6Uut-JJz_BB9j/view?usp=drive_link",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/ea11b1cc-bc91-4a91-972d-492fc1da3650",
+      "notes": "He got disconnected from the interview and never rejoined."
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Kelly G",
+      "email": "kellygamezv26@gmail.com",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "Final Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-8fHmyFe3PMus/a3295401-7586-41b6-89c4-162128708f05-LJOn3UWK0tB5r3rs7hu8GUTeKkMNYh7ZbMTqSnnrNsz213TO830Ij53h7AB7278gFay9gH3WVdjfUGBhPcUi8OLU9yvuUbo0tmH/KELLY-GAMEZ---Operations-Coordinator---Sagan.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/1b18db3c-31c4-434f-9891-9859c4b08096",
+      "notes": "Working on rescheduling her interview with Megan"
+    },
+    {
+      "batch": "1",
+      "role": "Client Services Team Lead",
+      "name": "Hydel H",
+      "email": "haydellhernandez81@gmail.com",
+      "location": "Nicaragua",
+      "salary": "1,400",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-tfsiX2DCJQus/d614d94c-70b6-4031-aca8-ff36ddf41a4f-3eEn64b8vS9QwPg3tn7yXWAcCe7M4UV12cEI63k3WFZbd9npIVWTQPMkZMNvcejloc5vhhRiCMVMQYuANsaMhapAgXzXa3e1Mj0/Comparto-'Hydel-Antonio-HernAndez-GarcAa-CV-Ingles-1'-contigo.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/34390875-0328-457d-ad87-8feb8dbd16d0",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Genesis M",
+      "email": "genesismacedo38@gmail.com",
+      "location": "Honduras",
+      "salary": "1,600",
+      "status": "Offered",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-2JJWWtdYtnus/34eba3fb-840c-40f1-abc2-1e08ed23e374-FpFMx1lImPZiAHtTe9oFXddfU1j1TB4PR0CXgKiuogVtsBVkttovXqjuKAHLwjSoltBmo0qgCsCKYsknyBpH15NFE7G40Ip4JeJ/CV-GM-2026.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/6fa2938e-bd64-4706-9b86-ffb3cf1dd9df",
+      "notes": "Working on her background check"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Ronald M",
+      "email": "rmonq18f1@gmail.com",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "First Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-tfsiX2DCJQus/ad05014a-57dd-4221-88e3-c78a12c5d485-WVFBlBQCQSF1ipeabvnP8GyNKj9mjKu0nW96C9rVbT0hdf8wZ0jX9gnZHmna8GS0rOJ3n9vNmtaqtvAN5J9kjW32ol40MJ3OMiR/Ronald-Montenegro-RCV2.pdf",
+      "video": "https://drive.google.com/file/d/15rUBDBXcgH1jzi8qRuPVJibyIuHz-j6f/view?usp=drive_link",
+      "notes": "Waiting feedback after his second interview"
+    },
+    {
+      "batch": "1",
+      "role": "Client Service Associate",
+      "name": "Alex D",
+      "email": "alexblpw@gmail.com",
+      "location": "Guatemala",
+      "salary": "1,200",
+      "status": "Offered",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-kEad4uNVftus/a11f7fe1-131c-47b5-8a0a-ef4e852e76b0-yzZzJCfaCZRlkgpkV2knYRyJRLYBoM09TRrshgSR2ODDS1jEdxG7UnOAQ8hQhfJLFjX2GcUJII6zDb5K6b0AfcR71HtcAZgnOh6/CV.docx-7.pdf",
+      "video": "https://drive.google.com/file/d/1Pc6XwX_GRfhn3A0yW1aNivgYCeKAsGAX/view?usp=drive_link",
+      "notes": "Working on his background check"
+    },
+    {
+      "batch": "2",
+      "role": "Client Service Associate",
+      "name": "Hanniel T",
+      "email": "porleerlibros0@gmail.com",
+      "location": "Colombia",
+      "salary": "1,600",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-8fHmyFe3PMus/09025f30-afb4-468c-afc9-3df905578500-y5ulJWbnE6sSZtLCsj7dPN4ss2tblLKwXzr4Pfv3JbTPAmQFsrgs0Yh7tvEnGaGjIbo8maC48ObveixK3NBL6UqZz2r7lMqt9CV/Resume-HannielGomez.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/6736bd55-b520-4fb3-bd8e-7e4397690f13",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Client Service Associate",
+      "name": "Nakeesha G",
+      "email": "nakeesha.gardner@gmail.com",
+      "location": "Jamaica",
+      "salary": "1,200",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-tsWxsjKqY4us/25a6ab76-54f5-4566-86e7-d523c2286c6e-pIp9GylAByMjQlX6GKauW7rUGchqgWzH8lp9DBLLQxD5DgsidZMwi3rMmpmwdRpcpl6jue88hLEVi7ZfJrptfnDrrKToL6mD37D/Nakeesha-Gardner-Resume.pdf",
+      "video": "https://candidate-video.com/uploads/66a21c0c-76b2-43ae-8545-452fe2c81329",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Client Service Associate",
+      "name": "Kevin M",
+      "email": "murilloruizkevinmoises@gmail.com",
+      "location": "Nicaragua",
+      "salary": "1,300",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-2JJWWtdYtnus/df9810a9-f457-464b-9bcf-77619c0392ad-OHOdbFWPThZ3mvRScGLJq2DoSuASGFIkml37vAhavasb3WbXrGwgjFb6TtM74fkQrv00rPcelFBQBxm0fiCYUQl6tKIHXT79BiQ/Kevin-Moises-Murillo--Ruiz-Recepcionist-.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/e9de0379-6c2f-4f50-bfb2-ad64ad8d4cfe",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Client Service Associate",
+      "name": "Maria A",
+      "email": "mgabriela.arsb@gmail.com",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-kEad4uNVftus/74c0252d-59c9-4a4e-85a6-7873fdc4f702-YhoiTjfbvA6tym1I2Bo25rGd9mQ0rwPNnp66cRLPGYIYBeo8HSD5FDqnHHMxa3A8NuWNnafyUwhCMDGVY9D7uJAoI1pj0kmNvso/ENG-IS-M-Gabriela-Catto.pdf",
+      "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/5745dc5e-b02b-4954-83e7-08571f5e5f9f",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Key Account Analyst",
+      "name": "Emilio S",
+      "email": "emiliosz2000@hotmail.com",
+      "location": "Mexico",
+      "salary": "1,450",
+      "status": "Offered",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-uJFmbJHLFHus/5f4758c6-9e73-41c5-8618-26c6c42c5827-E0rKITgmeGGeDsLeQScjBTFWsmMjjhrHXjT0gAuYhUGyyoeCIHMSA8W20OkNMHOCS0tbMi5M2myvyHPMRz5THa7ldRrGZXIZEwW/RESUME-EMILIO-SUAREZ.pdf",
+      "video": "https://drive.google.com/file/d/1iEh0q-IUYlymblomE_LudYrZf9ERGwxe/view?usp=drive_link",
+      "notes": "Working on his Background check"
+    },
+    {
+      "batch": "1",
+      "role": "Key Account Analyst",
+      "name": "Cynthia S",
+      "email": "cynthia.suarez10@outlook.com",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "First Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-1jLuyFRsYyus/fd9e0311-e575-4164-ab1c-fc5585e28964-RFQH2UvHUDWjDbQQdacK6FyrLjUT4Syuqu1d9djeFpGXPFRE33SXPvEgkHVyL0C4Ryo6r80lvm11qFKt91z82yKB1gTGAWUj5v1/Cynthia-Suarez-Resume-2026.docx.pdf",
+      "video": "https://candidate-video.com/uploads/4e89f9ab-929e-4a76-9d1e-e40de55c18f5",
+      "notes": "Waiting for feedback after her second interview"
+    },
+    {
+      "batch": "1",
+      "role": "Key Account Analyst",
+      "name": "Lady C",
+      "email": "mililady7@gmail.com",
+      "location": "Ecuador",
+      "salary": "2,800",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-fJ6i8rxMaWus/7031f4cf-ca5b-49d7-ace9-1d7514dfe41b-rT9AbEb4XnyB4cBjc0MTqsN9oAxYCw55R91je9X4j0gZmHECCH0JcWfZLh0fJufp5Tx8OZOHghQcrt4C40wA03KQCebdJG3SJ8F/CV_Milibeth_Alcivar_SeniorAccountant_Sagan.pdf",
+      "video": "https://candidate-video.com/uploads/82a199bd-eed7-4ae8-b5b3-f70daa8a0797",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Key Account Analyst",
+      "name": "Karina P",
+      "email": "peuznerk@yahoo.com.ar",
+      "location": "Argetina",
+      "salary": "2,800",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-b2aKCkthanus/0494b5a1-3c09-461c-880c-e643356ade23-Kzb8ME9szIL9hwHmdAw4v3Cp2lCQGL0Izeiaqu74wER43rfN2QtCzzvTrPmZc0sWj2S4GyqqBGvndkVaFtXLqUfsVyGXJeymTGn/Karina-Peuzner--CV---English--2026.pdf",
+      "video": "https://drive.google.com/file/d/1tobEbBwwM7OtegLmZXlT0_PUWKeiS1Rb/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Bruno B",
+      "email": "brunooliveira07@gmail.com",
+      "location": "Brazil",
+      "salary": "2,000",
+      "status": "First Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-6xBTfiwE2jus/4a0aff6f-47d7-471c-801a-66ca9831e819-Hn2zNVxxOJqEfxXoEwADI9txl60XDH9z4Kg96t3bU6lrAb4cK9uGJzn7DUJCc0XSkcMpCLNhl74AQ5WE4qduqWtlSZhZ5w3vko6/Bruno-Oliveira---.Sales-Representative-BR.pdf",
+      "video": "https://candidate-video.com/uploads/fd2c9864-a63f-4208-9508-af7640f39516",
+      "notes": "Waiting feedback after his first interview"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Tiago P",
+      "email": "tiagoprsoares@gmail.com",
+      "location": "Brazil",
+      "salary": "2,000",
+      "status": "Final Interview",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-1sGhUiCin2us/5323b495-b950-4797-a955-0e2d119b8fb2-YMl3nPujKfpYfdvlfNKroC5H4Doj2E2Ceg11EwEQac2p7xzZLsfetjoKH3WHPJQUSOmvXOtWLSL2AiWpJwRTy41GXYbXf12wx0s/TIAGO_SOARES-RESUME-SDR.pdf",
+      "video": "https://drive.google.com/file/d/1QG8dNTycIPdziBZ6HSggDZhKtWaupWBE/view?usp=drive_link",
+      "notes": "2nd interview scheduled for Mondat June 22nd"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Linval L",
+      "email": "linvalelijahlewis@gmail.com",
+      "location": "Jamaica",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-1sGhUiCin2us/9adab3c9-d062-4985-87ec-c207c7993125-U08b5wDyYB33E5MuUze0f5IKaXgnlFz3iLESHoFSLPJYHRELxElfwmBzx96JTfvdb2wPj4vhobXlxtDdbKVkQmM6q4Rz3apVTSN/Linval_Lewis_SDR_Resume_Pro.pdf",
+      "video": "https://candidate-video.com/uploads/5d22fdb0-0916-4faf-9cbc-125a7cd45796",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Leonardo M",
+      "email": "leonardec@hotmail.com",
+      "location": "Ecuador",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-4vxEtAb7vfus/fa1d6dee-c75d-4fef-ad44-494757258681-9RlnWF0V9A5sFv8L0gmzxGO9cJ8lhbZ4XXK0YyhjO6I1SU2UOK3a6sx6fLdTYpysr6fZ2Z4CWCEzKeNRlvSn1h2CCyc5L4kbkBr/Leonardo-Moncayo-CV_EN_Final.pdf",
+      "video": "https://drive.google.com/file/d/189BpmcrlyCJHJiHzmJcHFeaYcM3OT8sW/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Carlos S",
+      "email": "carlosheik7@hotmail.com",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-uJRHe2TcH2us/9fe1458f-9769-4ffa-9f72-5965868e8ca8-rDLIyz23AvpOemc6w4GTpUCTdNyddolmBHMkFkScxmytJYxnkg8si13VnAxf5yWjLJR3JW7e72wDjGJPzPjMrLysD6z7olIhpQX/Carlos-Llanos---Resume.pdf",
+      "video": "https://drive.google.com/file/d/1GBywlwqoE935tj7FplU52frcq0f1O1C2/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Marlon M",
+      "email": "marmendoza9376@gmail.com",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-uJRHe2TcH2us/6325a5c2-ba92-482c-a110-d060f446fd5d-6nlM62PDR5JlP7ZAXyCdtG8OwYa92N0FLb7S605I92IWbwxgMkrxMRpuBhNxXRdJ9oUV1gWVeCdjqYyJsX6a49OZcDnrgaTFNGg/New-CV-2025-(1)-(1).pdf",
+      "video": "https://drive.google.com/file/d/1XI-5sx86lAdJhDYLoTOq1HmajAGlAz2I/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Sales Development Representative",
+      "name": "Carlos D",
+      "email": "carlosvuran@gmail.com",
+      "location": "El Salvador",
+      "salary": "1,700",
+      "status": "Presented",
+      "resume": "",
+      "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Carlos V.",
+      "email": "carlos.cordon28@gmail.com",
+      "location": "Guatemala",
+      "salary": "1,300",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/1JkE22A-lqOI0aPvg_kQVMAq_W_0UrQM3/view",
+      "video": "https://drive.google.com/file/d/1Opc_-bbzsHyhz81vj1kK6kX4lzNgkk9r/view",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Natalia G.",
+      "email": "nygonz@hotmail.com",
+      "location": "Colombia",
+      "salary": "2,500",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/1arRERuGT8TnSsghtGJoPGHgSG_6VyYSF/view",
+      "video": "https://drive.google.com/file/d/1Vv1_BBSo6ebEpnQfYzYDt6SwE0Td5tQm/view",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Carlos B.",
+      "email": "barretocarlos28.94@gmail.com",
+      "location": "Brazil",
+      "salary": "2,600",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/1WcmVdHYn7x7QGH8WQlEmKUMqtyI_kgOo/view",
+      "video": "https://drive.google.com/file/d/1oL6q54fH8oAnesjCs_LfK4Yl2jqv6MjT/view",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Irving",
+      "email": "Irving_dominguez120496@outlook.com",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://docs.google.com/document/d/1aY0XHy-c_CjymWhzXnn_Xg6JA4x-2EaZ6X8IgGAg6V8/edit?tab=t.0",
+      "video": "https://drive.google.com/file/d/1WGH-MIMJFo0KDGg68P7EkbXV4qXpqFWB/view?usp=sharing",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Associate",
+      "name": "Leonel G.",
+      "email": "leogalvan86@yahoo.com.ar",
+      "location": "Argentina",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://drive.google.com/file/d/14aMqMgXnmu1EBGZK9gtFQYMwy0g8ZO9n/view",
+      "video": "https://drive.google.com/file/d/10mUEzxHcpuS06Ozg2RjQeia85EnKH0s7/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Associate",
+      "name": "Ernesto C",
+      "email": "ernestoecht@gmail.com",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-nS3VEnFpZ4us/8991c485-77e2-4718-a103-9f08f6dd87cc-FUVa7ze24FSe6684SPoPgDAtNcvlVpTumsFAGpS2xO8S0yrhkgMCe13ziViVvy94v8hrCZqtCElOPfUZ9YGAgiwYS7BUliJLe0O/Resume_Ernesto_Chavez.pdf",
+      "video": "https://drive.google.com/file/d/1ufI4u4APFCPfXIbsIx3S_UrycWaIYgHj/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Associate",
+      "name": "Maria R",
+      "email": "maria.andrea0122@gmail.com",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://docs.google.com/document/d/14On4wGYVr3opdgkrfr0bPGVWhAJ5AAsePpx94AKELRk/edit?tab=t.0",
+      "video": "https://drive.google.com/file/d/11COsWIgeAlug1M9c7srfS1N2uoDsNozR/view",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Associate",
+      "name": "Fernando M",
+      "email": "fernandomrtinrdgz@gmail.com",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-w9V91RAf9Lus/b8879a45-5321-41fe-9639-d393607973c9-LqsIV3IbbI5pPYurfoS77XRZyCIa3jntlkKUbpy5s7NDvoivDepCTLALCe9sArY3J13InLB4LPcBWHWCyHiZTvOTrawYFg9aSby/Fernando_Martin_RoCV.pdf",
+      "video": "https://drive.google.com/file/d/1DuN9C4wFEtIe8C9shzCyO6mOgnFwcwWt/view?usp=drive_link",
+      "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Associate",
+      "name": "Monica G",
+      "email": "monica.gutierrez.estrada@hotmail.com",
+      "location": "Mexico",
+      "salary": "2,250",
+      "status": "",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-1NpHVLuyL5us/2760a2e2-ea64-4cc4-bf28-b9d64f1cf10a-7lGWHy1Bu8YatjK4VJ7EMlePL3FWcc6mut0bpWUOvDeefHYNDVaGkiqHHmayTbs4I6pZ1bUJTLaLiXPop8hoDUM57524MEAoH5P/Monica-Gutierrez_Operations-Coordinator-a-(HR62865).pdf",
+      "video": "https://drive.google.com/file/d/11xz5HChZjmlIgsAyFGr8SZaKpsfqk8Li/view?usp=drive_link",
+      "notes": "Not presented yet"
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Associate",
+      "name": "Carlos P",
+      "email": "carlospolanco17@gmail.com",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-3Akj8i8r4cus/48993a14-bae4-438b-ba59-b5bfd1ad41fb-OpbzUAJ7k8xJdRTDUNG4zzCKMnlhdU3iBAnlmuRBYzUgQhQg496ILWm4xsOgKeEx0vir5vpLy1JQovVRdztfd03W54CXMYBXFV1/CV-Carlos-Polanco-Eng-Gen-2026.pdf",
+      "video": "https://drive.google.com/file/d/1DyvFxNoKFtjB_8LtTiCbT5EVzsg1RP4k/view?usp=drive_link",
+      "notes": "Not presented yet"
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Associate",
+      "name": "Carolina A",
+      "email": "caro_arenivas@hotmail.com",
+      "location": "Mexico",
+      "salary": "1,660",
+      "status": "",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-1pUW5HTQ5Eus/f28ef3cc-2833-4432-88a6-0f74807fa65c-9poLilMoEojJhq9eb4L9txIerk1HtJeyEVyKK7ZcDjWdLKTxRhDnRsI9e4M54PipUPsFt36vlmkd0gXM79w1WAooIE3gtPikVwH/CV_Carolina-Arenivas.pdf",
+      "video": "https://drive.google.com/file/d/10Dsrp176MUxRNYQNbKEZ5tGkN2a-dbZj/view?usp=drive_link",
+      "notes": "Not presented yet"
+    },
+    {
+      "batch": "1",
+      "role": "Sr Developer, Business Intelligence",
+      "name": "Jose P",
+      "email": "alexxander24@hotmail.com",
+      "location": "Colombia",
+      "salary": "4,500",
+      "status": "",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-x8yCzrTpr7us/d4260bf1-c16b-47e4-8b2d-4638b57fcfb0-Kq0Z16EaJGpnNy3WrZ5Qz1adD8pbMYJXMqcP4Gyc1n4UAndHFNjYUot9mbznoqd95gHMrmWxts3Hbzb1QJr4nCfkdVu0rcrKRma/josealexander_pena-cv.pdf",
+      "video": "https://drive.google.com/file/d/1QcWYaRuU46SVzvJX86MddUpvB8EPYDjw/view?usp=drive_link",
+      "notes": "Not presented yet"
+    },
+    {
+      "batch": "1",
+      "role": "Sr Developer, Business Intelligence",
+      "name": "Ricardo U",
+      "email": "riguasx@gmail.com",
+      "location": "El Salvador",
+      "salary": "5,200",
+      "status": "",
+      "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-baYJThZwc3us/f56dba4d-cee0-4d8f-bb46-f6f6fff33fef-zPiKz8gnbBIM5y5OHkkNY1X9SypE0b9BZLuBisMohYA2eI8pTIEhKloy9dQVGwmx6NbQipNtnOGOY9fWhIzDljGXdytgW6W1rc3/x-Ricardo-Urrutia---Resume.pdf",
+      "video": "https://candidate-video.com/uploads/b89aa615-3d79-4a0c-b20b-5c2c52f76198",
+      "notes": "Not presented yet"
+    }
+  ]
+}</script>
+
+<script>
+/* ── CONFIG ── */
+const GATE_ENABLED = true;                  // set true on deploy to require the access code
+const ACCESS_CODE  = "rubicon2026";         // change me — light gate, not real security
+const DATA_URL     = "rubicon-data.json";
+
+const ROLE_LINKS = [
+  { match:"client service associate", links:[
+      {label:"Presentation · Batch 1", url:"https://wg-dotcom.github.io/rubicon-client-service-associate-candidates/"},
+      {label:"Batch 2",                url:"https://wg-dotcom.github.io/rubicon-client-service-associate-candidates-b2/"} ]},
+  { match:"client services team lead", links:[
+      {label:"View presentation", url:"https://wg-dotcom.github.io/rubicon-client-services-team-lead-candidates/"} ]},
+  { match:"regional sourcing associate", links:[
+      {label:"View presentation", url:"https://wg-dotcom.github.io/rubicon-regional-sourcing-associate-candidates/"} ]},
+  { match:"regional sourcing team lead", links:[
+      {label:"View presentation", url:"https://wg-dotcom.github.io/rubicon-regional-sourcing-team-lead-candidates/"} ]},
+];
+function linksForRole(role){const l=(role||"").toLowerCase();const h=ROLE_LINKS.find(x=>l.includes(x.match));return h?h.links:[];}
+
+const REQ_STATUS = [
+  {n:1,label:"Kickoff",c:"#4a9eff"}, {n:2,label:"Candidates Presented",c:"#4a9eff"},
+  {n:3,label:"1st Interviews",c:"#f5b13d"}, {n:4,label:"2nd Interviews",c:"#f5b13d"},
+  {n:5,label:"Final Interview",c:"#b08cff"}, {n:6,label:"Offer / Signature",c:"#2fbf71"},
+  {n:7,label:"Invoicing",c:"#2fbf71"}, {n:8,label:"Placed",c:"#52e08c"},
+  {n:9,label:"Closed / Paused",c:"#6b7a72"},
+];
+function parseReqStatus(s){const m=(s||"").match(/(\d+)/);const n=m?+m[1]:0;return REQ_STATUS.find(x=>x.n===n)||{n:0,label:((s||"").replace(/^\d+[.\s]*/,'')||"Open"),c:"#7e9087"};}
+
+const STAGES = [
+  { key:"Presented",       c:"#4a9eff" },
+  { key:"First Interview", c:"#f5b13d" },
+  { key:"Final Interview", c:"#b08cff" },
+  { key:"Offered",         c:"#2fbf71" },
+  { key:"Placed",          c:"#52e08c" },
+];
+const OUT_WORDS = ["reject","declin","withdraw","another offer","disconnected","pass","not "];
+
+/* ── GATE ── */
+// sessionStorage throws in sandboxed iframes — guard every access.
+function memGet(k){try{return sessionStorage.getItem(k);}catch(e){return null;}}
+function memSet(k,v){try{sessionStorage.setItem(k,v);}catch(e){}}
+function unlock(){
+  const v=document.getElementById('gate-input').value.trim();
+  if(v.toLowerCase()===ACCESS_CODE.toLowerCase()){memSet('rbc_ok','1');showApp();}
+  else{document.getElementById('gate-err').textContent="Incorrect code. Try again.";}
+}
+function showApp(){document.getElementById('gate').classList.add('hidden');document.getElementById('app').style.display='block';init();}
+document.getElementById('gate-btn').addEventListener('click',unlock);
+document.getElementById('gate-input').addEventListener('keydown',e=>{if(e.key==='Enter')unlock();});
+if(!GATE_ENABLED || memGet('rbc_ok')==='1'){showApp();}
+else{setTimeout(()=>{const el=document.getElementById('gate-input');if(el)el.focus();},100);}
+
+/* ── DATA ── */
+function normStatus(s){
+  s=(s||"").trim();const l=s.toLowerCase();
+  if(l.includes("placed"))return"Placed";
+  if(l.includes("offer"))return"Offered";
+  if(l.includes("final"))return"Final Interview";
+  if(l.includes("first")||(l.includes("interview")&&!l.includes("final")))return"First Interview";
+  if(l.includes("present"))return"Presented";
+  return s||"Presented";
+}
+function isOut(c){const t=((c.notes||"")+" "+(c.status||"")).toLowerCase();return OUT_WORDS.some(w=>t.includes(w));}
+function esc(s){return (s||"").replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));}
+function daysSince(d){const t=new Date(d);if(isNaN(t))return null;return Math.max(0,Math.round((Date.now()-t.getTime())/864e5));}
+
+async function loadData(){
+  try{const r=await fetch(DATA_URL,{cache:"no-store"});if(r.ok){const j=await r.json();if(j&&j.rows&&j.rows.length)return j;}}catch(e){}
+  return JSON.parse(document.getElementById('seed').textContent);
+}
+
+/* ── RENDER ── */
+let DATA=null, FILTER="all";
+
+async function init(){
+  DATA=await loadData();
+  DATA.rows=DATA.rows.map(r=>({...r,_stage:normStatus(r.status),_out:isOut({...r})}));
+  document.getElementById('meta-contact').textContent=DATA.contact?("Contact · "+DATA.contact):"";
+  const d=DATA.updated?new Date(DATA.updated):null;
+  const upd=d?d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
+  document.getElementById('meta-updated').textContent="Synced "+upd;
+  document.getElementById('foot-updated').textContent="Last synced "+upd;
+  renderStats();renderRequisitions();renderFunnel();renderFilters();renderBoard();
+}
+function activeRows(){return DATA.rows.filter(r=>!r._out);}
+
+// Derive a requisition status from the most-advanced candidate when the tracker has none.
+function deriveStatusFromCands(cs){
+  if(!cs.length) return {n:0,label:"Open",c:"#7e9087"};
+  const has=k=>cs.some(r=>r._stage===k);
+  if(has("Placed"))return REQ_STATUS[7];
+  if(has("Offered"))return REQ_STATUS[5];
+  if(has("Final Interview"))return REQ_STATUS[4];
+  if(has("First Interview"))return REQ_STATUS[2];
+  return REQ_STATUS[1]; // Candidates Presented
+}
+// Join the two sheets by role title → one requisition per role (union of tracker + candidates).
+function buildRequisitions(){
+  const norm=s=>(s||"").trim().toLowerCase();
+  const trackerByRole={}; (DATA.requests||[]).forEach(q=>{trackerByRole[norm(q.role)]=q;});
+  const candsByRole={};
+  DATA.rows.forEach(r=>{const k=norm(r.role); if(!k)return; (candsByRole[k]=candsByRole[k]||[]).push(r);});
+  const keys=[...new Set([...Object.keys(trackerByRole),...Object.keys(candsByRole)])];
+  return keys.map(k=>{
+    const q=trackerByRole[k]||{}; const all=candsByRole[k]||[]; const active=all.filter(r=>!r._out);
+    return {
+      role:(q.role||(all[0]&&all[0].role)||k).replace(/\s*role\.?\s*$/i,'').trim(),
+      roleKey:k, hr:q.hr, advisor:q.advisor||DATA.advisor, kickoff:q.kickoff, notes:q.notes,
+      _st:q.status?parseReqStatus(q.status):deriveStatusFromCands(active),
+      cands:active, total:active.length,
+    };
+  }).sort((a,b)=>(a._st.n===9)-(b._st.n===9) || b.total-a.total || b._st.n-a._st.n);
+}
+
+function renderStats(){
+  const rows=DATA.rows,act=activeRows();
+  const reqs=buildRequisitions();
+  const openRoles=reqs.filter(q=>q._st.n!==9).length||reqs.length;
+  const atOffer=reqs.filter(q=>q._st.n>=6&&q._st.n<=7).length;
+  const offers=act.filter(r=>r._stage==="Offered").length;
+  const inInt=act.filter(r=>["First Interview","Final Interview"].includes(r._stage)).length;
+  const s=[
+    {v:openRoles, l:"Open roles", h:reqs.length+" tracked", c:"var(--green)"},
+    {v:act.length, l:"Candidates in play", h:rows.length+" presented", c:"var(--blue)"},
+    {v:inInt, l:"In interviews", h:"1st + final rounds", c:"var(--violet)"},
+    {v:offers, l:"Candidate offers", h:"awaiting / bg check", c:"var(--amber)"},
+    {v:atOffer, l:"Roles at offer", h:"letter / signature", c:"var(--green-bright)"},
+  ];
+  document.getElementById('stats').innerHTML=s.map((x,i)=>`
+    <div class="stat" style="--sc:${x.c};animation-delay:${i*70}ms">
+      <div class="v">${x.v}</div>
+      <div class="l">${x.l}</div>
+      <div class="h">${x.h}</div>
+    </div>`).join('');
+}
+
+function renderRequisitions(){
+  const reqs=buildRequisitions();
+  document.getElementById('hr-count').textContent=reqs.length+" requisitions";
+  document.getElementById('hr-grid').innerHTML=reqs.map((req,i)=>{
+    const st=req._st;
+    const days=daysSince(req.kickoff);
+    const links=linksForRole(req.role);
+    const stageCounts=STAGES.map(s=>({...s,n:req.cands.filter(r=>r._stage===s.key).length})).filter(s=>s.n>0);
+    const meta=[req.hr&&req.hr!=='N/A'?esc(req.hr):'','Advisor '+esc(req.advisor||'Sagan'),
+      req.kickoff?'Kickoff '+esc(req.kickoff):'',(days!=null&&st.n!==8&&st.n!==9)?days+'d open':''].filter(Boolean).join('  ·  ');
+    const mix=stageCounts.map(s=>`<span style="color:${s.c}">${s.n} ${s.key.replace('Interview','Int.')}</span>`).join('<span style="color:var(--mut-2)"> · </span>');
+    return `
+    <div class="hr-card" onclick="focusRole('${esc(req.roleKey)}')" style="cursor:${req.total?'pointer':'default'};animation-delay:${i*45}ms">
+      <div class="hr-top">
+        <div><div class="hr-role">${esc(req.role||'Role')}</div><div class="hr-meta">${meta}</div></div>
+        <span class="hr-pill" style="background:${st.c}1f;color:${st.c};border-color:${st.c}55">${esc(st.label)}</span>
+      </div>
+      <div class="hr-progress">${Array.from({length:8},(_,k)=>{const on=k<Math.min(st.n,8);return `<span style="${on?`background:${st.c};box-shadow:0 0 9px ${st.c}aa`:''}"></span>`;}).join('')}</div>
+      <div class="hr-cands"><i style="color:${st.c}"></i>${req.total} candidate${req.total===1?'':'s'} in pipeline${mix?` &nbsp;<span style="opacity:.85">(${mix})</span>`:''}</div>
+      ${req.notes?`<div class="hr-note">${esc(req.notes)}</div>`:''}
+      ${links.length?`<div class="hr-foot">${links.map(lk=>`<a class="hr-link" href="${lk.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(lk.label)} <span class="arr">→</span></a>`).join('')}</div>`:''}
+    </div>`;
+  }).join('');
+}
+// click a requisition → filter the pipeline board to that role and scroll to it
+function focusRole(roleKey){
+  const match=DATA.rows.find(r=>r.role.trim().toLowerCase()===roleKey);
+  if(!match) return;
+  FILTER=match.role.trim(); renderFilters(); renderBoard(); renderFunnel();
+  document.getElementById('board').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+function renderFunnel(){
+  const act=activeRows();
+  const counts=STAGES.map(s=>({...s,n:act.filter(r=>r._stage===s.key).length}));
+  const max=Math.max(1,...counts.map(c=>c.n));
+  document.getElementById('funnel').innerHTML=counts.map(c=>`
+    <div class="funnel-row">
+      <div class="fl">${c.key}</div>
+      <div class="funnel-bar"><span style="--fc:${c.c};width:${c.n?Math.max(8,(c.n/max)*100):0}%;background:linear-gradient(90deg,${c.c},${c.c}cc)">${c.n||''}</span></div>
+      <div class="fc" style="color:${c.c}">${c.n}</div>
+    </div>`).join('');
+}
+
+function renderFilters(){
+  const roles=[...new Set(DATA.rows.map(r=>r.role.trim()))].filter(Boolean);
+  const opts=[["all","All roles"]].concat(roles.map(r=>[r,r]));
+  document.getElementById('filters').innerHTML=opts.map(o=>`<button class="fbtn ${o[0]===FILTER?'active':''}" data-f="${esc(o[0])}">${esc(o[1])}</button>`).join('');
+  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{FILTER=b.dataset.f;renderFilters();renderBoard();renderFunnel();}));
+}
+
+function renderBoard(){
+  let rows=activeRows();
+  if(FILTER!=="all")rows=rows.filter(r=>r.role.trim()===FILTER);
+  document.getElementById('board').innerHTML=STAGES.map(st=>{
+    const cs=rows.filter(r=>r._stage===st.key);
+    const cards=cs.length?cs.map((c,i)=>candCard(c,i)).join(''):`<div class="col-empty">— empty —</div>`;
+    return `<div class="col" style="--cc:${st.c}"><div class="col-head"><span class="nm">${st.key}</span><span class="ct">${cs.length}</span></div>${cards}</div>`;
+  }).join('');
+}
+
+function candCard(c,i){
+  const role=c.role.includes("Team Lead")?"Team Lead":(c.role.includes("Associate")&&c.role.includes("Service")?"Service Assoc.":c.role.trim());
+  const out=isOut(c);
+  const links=[
+    c.resume?`<a class="clink cv" href="${esc(c.resume)}" target="_blank" rel="noopener">CV ↗</a>`:'',
+    c.video?`<a class="clink vid" href="${esc(c.video)}" target="_blank" rel="noopener">▶ Video</a>`:'',
+  ].join('');
+  return `
+  <div class="cand" style="animation-delay:${i*35}ms">
+    <div class="nm">${esc(c.name)}${out?'<span class="flag" title="Note flags risk / withdrawal"></span>':''}</div>
+    <div class="sub">${esc(c.location||'')}${c.salary?` · <span class="sal">$${esc(c.salary)}/mo</span>`:''}</div>
+    <div><span class="rl">${esc(role)}${c.batch?` · B${esc(c.batch)}`:''}</span></div>
+    ${c.notes?`<div class="note">${esc(c.notes)}</div>`:''}
+    ${links?`<div class="links">${links}</div>`:''}
+  </div>`;
+}
+</script>
+</body>
+</html>
