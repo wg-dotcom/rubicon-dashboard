@@ -85,14 +85,19 @@ def main():
     cand_path, trk_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
     rows, contact, advisor = build_candidates(cand_path)
     requests = build_requests(trk_path)
-    data = {
-        "updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"),
-        "customer": "Rubicon",
-        "contact": contact,
-        "advisor": advisor or "Vicky",
-        "requests": requests,
-        "rows": rows,
-    }
+    payload = {"customer": "Rubicon", "contact": contact, "advisor": advisor or "Vicky",
+               "requests": requests, "rows": rows}
+
+    # Skip rewrite if nothing but the timestamp would change → no noisy commits.
+    try:
+        old = json.load(open(out_path, encoding="utf-8"))
+        if {k: old.get(k) for k in payload} == payload:
+            print("no data change; leaving file untouched")
+            return
+    except Exception:
+        pass
+
+    data = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z"), **payload}
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"wrote {out_path}: {len(rows)} candidates, {len(requests)} requisitions")
