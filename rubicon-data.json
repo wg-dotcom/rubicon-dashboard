@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T19:29:48.000Z",
+  "updated": "2026-06-16T22:01:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -445,7 +445,7 @@
       "email": "carlosvuran@gmail.com",
       "location": "El Salvador",
       "salary": "1,700",
-      "status": "Presented",
+      "status": "",
       "resume": "",
       "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
       "notes": "Waiting feedback"
@@ -505,10 +505,10 @@
       "email": "leogalvan86@yahoo.com.ar",
       "location": "Argentina",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "First Interview",
       "resume": "https://drive.google.com/file/d/14aMqMgXnmu1EBGZK9gtFQYMwy0g8ZO9n/view",
       "video": "https://drive.google.com/file/d/10mUEzxHcpuS06Ozg2RjQeia85EnKH0s7/view?usp=drive_link",
-      "notes": "Waiting feedback"
+      "notes": "Invited to interview"
     },
     {
       "batch": "1",
@@ -517,10 +517,10 @@
       "email": "ernestoecht@gmail.com",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "First Interview",
       "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-nS3VEnFpZ4us/8991c485-77e2-4718-a103-9f08f6dd87cc-FUVa7ze24FSe6684SPoPgDAtNcvlVpTumsFAGpS2xO8S0yrhkgMCe13ziViVvy94v8hrCZqtCElOPfUZ9YGAgiwYS7BUliJLe0O/Resume_Ernesto_Chavez.pdf",
       "video": "https://drive.google.com/file/d/1ufI4u4APFCPfXIbsIx3S_UrycWaIYgHj/view?usp=drive_link",
-      "notes": "Waiting feedback"
+      "notes": "Invited to interview"
     },
     {
       "batch": "1",
@@ -529,10 +529,10 @@
       "email": "maria.andrea0122@gmail.com",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "First Interview",
       "resume": "https://docs.google.com/document/d/14On4wGYVr3opdgkrfr0bPGVWhAJ5AAsePpx94AKELRk/edit?tab=t.0",
       "video": "https://drive.google.com/file/d/11COsWIgeAlug1M9c7srfS1N2uoDsNozR/view",
-      "notes": "Waiting feedback"
+      "notes": "Invited to interview"
     },
     {
       "batch": "1",
@@ -541,10 +541,10 @@
       "email": "fernandomrtinrdgz@gmail.com",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "First Interview",
       "resume": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-w9V91RAf9Lus/b8879a45-5321-41fe-9639-d393607973c9-LqsIV3IbbI5pPYurfoS77XRZyCIa3jntlkKUbpy5s7NDvoivDepCTLALCe9sArY3J13InLB4LPcBWHWCyHiZTvOTrawYFg9aSby/Fernando_Martin_RoCV.pdf",
       "video": "https://drive.google.com/file/d/1DuN9C4wFEtIe8C9shzCyO6mOgnFwcwWt/view?usp=drive_link",
-      "notes": "Waiting feedback"
+      "notes": "Invited to interview"
     },
     {
       "batch": "2",
