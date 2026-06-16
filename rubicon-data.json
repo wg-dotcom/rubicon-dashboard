@@ -1,36 +1,9 @@
 {
-  "updated": "2026-06-16T14:40:00.000Z",
+  "updated": "2026-06-16T19:29:48.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
   "requests": [
-    {
-      "hr": "HR70870",
-      "role": "Sr Developer, Business Intelligence",
-      "status": "1. KickOff Meeting",
-      "advisor": "Vicky",
-      "kickoff": "June 8, 2026",
-      "datePlaced": "",
-      "notes": "Surfacing candidates."
-    },
-    {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "2. Candidates Presented",
-      "advisor": "Vicky",
-      "kickoff": "June 8, 2026",
-      "datePlaced": "",
-      "notes": "4 candidates presented June 11 — pending feedback."
-    },
-    {
-      "hr": "HR47113",
-      "role": "Regional Sourcing Associate",
-      "status": "2. Candidates Presented",
-      "advisor": "Vicky",
-      "kickoff": "June 8, 2026",
-      "datePlaced": "",
-      "notes": "4 candidates presented June 11 — pending feedback."
-    },
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
@@ -38,7 +11,7 @@
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "",
-      "notes": "Kelly — 2nd interview this week."
+      "notes": "Kelly - 2nd interview this week \nIvana & Sofia - pending feedback on 1st interview"
     },
     {
       "hr": "HR95911",
@@ -47,7 +20,7 @@
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "June 5, 2026",
-      "notes": "Genesis & Ricardo — JOL sent, background checks in progress."
+      "notes": "Genesis JOL, background check. \nMore candidates sent, pending feedback · Ricardo - JOL, background check. \nMore candidates sent, pending feedback"
     },
     {
       "hr": "HR95269",
@@ -56,7 +29,7 @@
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "",
-      "notes": "Alex to be hired — background checks in progress."
+      "notes": "Alex will be hired - background checks in progress"
     },
     {
       "hr": "HR60297",
@@ -64,17 +37,44 @@
       "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
       "kickoff": "May 28, 2026",
-      "datePlaced": "June 12, 2026",
-      "notes": "Emilio — job offer letter."
+      "datePlaced": "June 12,2026",
+      "notes": "Emilio  - JOL \nCynthia sencond interview Mon"
+    },
+    {
+      "hr": "HR70870",
+      "role": "Sr Developer, Business Intelligence",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Surfacing \n1st batch next week - 1 candidate ready"
+    },
+    {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "4 candidates - June 11, pending feedback"
+    },
+    {
+      "hr": "HR47113",
+      "role": "Regional Sourcing Associate",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "4 candidates - June 11, pending feedback"
     },
     {
       "hr": "N/A",
-      "role": "Accounts Payable Operations Analyst",
+      "role": "Accounts Payable Operations Analyst role.",
       "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
-      "kickoff": "June 2, 2026",
-      "datePlaced": "June 2, 2026",
-      "notes": "Judy — finalizing pre-offer details, draft sent June 15."
+      "kickoff": "June 2,2026",
+      "datePlaced": "June 2,2026",
+      "notes": "Judy - finalizing pre-offer details - draft sent June 15"
     }
   ],
   "rows": [
