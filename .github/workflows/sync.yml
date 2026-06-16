@@ -1,0 +1,45 @@
+name: Sync Rubicon data
+
+# Rebuilds rubicon-data.json from both Google Sheets on a schedule.
+# No secrets needed: the sheets are link-readable and the built-in token commits.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 min (GitHub may delay under load)
+  workflow_dispatch: {}       # manual "Run workflow" button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-rubicon
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch both sheets
+        run: |
+          set -e
+          curl -fsSL "https://docs.google.com/spreadsheets/d/1swUUYMpyb5e9zocbONdhqH1ahg53jaQTXM6jyVKXqmc/export?format=csv" -o cand.csv
+          curl -fsSL "https://docs.google.com/spreadsheets/d/1pKvIJlav4FvYQa4HqOusb0yhfinI-1XaQbESZ-vjMfI/export?format=csv&gid=1378398655" -o trk.csv
+          echo "candidates $(wc -c < cand.csv) bytes, tracker $(wc -c < trk.csv) bytes"
+
+      - name: Build rubicon-data.json
+        run: python3 build_data.py cand.csv trk.csv rubicon-data.json
+
+      - name: Commit if changed
+        run: |
+          rm -f cand.csv trk.csv
+          if git diff --quiet -- rubicon-data.json; then
+            echo "No data change."
+          else
+            git config user.name "rubicon-sync-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add rubicon-data.json
+            git commit -m "Auto-sync Rubicon data: $(date -u +%FT%TZ)"
+            git push
+          fi
