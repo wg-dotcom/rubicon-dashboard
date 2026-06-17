@@ -216,8 +216,13 @@
       <div class="stats" id="stats"></div>
     </section>
 
-    <div class="head"><h2>Open requisitions</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
+    <div class="head"><h2>Hiring request pipeline</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
     <div class="board" id="req-board"></div>
+
+    <div class="head"><h2>Candidate pipeline</h2><span class="n">flow by stage</span><div class="rule"></div></div>
+    <div class="funnel" id="funnel"></div>
+    <div class="filters" id="filters"></div>
+    <div class="board" id="board"></div>
 
     <div class="foot">
       <div>Confidential · prepared for <b>Rubicon</b> by Sagan. Candidate data only.</div>
@@ -912,7 +917,7 @@ async function loadData(){
 }
 
 /* ── RENDER ── */
-let DATA=null;
+let DATA=null, FILTER="all";
 
 // Seats (headcount) to fill per role. Rubicon is hiring several for some roles.
 // Edit here, or add a "Seats" column to the tracker and we can sync it automatically.
@@ -941,7 +946,7 @@ async function init(){
   const upd=d?d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
   document.getElementById('meta-updated').textContent="Synced "+upd;
   document.getElementById('foot-updated').textContent="Last synced "+upd;
-  renderStats();renderRequisitions();
+  renderStats();renderRequisitions();renderFunnel();renderFilters();renderBoard();
 }
 function activeRows(){return DATA.rows.filter(r=>!r._out);}
 
@@ -1029,6 +1034,53 @@ function reqCard(req,col,i){
     <div class="rq-cands">${req.total} candidate${req.total===1?'':'s'}${mix?` <span style="color:var(--mut-2)">·</span> ${esc(mix)}`:''}</div>
     ${req.notes?`<div class="rq-note">${esc(req.notes)}</div>`:''}
     ${links.length?`<div class="rq-foot">${links.map(lk=>`<a class="rq-link" href="${lk.url}" target="_blank" rel="noopener">${esc(lk.label)} →</a>`).join('')}</div>`:''}
+  </div>`;
+}
+
+/* ── CANDIDATE PIPELINE ── */
+function renderFunnel(){
+  const act=activeRows();
+  const counts=STAGES.map(s=>({...s,n:act.filter(r=>r._stage===s.key).length}));
+  const max=Math.max(1,...counts.map(c=>c.n));
+  document.getElementById('funnel').innerHTML=counts.map(c=>`
+    <div class="funnel-row">
+      <div class="fl">${c.key}</div>
+      <div class="funnel-bar"><span style="--fc:${c.c};width:${c.n?Math.max(8,(c.n/max)*100):0}%;background:linear-gradient(90deg,${c.c},${c.c}cc)">${c.n||''}</span></div>
+      <div class="fc" style="color:${c.c}">${c.n}</div>
+    </div>`).join('');
+}
+
+function renderFilters(){
+  const roles=[...new Set(DATA.rows.map(r=>r.role.trim()))].filter(Boolean);
+  const opts=[["all","All roles"]].concat(roles.map(r=>[r,r]));
+  document.getElementById('filters').innerHTML=opts.map(o=>`<button class="fbtn ${o[0]===FILTER?'active':''}" data-f="${esc(o[0])}">${esc(o[1])}</button>`).join('');
+  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{FILTER=b.dataset.f;renderFilters();renderBoard();renderFunnel();}));
+}
+
+function renderBoard(){
+  let rows=activeRows();
+  if(FILTER!=="all")rows=rows.filter(r=>r.role.trim()===FILTER);
+  document.getElementById('board').innerHTML=STAGES.map(st=>{
+    const cs=rows.filter(r=>r._stage===st.key);
+    const cards=cs.length?cs.map((c,i)=>candCard(c,i)).join(''):`<div class="col-empty">— empty —</div>`;
+    return `<div class="col" style="--cc:${st.c}"><div class="col-head"><span class="nm">${st.key}</span><span class="ct">${cs.length}</span></div>${cards}</div>`;
+  }).join('');
+}
+
+function candCard(c,i){
+  const role=c.role.includes("Team Lead")?"Team Lead":(c.role.includes("Associate")&&c.role.includes("Service")?"Service Assoc.":c.role.trim());
+  const out=isOut(c);
+  const links=[
+    c.resume?`<a class="clink cv" href="${esc(c.resume)}" target="_blank" rel="noopener">CV ↗</a>`:'',
+    c.video?`<a class="clink vid" href="${esc(c.video)}" target="_blank" rel="noopener">▶ Video</a>`:'',
+  ].join('');
+  return `
+  <div class="cand" style="animation-delay:${i*35}ms">
+    <div class="nm">${esc(c.name)}${out?'<span class="flag" title="Note flags risk / withdrawal"></span>':''}</div>
+    <div class="sub">${esc(c.location||'')}${c.salary?` · <span class="sal">$${esc(c.salary)}/mo</span>`:''}</div>
+    <div><span class="rl">${esc(role)}${c.batch?` · B${esc(c.batch)}`:''}</span></div>
+    ${c.notes?`<div class="note">${esc(c.notes)}</div>`:''}
+    ${links?`<div class="links">${links}</div>`:''}
   </div>`;
 }
 </script>
