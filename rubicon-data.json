@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T18:02:19.000Z",
+  "updated": "2026-06-17T18:05:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -86,7 +86,7 @@
       "salary": "1,300",
       "status": "Offered",
       "video": "https://drive.google.com/file/d/1mGiKPM5qVELO5FXZ0Odz4Qq0D9VJS4C7/view?usp=drive_link",
-      "cv": "",
+      "cv": "cvs/judy-a.html",
       "notes": "Offer sent to JoseLynn, offered for the Accounts Payable Operations Analyst role"
     },
     {
