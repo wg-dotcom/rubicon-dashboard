@@ -1,7 +1,8 @@
 name: Sync Rubicon data
 
-# Rebuilds rubicon-data.json from both Google Sheets on a schedule.
-# No secrets needed: the sheets are link-readable and the built-in token commits.
+# Rebuilds rubicon-data.json from both Google Sheets, event-driven:
+# fires when the Sheets onChange trigger pings repository_dispatch, or on manual run.
+# No secrets needed for data: the sheets are link-readable and the built-in token commits.
 
 on:
   repository_dispatch:
