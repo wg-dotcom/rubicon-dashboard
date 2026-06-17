@@ -5,9 +5,7 @@ name: Sync Rubicon data
 
 on:
   repository_dispatch:
-    types: [sheet-changed]    # fired instantly by the Sheets onChange trigger
-  schedule:
-    - cron: "*/15 * * * *"   # backstop every 15 min (GitHub may delay under load)
+    types: [sheet-changed]    # fired instantly by the Sheets onChange trigger — the only auto path
   workflow_dispatch: {}       # manual "Run workflow" button
 
 permissions:
