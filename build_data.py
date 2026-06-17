@@ -40,16 +40,15 @@ def build_candidates(path):
             continue
         contact = contact or col(r, "customers name", "customer name")
         advisor = advisor or col(r, "talent advisor", "taent advisor", "advisor")
+        # Identity-protected: email / resume / video are deliberately NOT included
+        # so they never reach the public data file. Only first-name + last-initial ships.
         out.append({
             "batch": col(r, "batch #", "batch"),
             "role": col(r, "title/role", "title", "role"),
             "name": name,
-            "email": col(r, "candidates email", "candidate email", "email"),
             "location": col(r, "candidates location", "location"),
             "salary": col(r, "salary expectations", "salary").replace("$", "").strip(),
             "status": col(r, "status"),
-            "resume": col(r, "resume link", "resume"),
-            "video": col(r, "video link", "video"),
             "notes": col(r, "notes"),
         })
     return out, contact, advisor
