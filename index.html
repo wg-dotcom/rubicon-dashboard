@@ -6,19 +6,20 @@
 <title>Rubicon × Sagan — Hiring Command Center</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
   :root{
-    --bg:#070b0a; --bg2:#0b110f;
+    /* Rubicon brand system (matched to the presentation pages) */
+    --bg:#061210; --bg2:#0a1a14;
     --panel:rgba(255,255,255,.026); --panel-2:rgba(255,255,255,.045);
     --line:rgba(255,255,255,.085); --line-2:rgba(255,255,255,.16);
-    --txt:#e9f1ea; --txt-2:#b6c4bb; --mut:#7e9087; --mut-2:#566359;
-    --green:#2fbf71; --green-bright:#52e08c; --green-deep:#0c5e37; --glow:rgba(47,191,113,.30);
+    --txt:#eef4f1; --txt-2:#b3c4bc; --mut:#7c9189; --mut-2:#52635b;
+    --green:#00a36c; --green-bright:#34d399; --green-deep:#006344; --glow:rgba(0,163,108,.32);
     --blue:#4a9eff; --amber:#f5b13d; --violet:#b08cff; --teal:#34d8c4; --rose:#ff6b81; --gray:#6b7a72;
     --r:18px; --r-sm:11px;
-    --mono:'IBM Plex Mono',ui-monospace,monospace;
-    --disp:'Fraunces',Georgia,serif;
-    --ui:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    --mono:'Poppins',sans-serif;
+    --disp:'Playfair Display',Georgia,serif;
+    --ui:'Open Sans',system-ui,-apple-system,sans-serif;
   }
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
   html{scroll-behavior:smooth;}
@@ -26,8 +27,8 @@
     font-family:var(--ui);color:var(--txt);min-height:100vh;-webkit-font-smoothing:antialiased;
     background:var(--bg);
     background-image:
-      radial-gradient(900px 600px at 78% -10%, rgba(47,191,113,.16), transparent 60%),
-      radial-gradient(700px 500px at 0% 8%, rgba(40,120,200,.08), transparent 55%);
+      radial-gradient(900px 600px at 78% -10%, rgba(0,163,108,.16), transparent 60%),
+      radial-gradient(700px 500px at 0% 8%, rgba(0,131,90,.07), transparent 55%);
     background-attachment:fixed;
   }
   body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
@@ -40,10 +41,10 @@
 
   /* ── GATE ── */
   #gate{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:24px;
-    background:radial-gradient(700px 500px at 50% 30%, rgba(47,191,113,.14), transparent 60%), var(--bg);}
+    background:radial-gradient(700px 500px at 50% 30%, rgba(0,163,108,.14), transparent 60%), var(--bg);}
   #gate.hidden{display:none;}
   .gate-card{width:100%;max-width:400px;background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:42px 36px;text-align:center;backdrop-filter:blur(14px);box-shadow:0 30px 80px rgba(0,0,0,.5);}
-  .gate-logo{width:54px;height:54px;border-radius:15px;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-family:var(--disp);font-weight:600;font-size:27px;color:#04130b;background:linear-gradient(150deg,var(--green-bright),var(--green));box-shadow:0 0 34px var(--glow);}
+  .gate-logo{height:36px;width:auto;margin:0 auto 22px;display:block;filter:brightness(0) invert(1);}
   .gate-mark{font-family:var(--mono);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--green-bright);margin-bottom:14px;}
   .gate-card h1{font-family:var(--disp);font-weight:500;font-size:27px;color:var(--txt);line-height:1.15;margin-bottom:8px;}
   .gate-card p{color:var(--mut);font-size:13px;margin-bottom:26px;}
@@ -58,16 +59,17 @@
   .topbar{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
     padding:14px 30px;background:rgba(7,11,10,.7);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);}
   .brand{display:flex;align-items:center;gap:13px;}
-  .brand-logo{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:var(--disp);font-weight:600;font-size:21px;color:#04130b;background:linear-gradient(150deg,var(--green-bright),var(--green));box-shadow:0 0 22px var(--glow);}
+  .brand-logo{height:24px;width:auto;display:block;filter:brightness(0) invert(1);opacity:.96;}
+  .logo-sep{width:1px;height:26px;background:var(--line-2);}
   .b-name{font-family:var(--disp);font-size:18px;font-weight:600;line-height:1.05;}
   .b-sub{font-family:var(--mono);color:var(--mut);font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;margin-top:2px;}
   .top-right{display:flex;align-items:center;gap:16px;}
   .top-meta{text-align:right;}
   .top-meta .t-1{font-size:12.5px;font-weight:600;color:var(--txt-2);}
   .top-meta .t-2{font-family:var(--mono);font-size:10.5px;color:var(--mut);}
-  .live{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--green-bright);text-transform:uppercase;letter-spacing:1.5px;padding:6px 12px;border:1px solid rgba(47,191,113,.3);border-radius:30px;background:rgba(47,191,113,.07);}
+  .live{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--green-bright);text-transform:uppercase;letter-spacing:1.5px;padding:6px 12px;border:1px solid rgba(0,163,108,.3);border-radius:30px;background:rgba(0,163,108,.07);}
   .live .dot{width:7px;height:7px;border-radius:50%;background:var(--green-bright);box-shadow:0 0 0 0 var(--glow);animation:pulse 2s infinite;}
-  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(82,224,140,.5);}70%{box-shadow:0 0 0 9px rgba(82,224,140,0);}100%{box-shadow:0 0 0 0 rgba(82,224,140,0);}}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.5);}70%{box-shadow:0 0 0 9px rgba(52,211,153,0);}100%{box-shadow:0 0 0 0 rgba(52,211,153,0);}}
 
   .page{max-width:1340px;margin:0 auto;padding:38px 26px 80px;}
 
@@ -150,7 +152,7 @@
   .cand .note{font-size:11.5px;color:var(--mut);margin-top:9px;line-height:1.45;padding-top:9px;border-top:1px solid var(--line);}
   .cand .links{display:flex;gap:7px;margin-top:10px;}
   .clink{font-family:var(--mono);font-size:10.5px;font-weight:500;padding:4px 10px;border-radius:7px;display:inline-flex;align-items:center;gap:5px;border:1px solid;}
-  .clink.cv{color:var(--green-bright);border-color:rgba(47,191,113,.3);background:rgba(47,191,113,.08);}
+  .clink.cv{color:var(--green-bright);border-color:rgba(0,163,108,.3);background:rgba(0,163,108,.08);}
   .clink.vid{color:var(--violet);border-color:rgba(176,140,255,.3);background:rgba(176,140,255,.08);}
   .clink:hover{filter:brightness(1.2);}
   .flag{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rose);margin-left:5px;box-shadow:0 0 7px var(--rose);}
@@ -179,7 +181,7 @@
 <!-- ── GATE ── -->
 <div id="gate">
   <div class="gate-card">
-    <div class="gate-logo">R</div>
+    <img class="gate-logo" src="https://www.rubicon.com/wp-content/uploads/2021/05/logo-brand.svg" alt="Rubicon" />
     <div class="gate-mark">Rubicon × Sagan</div>
     <h1>Hiring Command Center</h1>
     <p>Private dashboard. Enter your access code to continue.</p>
@@ -193,9 +195,10 @@
 <div id="app" class="wrap" style="display:none;">
   <div class="topbar">
     <div class="brand">
-      <div class="brand-logo">R</div>
+      <img class="brand-logo" src="https://www.rubicon.com/wp-content/uploads/2021/05/logo-brand.svg" alt="Rubicon" />
+      <div class="logo-sep"></div>
       <div>
-        <div class="b-name">Rubicon Hiring</div>
+        <div class="b-name">Hiring Command Center</div>
         <div class="b-sub">Powered by Sagan</div>
       </div>
     </div>
