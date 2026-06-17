@@ -10,6 +10,15 @@ import csv, json, sys, datetime
 
 CUSTOMER = "rubicon"
 
+# Map of candidate name -> anonymized CV page path (produced by anonymize_cvs.py).
+# Absent/empty until anonymized CVs are generated; the dashboard hides the CV link if blank.
+import os
+CV_MAP = {}
+try:
+    CV_MAP = json.load(open(os.path.join(os.path.dirname(__file__), "cv_map.json"), encoding="utf-8"))
+except Exception:
+    CV_MAP = {}
+
 def rows_of(path):
     with open(path, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
@@ -40,8 +49,9 @@ def build_candidates(path):
             continue
         contact = contact or col(r, "customers name", "customer name")
         advisor = advisor or col(r, "talent advisor", "taent advisor", "advisor")
-        # Identity-protected: email / resume / video are deliberately NOT included
-        # so they never reach the public data file. Only first-name + last-initial ships.
+        # Identity-protected: raw CV (full PII) and email are NEVER shipped.
+        # Video is kept (customers require it). CVs are linked as anonymized pages (see cv_map).
+        cv = CV_MAP.get(name.strip())
         out.append({
             "batch": col(r, "batch #", "batch"),
             "role": col(r, "title/role", "title", "role"),
@@ -49,6 +59,8 @@ def build_candidates(path):
             "location": col(r, "candidates location", "location"),
             "salary": col(r, "salary expectations", "salary").replace("$", "").strip(),
             "status": col(r, "status"),
+            "video": col(r, "video link", "video"),
+            "cv": cv or "",
             "notes": col(r, "notes"),
         })
     return out, contact, advisor
