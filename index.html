@@ -192,8 +192,7 @@
     <div class="head"><h2>Hiring request pipeline</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
     <div class="board" id="req-board"></div>
 
-    <div class="head"><h2>Candidate pipeline</h2><span class="n">flow by stage</span><div class="rule"></div></div>
-    <div class="funnel" id="funnel"></div>
+    <div class="head"><h2>Candidate pipeline</h2><span class="n">by stage</span><div class="rule"></div></div>
     <div class="filters" id="filters"></div>
     <div class="board" id="board"></div>
 
@@ -919,7 +918,7 @@ async function init(){
   const upd=d?d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
   document.getElementById('meta-updated').textContent="Synced "+upd;
   document.getElementById('foot-updated').textContent="Last synced "+upd;
-  renderStats();renderRequisitions();renderFunnel();renderFilters();renderBoard();
+  renderStats();renderRequisitions();renderFilters();renderBoard();
 }
 function activeRows(){return DATA.rows.filter(r=>!r._out);}
 
@@ -1011,23 +1010,12 @@ function reqCard(req,col,i){
 }
 
 /* ── CANDIDATE PIPELINE ── */
-function renderFunnel(){
-  const act=activeRows();
-  const counts=STAGES.map(s=>({...s,n:act.filter(r=>r._stage===s.key).length}));
-  const max=Math.max(1,...counts.map(c=>c.n));
-  document.getElementById('funnel').innerHTML=counts.map(c=>`
-    <div class="funnel-row">
-      <div class="fl">${c.key}</div>
-      <div class="funnel-bar"><span style="--fc:${c.c};width:${c.n?Math.max(8,(c.n/max)*100):0}%;background:linear-gradient(90deg,${c.c},${c.c}cc)">${c.n||''}</span></div>
-      <div class="fc" style="color:${c.c}">${c.n}</div>
-    </div>`).join('');
-}
 
 function renderFilters(){
   const roles=[...new Set(DATA.rows.map(r=>r.role.trim()))].filter(Boolean);
   const opts=[["all","All roles"]].concat(roles.map(r=>[r,r]));
   document.getElementById('filters').innerHTML=opts.map(o=>`<button class="fbtn ${o[0]===FILTER?'active':''}" data-f="${esc(o[0])}">${esc(o[1])}</button>`).join('');
-  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{FILTER=b.dataset.f;renderFilters();renderBoard();renderFunnel();}));
+  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{FILTER=b.dataset.f;renderFilters();renderBoard();}));
 }
 
 function renderBoard(){
