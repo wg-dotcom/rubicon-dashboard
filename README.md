@@ -1,44 +1,50 @@
 # Rubicon × Sagan — Hiring Command Center
 
-A single, private dashboard that centralizes Rubicon's activity with Sagan:
-every open hiring request and the live status of every candidate per request.
+A single, private dashboard that centralizes Rubicon's hiring with Sagan:
+every open hiring request and the status of every candidate per role.
+Live at **https://wg-dotcom.github.io/rubicon-dashboard/** (access code `rubicon2026`).
 
 ## What it shows
-- **At a glance** — open roles, candidates in play, in interviews, offers out, placed.
-- **Open hiring requests** — one card per requisition with a live mini-funnel and a link to the full Sagan presentation page.
-- **Candidate pipeline** — a 5-stage board (Presented → First Interview → Final Interview → Offered → Placed), filterable by role, with one-click resume and intro-video links.
+- **Stat strip** — open roles, open seats, candidates in play, in interviews, roles at offer.
+- **Hiring request pipeline** — a kanban (Kickoff → Candidates Presented → Interviewing → Offer/Signature → Placed), one card per requisition, with seats per role.
+- **Candidate pipeline** — a 5-stage board, filterable by role, with **video** intro links and **anonymized CV** links.
+
+## Data sources (both sheets, auto-synced)
+| Section | Source |
+|---|---|
+| Hiring requests (status, kickoff, notes) | Sheet 1 — `Core Member's HR` tab, rows where `Company Name = Rubicon` |
+| Candidates (board) | Sheet 2 — candidates sheet, rows where `Company Name = Rubicon` |
+
+## Auto-sync — GitHub Action (`.github/workflows/sync.yml`)
+Runs every ~15 min, **no secrets required for data**: curls both sheets' CSV, runs `build_data.py`, commits `rubicon-data.json` only when something actually changed. Manual run via the repo's **Actions → Run workflow**. (`apps-script-sync.gs` is kept as an alternative; the Action is the active mechanism.)
+
+## Privacy — identity protection
+The public data ships **only**: first name + last initial, role, location, salary expectation, status, notes, **video** link, and an **anonymized CV** link. It **never** ships emails, phone numbers, raw résumé PDFs, real surnames, addresses, or internal margins (Budget/%WG/Deal Value).
+
+- **Anonymized CVs** live in `cvs/<slug>.html` — clean branded pages (first name only) generated from each résumé. The model returns structured fields; the page is rendered from a fixed template; then a PII audit runs and **any CV that can't be verified clean is left hidden** (fail-safe).
+- The access-code gate (`ACCESS_CODE` in `index.html`) is enforced only on the live `github.io` domain (`gateOn`) and is a deterrent, not real security.
+
+### Make CV anonymization automatic (one-time)
+The data sync is fully automatic. To also auto-anonymize **new** candidates' CVs each run:
+1. Repo → **Settings → Secrets and variables → Actions → New repository secret**.
+2. Name `ANTHROPIC_API_KEY`, paste an Anthropic API key.
+
+That's it. On each sync, `anonymize_cvs.py` processes only candidates **not already** in `cv_map.json` (incremental), generates their anonymized page, audits it, and wires the CV button. Without the key, the step is skipped and the rest of the sync still runs. To run the full batch manually: `python3 anonymize_cvs.py cand.csv cvs cv_map.json` (needs `ANTHROPIC_API_KEY`, `pip install anthropic pypdf`).
 
 ## Files
 | File | Purpose |
 |---|---|
-| `index.html` | The dashboard. Self-contained. Reads `rubicon-data.json` live, falls back to the baked-in seed. |
-| `rubicon-data.json` | The data feed. Overwritten by the sync script. |
-| `apps-script-sync.gs` | Google Apps Script that filters the candidates sheet to **Rubicon + safe columns only** and pushes `rubicon-data.json` here every 5 min. |
-
-## Data sources
-| Section | Source |
-|---|---|
-| **Open hiring requests** (status, kickoff, notes) | Sheet 1 — the `Core Member's HR` tab of the open-process tracker, rows where `Company Name = Rubicon` (8 live requisitions). |
-| **Candidate pipeline** (per-role board) | Sheet 2 — the candidates sheet, rows where `Company Name = Rubicon` (20 candidates). |
-
-## Data & privacy
-- The dashboard ships **only Rubicon data, and only customer-safe fields**.
-- The `Core Member's HR` tab also holds **Budget ($), %WG and Deal Value ($)** — these internal margin columns are explicitly **dropped** by the sync and never reach this repo.
-- A lightweight access-code gate sits in front (`ACCESS_CODE` in `index.html`, currently `rubicon2026`). This is a deterrent, not real security — don't put anything truly sensitive behind it.
-
-## Live updates (the house pattern)
-Mirrors `core-dashboard`:
-1. Open the **candidates** sheet → Extensions → Apps Script, paste `apps-script-sync.gs`.
-2. Set `GITHUB_TOKEN` and confirm `REPO`.
-3. Run `pushToGitHub()` once (authorize), then `installTrigger()` for 5-min auto-sync.
-4. Update the sheet → dashboard updates itself. No redeploys.
-
-## Deploy
-Push this folder to its GitHub Pages repo (e.g. `wg-dotcom/rubicon-dashboard`).
-The requisition → presentation-page links in `REQUISITIONS` (top of `index.html`)
-assume the existing Rubicon pages are reachable; repoint them to live URLs if needed.
+| `index.html` | The dashboard. Reads `rubicon-data.json` live; baked-in seed as fallback. |
+| `rubicon-data.json` | The data feed (overwritten by the Action). |
+| `build_data.py` | Filters both sheets to Rubicon + safe columns → `rubicon-data.json`; merges `cv_map.json`. |
+| `anonymize_cvs.py` | Incrementally anonymizes new candidates' CVs → `cvs/*.html` + `cv_map.json`. |
+| `cv_map.json` | Map of candidate name → anonymized CV page. |
+| `cvs/` | Anonymized CV pages. |
+| `.github/workflows/sync.yml` | The scheduled sync + anonymize + commit. |
+| `apps-script-sync.gs` | Alternative Apps Script sync (not active). |
 
 ## Config (top of `index.html`)
-- `ACCESS_CODE` — the gate passphrase.
-- `DATA_URL` — the live JSON path.
-- `REQUISITIONS` — open roles + links to each role's full presentation page.
+- `ACCESS_CODE` / `GATE_HOSTS` — gate passphrase and where it's enforced.
+- `SEATS` — seats (headcount) per role.
+- `ROLE_LINKS` — links to each role's full presentation page.
+- `MODEL` (top of `anonymize_cvs.py`) — anonymization model; `claude-sonnet-4-6` / `claude-haiku-4-5` to cut cost.

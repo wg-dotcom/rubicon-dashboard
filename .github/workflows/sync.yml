@@ -28,18 +28,31 @@ jobs:
           curl -fsSL "https://docs.google.com/spreadsheets/d/1pKvIJlav4FvYQa4HqOusb0yhfinI-1XaQbESZ-vjMfI/export?format=csv&gid=1378398655" -o trk.csv
           echo "candidates $(wc -c < cand.csv) bytes, tracker $(wc -c < trk.csv) bytes"
 
+      # Anonymize any NEW candidates' CVs into branded pages. Skips automatically
+      # if ANTHROPIC_API_KEY isn't set, so the data sync keeps working without it.
+      - name: Anonymize new CVs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "No ANTHROPIC_API_KEY set — skipping CV anonymization (data still syncs)."
+            exit 0
+          fi
+          pip install --quiet anthropic pypdf
+          python3 anonymize_cvs.py cand.csv cvs cv_map.json
+
       - name: Build rubicon-data.json
         run: python3 build_data.py cand.csv trk.csv rubicon-data.json
 
       - name: Commit if changed
         run: |
           rm -f cand.csv trk.csv
-          if git diff --quiet -- rubicon-data.json; then
-            echo "No data change."
+          git add -A cvs cv_map.json rubicon-data.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes."
           else
             git config user.name "rubicon-sync-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add rubicon-data.json
-            git commit -m "Auto-sync Rubicon data: $(date -u +%FT%TZ)"
+            git commit -m "Auto-sync Rubicon data + CVs: $(date -u +%FT%TZ)"
             git push
           fi
