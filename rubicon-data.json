@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T18:22:47.000Z",
+  "updated": "2026-06-17T20:50:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -528,6 +528,17 @@
       "video": "https://drive.google.com/file/d/1DyvFxNoKFtjB_8LtTiCbT5EVzsg1RP4k/view?usp=drive_link",
       "cv": "cvs/carlos-p.html",
       "notes": "Not presented yet"
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Associate",
+      "name": "Johny",
+      "location": "Colombia",
+      "salary": "1,600",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1OK9fPmh0nY-QXuQvcoBiKd-sqSAGBdXm/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "2",
