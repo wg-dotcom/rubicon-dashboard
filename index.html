@@ -156,6 +156,19 @@
   .flag{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--rose);margin-left:5px;box-shadow:0 0 7px var(--rose);}
   .col-empty{font-family:var(--mono);font-size:10.5px;color:var(--mut-2);text-align:center;padding:18px 8px;border:1px dashed var(--line);border-radius:12px;}
 
+  /* ── REQUISITION KANBAN CARD ── */
+  .rq{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--cc);border-radius:13px;padding:14px;display:flex;flex-direction:column;gap:9px;transition:transform .15s,border-color .15s,box-shadow .15s;animation:rise .5s both;}
+  .rq:hover{transform:translateY(-3px);border-color:var(--line-2);box-shadow:0 16px 40px rgba(0,0,0,.42);}
+  .rq-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .rq-role{font-family:var(--disp);font-size:15.5px;font-weight:600;line-height:1.2;}
+  .rq-seats{flex-shrink:0;font-family:var(--mono);font-size:11px;font-weight:600;color:var(--cc);background:color-mix(in srgb,var(--cc) 16%,transparent);border:1px solid color-mix(in srgb,var(--cc) 45%,transparent);padding:4px 9px;border-radius:20px;white-space:nowrap;box-shadow:0 0 14px -4px var(--cc);}
+  .rq-meta{font-family:var(--mono);font-size:10px;color:var(--mut);letter-spacing:.3px;}
+  .rq-cands{font-family:var(--mono);font-size:11px;color:var(--txt-2);line-height:1.5;}
+  .rq-note{font-size:11.5px;color:var(--txt-2);background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:9px;padding:8px 10px;line-height:1.45;white-space:pre-line;}
+  .rq-foot{display:flex;flex-direction:column;gap:5px;}
+  .rq-link{font-family:var(--mono);font-size:11px;font-weight:500;color:var(--green-bright);}
+  .rq-link:hover{filter:brightness(1.2);}
+
   .foot{margin-top:54px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:var(--mono);font-size:10.5px;color:var(--mut);letter-spacing:.3px;}
   .foot b{color:var(--green-bright);font-weight:500;}
   @keyframes rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:translateY(0);}}
@@ -204,12 +217,7 @@
     </section>
 
     <div class="head"><h2>Open requisitions</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
-    <div class="hr-grid" id="hr-grid"></div>
-
-    <div class="head"><h2>Candidate pipeline</h2><span class="n">flow by stage</span><div class="rule"></div></div>
-    <div class="funnel" id="funnel"></div>
-    <div class="filters" id="filters"></div>
-    <div class="board" id="board"></div>
+    <div class="board" id="req-board"></div>
 
     <div class="foot">
       <div>Confidential · prepared for <b>Rubicon</b> by Sagan. Candidate data only.</div>
@@ -832,7 +840,9 @@
 
 <script>
 /* ── CONFIG ── */
-const GATE_ENABLED = true;                  // set true on deploy to require the access code
+const GATE_ENABLED = true;                  // require access code...
+const GATE_HOSTS   = ["github.io"];         // ...but only on the live domain (auto-open in preview/local)
+const gateOn = GATE_ENABLED && GATE_HOSTS.some(h=>location.hostname.endsWith(h));
 const ACCESS_CODE  = "rubicon2026";         // change me — light gate, not real security
 const DATA_URL     = "rubicon-data.json";
 
@@ -879,7 +889,7 @@ function unlock(){
 function showApp(){document.getElementById('gate').classList.add('hidden');document.getElementById('app').style.display='block';init();}
 document.getElementById('gate-btn').addEventListener('click',unlock);
 document.getElementById('gate-input').addEventListener('keydown',e=>{if(e.key==='Enter')unlock();});
-if(!GATE_ENABLED || memGet('rbc_ok')==='1'){showApp();}
+if(!gateOn || memGet('rbc_ok')==='1'){showApp();}
 else{setTimeout(()=>{const el=document.getElementById('gate-input');if(el)el.focus();},100);}
 
 /* ── DATA ── */
@@ -902,7 +912,26 @@ async function loadData(){
 }
 
 /* ── RENDER ── */
-let DATA=null, FILTER="all";
+let DATA=null;
+
+// Seats (headcount) to fill per role. Rubicon is hiring several for some roles.
+// Edit here, or add a "Seats" column to the tracker and we can sync it automatically.
+const SEATS = {
+  "client service associate": 5,
+  "regional sourcing associate": 5,
+  // others default to 1 until confirmed
+};
+function seatsFor(role){return SEATS[(role||"").trim().toLowerCase()] || 1;}
+
+// Kanban columns for the requisition board, by tracker status stage.
+const REQ_COLUMNS = [
+  {key:"Kickoff",              c:"#4a9eff", has:n=>n<=1},
+  {key:"Candidates Presented", c:"#34d8c4", has:n=>n===2},
+  {key:"Interviewing",         c:"#f5b13d", has:n=>n>=3&&n<=5},
+  {key:"Offer / Signature",    c:"#2fbf71", has:n=>n>=6&&n<=7},
+  {key:"Placed",               c:"#52e08c", has:n=>n===8},
+  {key:"Closed / Paused",      c:"#7e9087", has:n=>n===9},
+];
 
 async function init(){
   DATA=await loadData();
@@ -912,7 +941,7 @@ async function init(){
   const upd=d?d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
   document.getElementById('meta-updated').textContent="Synced "+upd;
   document.getElementById('foot-updated').textContent="Last synced "+upd;
-  renderStats();renderRequisitions();renderFunnel();renderFilters();renderBoard();
+  renderStats();renderRequisitions();
 }
 function activeRows(){return DATA.rows.filter(r=>!r._out);}
 
@@ -939,7 +968,7 @@ function buildRequisitions(){
       role:(q.role||(all[0]&&all[0].role)||k).replace(/\s*role\.?\s*$/i,'').trim(),
       roleKey:k, hr:q.hr, advisor:q.advisor||DATA.advisor, kickoff:q.kickoff, notes:q.notes,
       _st:q.status?parseReqStatus(q.status):deriveStatusFromCands(active),
-      cands:active, total:active.length,
+      cands:active, total:active.length, seats:seatsFor(q.role||(all[0]&&all[0].role)||k),
     };
   }).sort((a,b)=>(a._st.n===9)-(b._st.n===9) || b.total-a.total || b._st.n-a._st.n);
 }
@@ -947,16 +976,17 @@ function buildRequisitions(){
 function renderStats(){
   const rows=DATA.rows,act=activeRows();
   const reqs=buildRequisitions();
-  const openRoles=reqs.filter(q=>q._st.n!==9).length||reqs.length;
+  const open=reqs.filter(q=>q._st.n!==9);
+  const openRoles=open.length||reqs.length;
+  const openSeats=open.reduce((s,r)=>s+r.seats,0);
   const atOffer=reqs.filter(q=>q._st.n>=6&&q._st.n<=7).length;
-  const offers=act.filter(r=>r._stage==="Offered").length;
   const inInt=act.filter(r=>["First Interview","Final Interview"].includes(r._stage)).length;
   const s=[
     {v:openRoles, l:"Open roles", h:reqs.length+" tracked", c:"var(--green)"},
+    {v:openSeats, l:"Open seats", h:"headcount to fill", c:"var(--green-bright)"},
     {v:act.length, l:"Candidates in play", h:rows.length+" presented", c:"var(--blue)"},
     {v:inInt, l:"In interviews", h:"1st + final rounds", c:"var(--violet)"},
-    {v:offers, l:"Candidate offers", h:"awaiting / bg check", c:"var(--amber)"},
-    {v:atOffer, l:"Roles at offer", h:"letter / signature", c:"var(--green-bright)"},
+    {v:atOffer, l:"Roles at offer", h:"letter / signature", c:"var(--amber)"},
   ];
   document.getElementById('stats').innerHTML=s.map((x,i)=>`
     <div class="stat" style="--sc:${x.c};animation-delay:${i*70}ms">
@@ -968,79 +998,37 @@ function renderStats(){
 
 function renderRequisitions(){
   const reqs=buildRequisitions();
-  document.getElementById('hr-count').textContent=reqs.length+" requisitions";
-  document.getElementById('hr-grid').innerHTML=reqs.map((req,i)=>{
-    const st=req._st;
-    const days=daysSince(req.kickoff);
-    const links=linksForRole(req.role);
-    const stageCounts=STAGES.map(s=>({...s,n:req.cands.filter(r=>r._stage===s.key).length})).filter(s=>s.n>0);
-    const meta=[req.hr&&req.hr!=='N/A'?esc(req.hr):'','Advisor '+esc(req.advisor||'Sagan'),
-      req.kickoff?'Kickoff '+esc(req.kickoff):'',(days!=null&&st.n!==8&&st.n!==9)?days+'d open':''].filter(Boolean).join('  ·  ');
-    const mix=stageCounts.map(s=>`<span style="color:${s.c}">${s.n} ${s.key.replace('Interview','Int.')}</span>`).join('<span style="color:var(--mut-2)"> · </span>');
-    return `
-    <div class="hr-card" onclick="focusRole('${esc(req.roleKey)}')" style="cursor:${req.total?'pointer':'default'};animation-delay:${i*45}ms">
-      <div class="hr-top">
-        <div><div class="hr-role">${esc(req.role||'Role')}</div><div class="hr-meta">${meta}</div></div>
-        <span class="hr-pill" style="background:${st.c}1f;color:${st.c};border-color:${st.c}55">${esc(st.label)}</span>
-      </div>
-      <div class="hr-progress">${Array.from({length:8},(_,k)=>{const on=k<Math.min(st.n,8);return `<span style="${on?`background:${st.c};box-shadow:0 0 9px ${st.c}aa`:''}"></span>`;}).join('')}</div>
-      <div class="hr-cands"><i style="color:${st.c}"></i>${req.total} candidate${req.total===1?'':'s'} in pipeline${mix?` &nbsp;<span style="opacity:.85">(${mix})</span>`:''}</div>
-      ${req.notes?`<div class="hr-note">${esc(req.notes)}</div>`:''}
-      ${links.length?`<div class="hr-foot">${links.map(lk=>`<a class="hr-link" href="${lk.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(lk.label)} <span class="arr">→</span></a>`).join('')}</div>`:''}
-    </div>`;
-  }).join('');
-}
-// click a requisition → filter the pipeline board to that role and scroll to it
-function focusRole(roleKey){
-  const match=DATA.rows.find(r=>r.role.trim().toLowerCase()===roleKey);
-  if(!match) return;
-  FILTER=match.role.trim(); renderFilters(); renderBoard(); renderFunnel();
-  document.getElementById('board').scrollIntoView({behavior:'smooth',block:'center'});
-}
-
-function renderFunnel(){
-  const act=activeRows();
-  const counts=STAGES.map(s=>({...s,n:act.filter(r=>r._stage===s.key).length}));
-  const max=Math.max(1,...counts.map(c=>c.n));
-  document.getElementById('funnel').innerHTML=counts.map(c=>`
-    <div class="funnel-row">
-      <div class="fl">${c.key}</div>
-      <div class="funnel-bar"><span style="--fc:${c.c};width:${c.n?Math.max(8,(c.n/max)*100):0}%;background:linear-gradient(90deg,${c.c},${c.c}cc)">${c.n||''}</span></div>
-      <div class="fc" style="color:${c.c}">${c.n}</div>
-    </div>`).join('');
-}
-
-function renderFilters(){
-  const roles=[...new Set(DATA.rows.map(r=>r.role.trim()))].filter(Boolean);
-  const opts=[["all","All roles"]].concat(roles.map(r=>[r,r]));
-  document.getElementById('filters').innerHTML=opts.map(o=>`<button class="fbtn ${o[0]===FILTER?'active':''}" data-f="${esc(o[0])}">${esc(o[1])}</button>`).join('');
-  document.querySelectorAll('.fbtn').forEach(b=>b.addEventListener('click',()=>{FILTER=b.dataset.f;renderFilters();renderBoard();renderFunnel();}));
-}
-
-function renderBoard(){
-  let rows=activeRows();
-  if(FILTER!=="all")rows=rows.filter(r=>r.role.trim()===FILTER);
-  document.getElementById('board').innerHTML=STAGES.map(st=>{
-    const cs=rows.filter(r=>r._stage===st.key);
-    const cards=cs.length?cs.map((c,i)=>candCard(c,i)).join(''):`<div class="col-empty">— empty —</div>`;
-    return `<div class="col" style="--cc:${st.c}"><div class="col-head"><span class="nm">${st.key}</span><span class="ct">${cs.length}</span></div>${cards}</div>`;
+  const totalSeats=reqs.filter(r=>r._st.n!==9).reduce((s,r)=>s+r.seats,0);
+  document.getElementById('hr-count').textContent=reqs.length+" roles · "+totalSeats+" seats";
+  const cols=REQ_COLUMNS.filter(col=>col.key!=="Closed / Paused" || reqs.some(r=>col.has(r._st.n)));
+  document.getElementById('req-board').innerHTML=cols.map(col=>{
+    const items=reqs.filter(r=>col.has(r._st.n));
+    const seats=items.reduce((s,r)=>s+r.seats,0);
+    const cards=items.length?items.map((req,i)=>reqCard(req,col,i)).join(''):`<div class="col-empty">— none —</div>`;
+    return `<div class="col" style="--cc:${col.c}">
+      <div class="col-head"><span class="nm">${col.key}</span><span class="ct">${items.length}${seats?` · ${seats}s`:''}</span></div>
+      ${cards}</div>`;
   }).join('');
 }
 
-function candCard(c,i){
-  const role=c.role.includes("Team Lead")?"Team Lead":(c.role.includes("Associate")&&c.role.includes("Service")?"Service Assoc.":c.role.trim());
-  const out=isOut(c);
-  const links=[
-    c.resume?`<a class="clink cv" href="${esc(c.resume)}" target="_blank" rel="noopener">CV ↗</a>`:'',
-    c.video?`<a class="clink vid" href="${esc(c.video)}" target="_blank" rel="noopener">▶ Video</a>`:'',
-  ].join('');
+function reqCard(req,col,i){
+  const st=req._st;
+  const days=daysSince(req.kickoff);
+  const links=linksForRole(req.role);
+  const stageCounts=STAGES.map(s=>({...s,n:req.cands.filter(r=>r._stage===s.key).length})).filter(s=>s.n>0);
+  const mix=stageCounts.map(s=>`${s.n} ${s.key.replace('Interview','Int.')}`).join(' · ');
+  const meta=[req.hr&&req.hr!=='N/A'?esc(req.hr):'', req.kickoff?'KO '+esc(req.kickoff):'',
+    (days!=null&&st.n!==8&&st.n!==9)?days+'d':''].filter(Boolean).join(' · ');
   return `
-  <div class="cand" style="animation-delay:${i*35}ms">
-    <div class="nm">${esc(c.name)}${out?'<span class="flag" title="Note flags risk / withdrawal"></span>':''}</div>
-    <div class="sub">${esc(c.location||'')}${c.salary?` · <span class="sal">$${esc(c.salary)}/mo</span>`:''}</div>
-    <div><span class="rl">${esc(role)}${c.batch?` · B${esc(c.batch)}`:''}</span></div>
-    ${c.notes?`<div class="note">${esc(c.notes)}</div>`:''}
-    ${links?`<div class="links">${links}</div>`:''}
+  <div class="rq" style="--cc:${col.c};animation-delay:${i*40}ms">
+    <div class="rq-top">
+      <div class="rq-role">${esc(req.role)}</div>
+      <span class="rq-seats" title="seats to fill">${req.seats}&nbsp;seat${req.seats>1?'s':''}</span>
+    </div>
+    ${meta?`<div class="rq-meta">${meta}</div>`:''}
+    <div class="rq-cands">${req.total} candidate${req.total===1?'':'s'}${mix?` <span style="color:var(--mut-2)">·</span> ${esc(mix)}`:''}</div>
+    ${req.notes?`<div class="rq-note">${esc(req.notes)}</div>`:''}
+    ${links.length?`<div class="rq-foot">${links.map(lk=>`<a class="rq-link" href="${lk.url}" target="_blank" rel="noopener">${esc(lk.label)} →</a>`).join('')}</div>`:''}
   </div>`;
 }
 </script>
