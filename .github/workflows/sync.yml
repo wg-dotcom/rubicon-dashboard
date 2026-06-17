@@ -4,8 +4,10 @@ name: Sync Rubicon data
 # No secrets needed: the sheets are link-readable and the built-in token commits.
 
 on:
+  repository_dispatch:
+    types: [sheet-changed]    # fired instantly by the Sheets onChange trigger
   schedule:
-    - cron: "*/15 * * * *"   # every 15 min (GitHub may delay under load)
+    - cron: "*/15 * * * *"   # backstop every 15 min (GitHub may delay under load)
   workflow_dispatch: {}       # manual "Run workflow" button
 
 permissions:

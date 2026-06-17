@@ -16,7 +16,15 @@ Live at **https://wg-dotcom.github.io/rubicon-dashboard/** (access code `rubicon
 | Candidates (board) | Sheet 2 — candidates sheet, rows where `Company Name = Rubicon` |
 
 ## Auto-sync — GitHub Action (`.github/workflows/sync.yml`)
-Runs every ~15 min, **no secrets required for data**: curls both sheets' CSV, runs `build_data.py`, commits `rubicon-data.json` only when something actually changed. Manual run via the repo's **Actions → Run workflow**. (`apps-script-sync.gs` is kept as an alternative; the Action is the active mechanism.)
+Runs on three triggers: **instant** (`repository_dispatch: sheet-changed`, fired by the Sheets trigger below), a **15-min cron backstop**, and manual (**Actions → Run workflow**). It curls both sheets' CSV, runs `build_data.py`, and commits `rubicon-data.json` only when something actually changed. No secrets required for data. (`apps-script-sync.gs` is an alternative; the Action is the active mechanism.)
+
+### Instant updates on sheet edits (one-time setup)
+`apps-script-trigger.gs` is a standalone Google Apps Script that pings the workflow the moment either sheet changes, so edits show up in ~1–2 min instead of waiting for the cron:
+1. script.google.com → New project, paste `apps-script-trigger.gs`.
+2. Set `GITHUB_TOKEN` (fine-grained PAT scoped to this repo, **Contents: Read and write**); confirm `REPO`.
+3. Run `installTriggers()` once and approve the Google auth prompt.
+
+It only says "run now" — all Rubicon filtering/anonymizing/publishing still happens in the Action. Edits are debounced (≤1 ping/45s); the cron remains the backstop. Without it, the cron alone keeps things current within ~15 min.
 
 ## Privacy — identity protection
 The public data ships **only**: first name + last initial, role, location, salary expectation, status, notes, **video** link, and an **anonymized CV** link. It **never** ships emails, phone numbers, raw résumé PDFs, real surnames, addresses, or internal margins (Budget/%WG/Deal Value).
