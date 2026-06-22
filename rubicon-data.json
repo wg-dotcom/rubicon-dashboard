@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:44:46.000Z",
+  "updated": "2026-06-22T16:50:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -315,7 +315,7 @@
       "name": "Cynthia S",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/4e89f9ab-929e-4a76-9d1e-e40de55c18f5",
       "cv": "cvs/cynthia-s.html",
       "notes": "Waiting for feedback after her second interview"
