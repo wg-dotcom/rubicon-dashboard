@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:53:26.000Z",
+  "updated": "2026-06-22T19:36:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -425,10 +425,10 @@
       "name": "Carlos V.",
       "location": "Guatemala",
       "salary": "1,300",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1Opc_-bbzsHyhz81vj1kK6kX4lzNgkk9r/view",
       "cv": "cvs/carlos-v.html",
-      "notes": "Waiting feedback"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -436,10 +436,10 @@
       "name": "Natalia G.",
       "location": "Colombia",
       "salary": "2,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1Vv1_BBSo6ebEpnQfYzYDt6SwE0Td5tQm/view",
       "cv": "cvs/natalia-g.html",
-      "notes": "Waiting feedback"
+      "notes": ""
     },
     {
       "batch": "1",
