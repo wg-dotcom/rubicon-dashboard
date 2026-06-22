@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T16:51:07.000Z",
+  "updated": "2026-06-22T16:52:25.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -43,11 +43,11 @@
     {
       "hr": "HR70870",
       "role": "Sr Developer, Business Intelligence",
-      "status": "1. KickOff Meeting",
+      "status": "2. Candidates Presented",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
-      "notes": ""
+      "notes": "2 candidates submitted, pending feedback"
     },
     {
       "hr": "HR62951",
@@ -65,7 +65,7 @@
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
-      "notes": "4 candidates - June 11, pending feedback"
+      "notes": "4 candidates - June 11, pending feedback\nLionel, Ernesto, Maria, Fernando - interviews June 22 and 23"
     },
     {
       "hr": "N/A",
