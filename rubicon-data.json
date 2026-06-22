@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T13:00:44.000Z",
+  "updated": "2026-06-22T13:20:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -84,7 +84,7 @@
       "name": "Judy A",
       "location": "Colombia",
       "salary": "1,300",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1mGiKPM5qVELO5FXZ0Odz4Qq0D9VJS4C7/view?usp=drive_link",
       "cv": "cvs/judy-a.html",
       "notes": "Offer sent to JoseLynn, offered for the Accounts Payable Operations Analyst role"
@@ -142,7 +142,7 @@
       "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/fac99832-48dc-41ae-abd0-ef24ab8ea99f",
       "cv": "cvs/evanan-c.html",
-      "notes": "Waiting feedback after his first interview"
+      "notes": "Waiting for feedback after his 2nd interview"
     },
     {
       "batch": "1",
