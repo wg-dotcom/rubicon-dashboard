@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T20:50:00.000Z",
+  "updated": "2026-06-22T13:00:44.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -139,7 +139,7 @@
       "name": "Evanan C",
       "location": "Colombia",
       "salary": "1,700",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/fac99832-48dc-41ae-abd0-ef24ab8ea99f",
       "cv": "cvs/evanan-c.html",
       "notes": "Waiting feedback after his first interview"
