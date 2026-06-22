@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T13:20:21.000Z",
+  "updated": "2026-06-22T13:25:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -557,10 +557,10 @@
       "name": "Jose P",
       "location": "Colombia",
       "salary": "4,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1QcWYaRuU46SVzvJX86MddUpvB8EPYDjw/view?usp=drive_link",
       "cv": "cvs/jose-p.html",
-      "notes": "Not presented yet"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -568,10 +568,10 @@
       "name": "Ricardo U",
       "location": "El Salvador",
       "salary": "5,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/b89aa615-3d79-4a0c-b20b-5c2c52f76198",
       "cv": "cvs/ricardo-u.html",
-      "notes": "Not presented yet"
+      "notes": ""
     }
   ]
 }
