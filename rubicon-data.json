@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T19:01:57.000Z",
+  "updated": "2026-06-23T19:50:09.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -549,6 +549,17 @@
       "status": "Presented",
       "video": "https://drive.google.com/file/d/10Dsrp176MUxRNYQNbKEZ5tGkN2a-dbZj/view?usp=drive_link",
       "cv": "cvs/carolina-a.html",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Associate",
+      "name": "Jose Z",
+      "location": "",
+      "salary": "20,000",
+      "status": "",
+      "video": "",
+      "cv": "",
       "notes": ""
     },
     {
