@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T14:05:42.000Z",
+  "updated": "2026-06-23T19:01:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -513,7 +513,7 @@
       "name": "Monica G",
       "location": "Mexico",
       "salary": "2,250",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/11xz5HChZjmlIgsAyFGr8SZaKpsfqk8Li/view?usp=drive_link",
       "cv": "cvs/monica-g.html",
       "notes": ""
@@ -524,7 +524,7 @@
       "name": "Carlos P",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1DyvFxNoKFtjB_8LtTiCbT5EVzsg1RP4k/view?usp=drive_link",
       "cv": "cvs/carlos-p.html",
       "notes": ""
@@ -535,7 +535,7 @@
       "name": "Johny",
       "location": "Colombia",
       "salary": "1,600",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1OK9fPmh0nY-QXuQvcoBiKd-sqSAGBdXm/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -546,7 +546,7 @@
       "name": "Carolina A",
       "location": "Mexico",
       "salary": "1,660",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/10Dsrp176MUxRNYQNbKEZ5tGkN2a-dbZj/view?usp=drive_link",
       "cv": "cvs/carolina-a.html",
       "notes": ""
