@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T13:33:26.000Z",
+  "updated": "2026-06-23T14:05:42.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -436,10 +436,10 @@
       "name": "Natalia G.",
       "location": "Colombia",
       "salary": "2,500",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1Vv1_BBSo6ebEpnQfYzYDt6SwE0Td5tQm/view",
       "cv": "cvs/natalia-g.html",
-      "notes": ""
+      "notes": "Unresponsive"
     },
     {
       "batch": "1",
