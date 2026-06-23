@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T19:36:46.000Z",
+  "updated": "2026-06-23T13:31:20.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -571,6 +571,17 @@
       "status": "Presented",
       "video": "https://candidate-video.com/uploads/b89aa615-3d79-4a0c-b20b-5c2c52f76198",
       "cv": "cvs/ricardo-u.html",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Sr Developer, Business Intelligence",
+      "name": "Gimena",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
+      "cv": "",
       "notes": ""
     }
   ]
