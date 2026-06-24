@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T14:15:04.000Z",
+  "updated": "2026-06-24T20:07:37.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -484,6 +484,17 @@
       "video": "https://drive.google.com/file/d/1WGH-MIMJFo0KDGg68P7EkbXV4qXpqFWB/view?usp=sharing",
       "cv": "cvs/irving.html",
       "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Cesar C",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
