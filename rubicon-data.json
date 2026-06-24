@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T13:58:19.000Z",
+  "updated": "2026-06-24T13:59:50.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -418,6 +418,17 @@
       "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
       "cv": "",
       "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Agustina M",
+      "location": "",
+      "salary": "1,700",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
