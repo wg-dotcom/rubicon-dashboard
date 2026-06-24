@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T14:08:20.000Z",
+  "updated": "2026-06-24T14:15:04.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -297,6 +297,17 @@
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/5745dc5e-b02b-4954-83e7-08571f5e5f9f",
       "cv": "cvs/maria-a.html",
       "notes": "Waiting feedback"
+    },
+    {
+      "batch": "3",
+      "role": "Client Service Associate",
+      "name": "Francisco",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1knhDnOjckiuW31ytCeLKE3-r2LKcztJS/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
