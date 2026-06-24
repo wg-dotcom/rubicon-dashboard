@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T20:10:42.000Z",
+  "updated": "2026-06-24T20:19:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -493,6 +493,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1qa-QDq5Bn8MP-JOV4w30nDUpu1-ChWSS/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Michelle S",
+      "location": "Honduras",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
