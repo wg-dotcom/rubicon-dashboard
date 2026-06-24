@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T21:11:19.000Z",
+  "updated": "2026-06-24T13:58:19.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -409,7 +409,7 @@
       "notes": "Waiting feedback"
     },
     {
-      "batch": "1",
+      "batch": "2",
       "role": "Sales Development Representative",
       "name": "Carlos D",
       "location": "El Salvador",
