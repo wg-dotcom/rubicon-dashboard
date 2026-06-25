@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T15:35:42.000Z",
+  "updated": "2026-06-25T15:56:15.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -403,7 +403,7 @@
       "name": "Carlos S",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/1GBywlwqoE935tj7FplU52frcq0f1O1C2/view?usp=drive_link",
       "cv": "cvs/carlos-s.html",
       "notes": "Waiting feedback"
@@ -414,7 +414,7 @@
       "name": "Marlon M",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/1XI-5sx86lAdJhDYLoTOq1HmajAGlAz2I/view?usp=drive_link",
       "cv": "cvs/marlon-m.html",
       "notes": "Waiting feedback"
