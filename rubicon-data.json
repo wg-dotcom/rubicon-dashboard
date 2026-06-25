@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T20:50:18.000Z",
+  "updated": "2026-06-25T15:16:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -205,7 +205,7 @@
       "name": "Kelly G",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "Offered",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/1b18db3c-31c4-434f-9891-9859c4b08096",
       "cv": "cvs/kelly-g.html",
       "notes": "Working on rescheduling her interview with Megan"
