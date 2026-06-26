@@ -1,9 +1,27 @@
 {
-  "updated": "2026-06-26T17:33:38.000Z",
+  "updated": "2026-06-26T19:45:33.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
   "requests": [
+    {
+      "hr": "HR47113",
+      "role": "Regional Sourcing Associate",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Lionel, Ernesto, Maria, Fernando - interviews June 22 and 23 - pending feedback \n5 additional candidates sent - June 24"
+    },
+    {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "4 candidates - June 11, pending feedback\nCarlos - 1st interview done - pending feedback \nNext batch June 26"
+    },
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
@@ -57,24 +75,6 @@
       "kickoff": "June 8,2026",
       "datePlaced": "",
       "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
-    },
-    {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "4 candidates - June 11, pending feedback\nCarlos - 1st interview done - pending feedback \nNext batch June 26"
-    },
-    {
-      "hr": "HR47113",
-      "role": "Regional Sourcing Associate",
-      "status": "2. Candidates Presented",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "Lionel, Ernesto, Maria, Fernando - interviews June 22 and 23 - pending feedback \n5 additional candidates sent - June 24"
     }
   ],
   "rows": [
