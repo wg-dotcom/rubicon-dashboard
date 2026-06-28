@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T19:45:33.000Z",
+  "updated": "2026-06-28T22:24:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -39,6 +39,15 @@
       "kickoff": "May 7, 2026",
       "datePlaced": "",
       "notes": "Genesis JOL, background check. \nMore candidates sent, pending feedback · Ricardo - JOL, background check. \nMore candidates sent, pending feedback"
+    },
+    {
+      "hr": "",
+      "role": "Sales Development Representative",
+      "status": "5. Final Interview",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     },
     {
       "hr": "HR95269",
