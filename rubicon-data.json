@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T22:34:15.000Z",
+  "updated": "2026-06-28T22:45:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -126,10 +126,10 @@
       "name": "Luis V",
       "location": "Colombia",
       "salary": "1,200",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/f7048023-3d2e-41af-aeba-4ad8c9bd83a7",
       "cv": "cvs/luis-v.html",
-      "notes": "Waiting feedback after his second interview"
+      "notes": "Withdrew"
     },
     {
       "batch": "1",
