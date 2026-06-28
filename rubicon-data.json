@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T22:25:39.000Z",
+  "updated": "2026-06-28T22:26:28.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -41,15 +41,6 @@
       "notes": "Genesis JOL, background check. \nMore candidates sent, pending feedback · Ricardo - JOL, background check. \nMore candidates sent, pending feedback"
     },
     {
-      "hr": "HR83733",
-      "role": "Sales Development Representative",
-      "status": "5. Final Interview",
-      "advisor": "Vicky",
-      "kickoff": "",
-      "datePlaced": "",
-      "notes": ""
-    },
-    {
       "hr": "HR95269",
       "role": "Intake Analyst",
       "status": "6. Job Offer Letter / Signature",
@@ -66,6 +57,15 @@
       "kickoff": "May 28, 2026",
       "datePlaced": "",
       "notes": "Emilio  - JOL, background check in progress \nCynthia sencond interview Mon"
+    },
+    {
+      "hr": "HR83733",
+      "role": "Sales Development Representative",
+      "status": "5. Final Interview",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     },
     {
       "hr": "HR78147",
