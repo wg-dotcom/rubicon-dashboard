@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T22:31:46.000Z",
+  "updated": "2026-06-28T22:32:58.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -634,6 +634,17 @@
       "salary": "2,000",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1bUwIrXyASuLYunRLYa0kAI5XJ_4JfxFG/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Associate",
+      "name": "Arturo",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
