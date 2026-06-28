@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T22:26:28.000Z",
+  "updated": "2026-06-28T22:27:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -63,7 +63,7 @@
       "role": "Sales Development Representative",
       "status": "5. Final Interview",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "June 3, 2026",
       "datePlaced": "",
       "notes": ""
     },
