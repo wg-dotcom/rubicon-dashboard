@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T18:17:01.000Z",
+  "updated": "2026-07-06T20:39:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -247,7 +247,7 @@
       "name": "Ronald M",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/15rUBDBXcgH1jzi8qRuPVJibyIuHz-j6f/view?usp=drive_link",
       "cv": "cvs/ronald-m.html",
       "notes": "Waiting feedback after his second interview"
