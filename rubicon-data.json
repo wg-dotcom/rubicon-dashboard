@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T14:13:32.000Z",
+  "updated": "2026-07-06T14:44:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -269,10 +269,10 @@
       "name": "Hanniel T",
       "location": "Colombia",
       "salary": "1,600",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/6736bd55-b520-4fb3-bd8e-7e4397690f13",
       "cv": "cvs/hanniel-t.html",
-      "notes": "Waiting feedback"
+      "notes": "Accepted amither offer"
     },
     {
       "batch": "2",
@@ -346,10 +346,10 @@
       "name": "Cynthia S",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/4e89f9ab-929e-4a76-9d1e-e40de55c18f5",
       "cv": "cvs/cynthia-s.html",
-      "notes": "Waiting for feedback after her second interview"
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
