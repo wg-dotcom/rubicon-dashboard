@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T20:02:20.000Z",
+  "updated": "2026-07-06T14:13:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -390,10 +390,10 @@
       "name": "Tiago P",
       "location": "Brazil",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1QG8dNTycIPdziBZ6HSggDZhKtWaupWBE/view?usp=drive_link",
       "cv": "cvs/tiago-p.html",
-      "notes": "2nd interview scheduled for Mondat June 22nd"
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
