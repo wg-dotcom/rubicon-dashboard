@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T19:25:18.000Z",
+  "updated": "2026-07-07T21:41:23.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -470,6 +470,17 @@
       "status": "",
       "video": "https://drive.google.com/file/d/14zC1Xcu-vfemwvw4bdsSP2usHNFJjRht/view?usp=drive_link",
       "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Marlon M",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/0d2688e7-7d61-4e91-a44a-28c047182a94",
+      "cv": "cvs/marlon-m.html",
       "notes": ""
     },
     {
