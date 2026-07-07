@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T13:40:24.000Z",
+  "updated": "2026-07-07T16:56:27.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -522,7 +522,7 @@
       "name": "Cesar C",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1qa-QDq5Bn8MP-JOV4w30nDUpu1-ChWSS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -533,7 +533,7 @@
       "name": "Michelle S",
       "location": "Honduras",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1m-gp56joNkZKfLIGZgBFCv00nQw-xdpf/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -544,7 +544,7 @@
       "name": "Harold F",
       "location": "Honduras",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/12697049-63c8-4463-bb43-604b9425e89f",
       "cv": "",
       "notes": ""
