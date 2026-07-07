@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T16:56:27.000Z",
+  "updated": "2026-07-07T19:15:31.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -577,7 +577,7 @@
       "name": "Maria R",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/11COsWIgeAlug1M9c7srfS1N2uoDsNozR/view",
       "cv": "cvs/maria-r.html",
       "notes": "Invited to interview"
