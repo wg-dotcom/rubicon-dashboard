@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T16:54:44.000Z",
+  "updated": "2026-07-08T16:57:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -777,6 +777,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/16hsJ2mXznVMD_-kVNs7PfBaDMgSYf1SD/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Intake Analyst",
+      "name": "Ezequiel J",
+      "location": "Nicaragua",
+      "salary": "1,900",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/33dfd790-d6bc-44aa-8e80-c52c91332f79",
       "cv": "",
       "notes": ""
     }
