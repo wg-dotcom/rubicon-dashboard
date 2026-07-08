@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T19:16:27.000Z",
+  "updated": "2026-07-08T19:20:37.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -366,10 +366,10 @@
       "batch": "4",
       "role": "Client Service Associate",
       "name": "Grace G",
-      "location": "",
+      "location": "Nicaragua",
       "salary": "2,000",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1vgdUzHB4bTFBXJOGFxviCo_Ca5tkS7wF/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
