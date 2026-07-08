@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T20:17:29.000Z",
+  "updated": "2026-07-08T20:39:43.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -445,6 +445,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1_cnKZBsOFH39Ds_4KeW8VksNzTRUSr53/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Key Account Analyst",
+      "name": "Jacqueline A",
+      "location": "Mexico",
+      "salary": "1,950",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
