@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T03:46:59.000Z",
+  "updated": "2026-07-08T03:53:41.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -722,6 +722,17 @@
       "salary": "3,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1NUjVpP1lxOa3iIW9eTneVxQgGMU_lRaN/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Intake Analyst",
+      "name": "Jeffry T",
+      "location": "Costa Rica",
+      "salary": "1,600",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1P1eTUEbG7ZKoBbPzLIQGvacGAMDG2qIm/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
