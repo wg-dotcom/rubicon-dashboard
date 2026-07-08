@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T14:58:18.000Z",
+  "updated": "2026-07-08T16:42:03.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -766,6 +766,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1-7hcC2qITNd_reXPKXmLJaVTf8iNU7Yq/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Intake Analyst",
+      "name": "Mateo V",
+      "location": "",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
