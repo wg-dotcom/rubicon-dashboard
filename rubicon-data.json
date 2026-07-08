@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T03:53:41.000Z",
+  "updated": "2026-07-08T04:03:08.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -733,6 +733,17 @@
       "salary": "1,600",
       "status": "",
       "video": "https://drive.google.com/file/d/1P1eTUEbG7ZKoBbPzLIQGvacGAMDG2qIm/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Intake Analyst",
+      "name": "Abilene P",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
