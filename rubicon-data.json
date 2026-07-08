@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T14:55:19.000Z",
+  "updated": "2026-07-08T14:56:17.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -414,6 +414,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/b04ea10e-22a9-4e86-85c1-dbd4f2b7d54c",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Key Account Analyst",
+      "name": "Mariana P",
+      "location": "",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
