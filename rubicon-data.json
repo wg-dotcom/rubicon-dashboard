@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T19:20:37.000Z",
+  "updated": "2026-07-08T19:42:48.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -722,6 +722,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/7a752d99-d329-4b53-83d2-1bb44fb9b28b",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Associate",
+      "name": "Gina",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
