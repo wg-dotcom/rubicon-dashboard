@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T03:23:31.000Z",
+  "updated": "2026-07-08T03:42:44.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -348,6 +348,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/d99c7839-cc6e-4ca2-bbfa-aac6ca6f1a42",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Service Associate",
+      "name": "Anayla T",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
