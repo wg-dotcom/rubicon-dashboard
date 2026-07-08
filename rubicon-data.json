@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T21:41:23.000Z",
+  "updated": "2026-07-08T03:23:31.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -337,6 +337,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/14beYE7rQUUQd_wLto73HKPdC_bJlTrC8/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Service Associate",
+      "name": "Adonay R",
+      "location": "Honduras",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/d99c7839-cc6e-4ca2-bbfa-aac6ca6f1a42",
       "cv": "",
       "notes": ""
     },
