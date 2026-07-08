@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T13:17:31.000Z",
+  "updated": "2026-07-08T14:01:31.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -536,7 +536,7 @@
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1oL6q54fH8oAnesjCs_LfK4Yl2jqv6MjT/view",
       "cv": "cvs/carlos-b.html",
-      "notes": "Waiting feedback"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -547,7 +547,7 @@
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1WGH-MIMJFo0KDGg68P7EkbXV4qXpqFWB/view?usp=sharing",
       "cv": "cvs/irving.html",
-      "notes": "Waiting feedback"
+      "notes": ""
     },
     {
       "batch": "2",
