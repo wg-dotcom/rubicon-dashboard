@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T20:41:00.000Z",
+  "updated": "2026-07-08T21:28:42.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -87,10 +87,10 @@
     },
     {
       "hr": "HR82449",
-      "role": "",
+      "role": "Data Management Analyst",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "July 8,2026",
       "datePlaced": "",
       "notes": ""
     }
