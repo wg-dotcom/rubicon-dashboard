@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T19:55:51.000Z",
+  "updated": "2026-07-08T20:17:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -84,6 +84,15 @@
       "kickoff": "June 8,2026",
       "datePlaced": "",
       "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
+    },
+    {
+      "hr": "HR82449",
+      "role": "",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     }
   ],
   "rows": [
