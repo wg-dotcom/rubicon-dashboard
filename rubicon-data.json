@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T14:01:31.000Z",
+  "updated": "2026-07-08T14:42:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -405,6 +405,17 @@
       "video": "https://drive.google.com/file/d/1tobEbBwwM7OtegLmZXlT0_PUWKeiS1Rb/view?usp=drive_link",
       "cv": "cvs/karina-p.html",
       "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Key Account Analyst",
+      "name": "Roque V",
+      "location": "",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
