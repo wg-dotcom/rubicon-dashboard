@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T13:45:11.000Z",
+  "updated": "2026-07-09T14:01:36.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -874,6 +874,17 @@
       "salary": "1,900",
       "status": "",
       "video": "https://drive.google.com/file/d/1fS9p1G0k_CsWNbNptToktiyP7719A_eV/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Intake Analyst",
+      "name": "Jan G",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1RUGMeWCSqUU7CIbi4m1DKeSx9vpwLiEy/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
