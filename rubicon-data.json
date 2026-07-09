@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T19:23:43.000Z",
+  "updated": "2026-07-09T20:28:42.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -443,7 +443,7 @@
       "name": "Roque V",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/b04ea10e-22a9-4e86-85c1-dbd4f2b7d54c",
       "cv": "",
       "notes": ""
@@ -454,7 +454,7 @@
       "name": "Mariana P",
       "location": "Bolivia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1_cnKZBsOFH39Ds_4KeW8VksNzTRUSr53/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -465,7 +465,7 @@
       "name": "Jacqueline A",
       "location": "Mexico",
       "salary": "1,950",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1aUGbN8AWU0r8idFjIg-wreb46JonJnMg/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -476,7 +476,7 @@
       "name": "Juan R",
       "location": "Colombia",
       "salary": "1,600",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/cdddce93-f14f-4083-bf2d-d55433cfd7f9",
       "cv": "",
       "notes": ""
@@ -487,7 +487,7 @@
       "name": "Liliana E",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/754d8389-07e5-4720-9074-647404de32e7",
       "cv": "",
       "notes": "PENDING CONFIRMATION"
@@ -498,7 +498,7 @@
       "name": "Samuel G",
       "location": "Ecuador",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/19MypRuyIcNgpUxy7fFZJCv4lI_v1eCCh/view?usp=drive_link",
       "cv": "",
       "notes": ""
