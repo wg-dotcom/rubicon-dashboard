@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T14:01:36.000Z",
+  "updated": "2026-07-09T16:51:08.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -491,6 +491,17 @@
       "video": "https://candidate-video.com/uploads/754d8389-07e5-4720-9074-647404de32e7",
       "cv": "",
       "notes": "PENDING CONFIRMATION"
+    },
+    {
+      "batch": "2",
+      "role": "Key Account Analyst",
+      "name": "Samuel G",
+      "location": "Ecuador",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/19MypRuyIcNgpUxy7fFZJCv4lI_v1eCCh/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
