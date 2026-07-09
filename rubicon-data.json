@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T20:28:42.000Z",
+  "updated": "2026-07-09T21:06:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -600,6 +600,17 @@
       "status": "",
       "video": "https://candidate-video.com/uploads/0d2688e7-7d61-4e91-a44a-28c047182a94",
       "cv": "cvs/marlon-m.html",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Willoughby C",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/a94b83e8-35e9-4977-9236-ee3aba902599",
+      "cv": "",
       "notes": ""
     },
     {
