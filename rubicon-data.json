@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T13:33:35.000Z",
+  "updated": "2026-07-09T13:37:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -385,11 +385,11 @@
     {
       "batch": "4",
       "role": "Client Service Associate",
-      "name": "Oswaldo R",
+      "name": "Osvaldo R",
       "location": "Mexico",
       "salary": "1,900",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1GqoVHIi7a36_LpB_8Z_TzXFgXhkxq67D/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
