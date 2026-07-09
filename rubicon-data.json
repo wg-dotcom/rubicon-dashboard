@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T19:20:12.000Z",
+  "updated": "2026-07-09T19:21:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -907,6 +907,17 @@
       "salary": "1,900",
       "status": "",
       "video": "https://drive.google.com/file/d/1oFUAVAfg8I9yEmL4ZIH2ZAJ_-Am4cviT/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Data Management Analyst",
+      "name": "Kelly N",
+      "location": "Ecuador",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
