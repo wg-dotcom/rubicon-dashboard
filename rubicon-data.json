@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T21:28:42.000Z",
+  "updated": "2026-07-09T01:11:53.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -795,7 +795,7 @@
       "name": "Jeffry T",
       "location": "Costa Rica",
       "salary": "1,600",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1P1eTUEbG7ZKoBbPzLIQGvacGAMDG2qIm/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -806,7 +806,7 @@
       "name": "Abilene P",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1-7hcC2qITNd_reXPKXmLJaVTf8iNU7Yq/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -817,7 +817,7 @@
       "name": "Mateo V",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/16hsJ2mXznVMD_-kVNs7PfBaDMgSYf1SD/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -828,8 +828,19 @@
       "name": "Ezequiel J",
       "location": "Nicaragua",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/33dfd790-d6bc-44aa-8e80-c52c91332f79",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Intake Analyst",
+      "name": "Lizbeth E",
+      "location": "Mexico",
+      "salary": "1,900",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
