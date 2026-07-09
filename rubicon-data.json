@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T19:16:45.000Z",
+  "updated": "2026-07-09T19:20:12.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -322,7 +322,7 @@
       "name": "Francisco",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1knhDnOjckiuW31ytCeLKE3-r2LKcztJS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -333,7 +333,7 @@
       "name": "Hector A",
       "location": "Nicaragua",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/875c4704-ee3b-408e-94c4-a5e3c9dcd72b",
       "cv": "",
       "notes": ""
@@ -344,7 +344,7 @@
       "name": "Juanita C",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/14beYE7rQUUQd_wLto73HKPdC_bJlTrC8/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -355,7 +355,7 @@
       "name": "Adonay R",
       "location": "Honduras",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/d99c7839-cc6e-4ca2-bbfa-aac6ca6f1a42",
       "cv": "",
       "notes": ""
@@ -366,7 +366,7 @@
       "name": "Anayla T",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1bYSlcFJhL569iNQo3n_oQvsnMmjWE_Bl/view?usp=drive_link",
       "cv": "",
       "notes": ""
