@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T16:31:06.000Z",
+  "updated": "2026-07-10T16:37:38.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -630,6 +630,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/de64b8a9-a920-45ba-a4fe-c4b4d597cfa3",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Karla M",
+      "location": "El Salvador",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
