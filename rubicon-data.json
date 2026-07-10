@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T17:12:07.000Z",
+  "updated": "2026-07-10T18:52:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -645,7 +645,7 @@
       "notes": ""
     },
     {
-      "batch": "2",
+      "batch": "",
       "role": "Sales Development Representative",
       "name": "Jose O",
       "location": "Mexico",
