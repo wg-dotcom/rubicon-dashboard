@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T16:37:38.000Z",
+  "updated": "2026-07-10T16:38:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -579,7 +579,7 @@
       "notes": "Waiting feedback"
     },
     {
-      "batch": "2",
+      "batch": "",
       "role": "Sales Development Representative",
       "name": "Carlos D",
       "location": "El Salvador",
@@ -640,7 +640,7 @@
       "location": "El Salvador",
       "salary": "2,000",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/1e05b488-c178-406d-ab34-1f300d911e6b",
       "cv": "",
       "notes": ""
     },
