@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T14:16:13.000Z",
+  "updated": "2026-07-10T14:17:02.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -99,7 +99,7 @@
       "role": "Training Content Specialist",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "July 10,2026",
       "datePlaced": "",
       "notes": ""
     }
