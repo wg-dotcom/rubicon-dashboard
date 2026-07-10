@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T04:07:36.000Z",
+  "updated": "2026-07-10T14:09:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -940,6 +940,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1f4PLonXZ_UL2SUPvtm_oyIQb1Fm0PcUc/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Training Content Specialist",
+      "name": "Dayana R",
+      "location": "Peru",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
