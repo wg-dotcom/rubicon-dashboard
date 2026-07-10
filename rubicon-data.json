@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T16:28:46.000Z",
+  "updated": "2026-07-10T16:29:39.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -619,6 +619,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/a94b83e8-35e9-4977-9236-ee3aba902599",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Sasha L",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
