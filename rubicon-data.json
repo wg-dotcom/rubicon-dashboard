@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T16:35:28.000Z",
+  "updated": "2026-07-13T16:37:15.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -39,6 +39,15 @@
       "kickoff": "May 28, 2026",
       "datePlaced": "",
       "notes": "Emilio  - hired - pending payment"
+    },
+    {
+      "hr": "",
+      "role": "Key Account Analyst",
+      "status": "6. Job Offer Letter / Signature",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": "Presented 4 more candidates"
     },
     {
       "hr": "HR78147",
