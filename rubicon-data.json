@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T13:51:38.000Z",
+  "updated": "2026-07-13T15:00:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -993,6 +993,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1f4PLonXZ_UL2SUPvtm_oyIQb1Fm0PcUc/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Data Management Analyst",
+      "name": "Karla S.",
+      "location": "",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
