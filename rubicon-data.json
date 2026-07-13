@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T16:09:39.000Z",
+  "updated": "2026-07-13T16:17:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -25,11 +25,11 @@
     {
       "hr": "HR95269",
       "role": "Intake Analyst",
-      "status": "6. Job Offer Letter / Signature",
+      "status": "7. Invoice",
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "",
-      "notes": "Alex hired - Start date July 6"
+      "notes": "Alex hired - Start date July 6\nWaiting on payment"
     },
     {
       "hr": "HR60297",
