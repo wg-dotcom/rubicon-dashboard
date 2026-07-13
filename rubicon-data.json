@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T17:33:23.000Z",
+  "updated": "2026-07-13T17:34:14.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -29,16 +29,16 @@
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "",
-      "notes": "Alex hired - Start date July 6\nWaiting on payment"
+      "notes": "Alex hired - Start date July 6\nWaiting on payment · July 8th, presented 4 candidates"
     },
     {
       "hr": "HR60297",
-      "role": "Intake Analyst",
-      "status": "2. Candidates Presented",
+      "role": "Key Account Analyst",
+      "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
-      "kickoff": "July 8, 2026",
+      "kickoff": "May 28, 2026",
       "datePlaced": "",
-      "notes": "July 8th, presented 4 candidates · Emilio  - hired - pending payment · Presented 4 more candidates"
+      "notes": "Emilio  - hired - pending payment · Presented 4 more candidates"
     },
     {
       "hr": "HR78147",
