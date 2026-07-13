@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T20:10:44.000Z",
+  "updated": "2026-07-13T23:32:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1050,6 +1050,17 @@
       "video": "https://candidate-video.com/uploads/506231e6-1ade-443e-a9c6-b56da4467a6f",
       "cv": "",
       "notes": "PENDING UPDATED RESUME"
+    },
+    {
+      "batch": "1",
+      "role": "Training Content Specialist",
+      "name": "Genesis A",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
+      "cv": "",
+      "notes": ""
     }
   ]
 }
