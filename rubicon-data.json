@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T18:39:34.000Z",
+  "updated": "2026-07-13T20:09:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1037,6 +1037,17 @@
       "salary": "1,800",
       "status": "",
       "video": "https://drive.google.com/file/d/1EyHATFlDeuQ31I1sqHpHGbIrajkslNG4/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Training Content Specialist",
+      "name": "Aldana S",
+      "location": "Uruguay",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/506231e6-1ade-443e-a9c6-b56da4467a6f",
       "cv": "",
       "notes": ""
     }
