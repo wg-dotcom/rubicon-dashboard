@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T16:24:42.000Z",
+  "updated": "2026-07-13T16:25:52.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -95,22 +95,13 @@
       "notes": ""
     },
     {
-      "hr": "",
-      "role": "Training Content Specialist",
-      "status": "1. KickOff Meeting",
-      "advisor": "Vicky",
-      "kickoff": "",
-      "datePlaced": "",
-      "notes": ""
-    },
-    {
       "hr": "HR98287",
       "role": "Training Content Specialist",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "July 10,2026",
+      "kickoff": "July 8,2026",
       "datePlaced": "",
-      "notes": ""
+      "notes": "3 candidates/ 12 months project"
     }
   ],
   "rows": [
