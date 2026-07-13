@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T23:33:47.000Z",
+  "updated": "2026-07-13T23:34:37.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1015,6 +1015,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/15HgxYayi9KwylwuMLnEl7ducUQi68amP/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Data Management Analyst",
+      "name": "Publio M",
+      "location": "Brazil",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
