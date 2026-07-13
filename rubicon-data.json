@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T13:33:06.000Z",
+  "updated": "2026-07-13T13:48:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -971,6 +971,17 @@
       "salary": "1,900",
       "status": "",
       "video": "https://drive.google.com/file/d/1oFUAVAfg8I9yEmL4ZIH2ZAJ_-Am4cviT/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Intake Analyst",
+      "name": "Jackeline D",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
