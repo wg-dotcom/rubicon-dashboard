@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T16:45:00.000Z",
+  "updated": "2026-07-14T18:26:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1026,6 +1026,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/11i9t6qynCiP6QuBei8srC5z_pwxY2N8T/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Data Management Analyst",
+      "name": "Ricardo R",
+      "location": "Colombia",
+      "salary": "Pending",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1gjvA8THyzS5bsexvwRV12cFRnpNx7Rmu/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
