@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T20:15:05.000Z",
+  "updated": "2026-07-14T20:21:44.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -443,6 +443,17 @@
       "salary": "1,800",
       "status": "",
       "video": "https://drive.google.com/file/d/11i9t6qynCiP6QuBei8srC5z_pwxY2N8T/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Data Management Analyst",
+      "name": "Roberto A",
+      "location": "Mexico",
+      "salary": "Pending",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1gD7pW_XO7F-J1GHTyLZ5-7dJelvKrkeJ/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
