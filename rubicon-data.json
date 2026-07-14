@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T13:35:21.000Z",
+  "updated": "2026-07-14T13:39:14.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -587,7 +587,7 @@
       "status": "",
       "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
       "cv": "",
-      "notes": "Waiting feedback"
+      "notes": ""
     },
     {
       "batch": "2",
@@ -595,7 +595,7 @@
       "name": "Agustina M",
       "location": "Argentina",
       "salary": "1,700",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/14zC1Xcu-vfemwvw4bdsSP2usHNFJjRht/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -606,7 +606,7 @@
       "name": "Marlon M",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/0d2688e7-7d61-4e91-a44a-28c047182a94",
       "cv": "cvs/marlon-m.html",
       "notes": ""
@@ -617,7 +617,7 @@
       "name": "Willoughby C",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/a94b83e8-35e9-4977-9236-ee3aba902599",
       "cv": "",
       "notes": ""
@@ -628,7 +628,7 @@
       "name": "Sasha L",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/de64b8a9-a920-45ba-a4fe-c4b4d597cfa3",
       "cv": "",
       "notes": ""
@@ -639,7 +639,7 @@
       "name": "Karla M",
       "location": "El Salvador",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/1e05b488-c178-406d-ab34-1f300d911e6b",
       "cv": "",
       "notes": ""
