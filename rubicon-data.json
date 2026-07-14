@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T22:38:26.000Z",
+  "updated": "2026-07-14T22:47:12.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1103,6 +1103,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Training Content Specialist",
+      "name": "Jose S",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
