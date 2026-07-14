@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T22:52:20.000Z",
+  "updated": "2026-07-14T22:56:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -290,7 +290,7 @@
       "status": "Presented",
       "video": "https://drive.google.com/file/d/14beYE7rQUUQd_wLto73HKPdC_bJlTrC8/view?usp=drive_link",
       "cv": "",
-      "notes": "Pending salary confimation"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -301,7 +301,7 @@
       "status": "Presented",
       "video": "https://candidate-video.com/uploads/d99c7839-cc6e-4ca2-bbfa-aac6ca6f1a42",
       "cv": "",
-      "notes": "Wrong salary on the presentation"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -312,7 +312,7 @@
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1bYSlcFJhL569iNQo3n_oQvsnMmjWE_Bl/view?usp=drive_link",
       "cv": "",
-      "notes": "Wrong salary on the presentation"
+      "notes": ""
     },
     {
       "batch": "4",
