@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T19:23:45.000Z",
+  "updated": "2026-07-14T19:26:56.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -726,7 +726,7 @@
       "role": "Client Service Associate",
       "name": "Juanita C",
       "location": "Colombia",
-      "salary": "2,000",
+      "salary": "1,500",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/14beYE7rQUUQd_wLto73HKPdC_bJlTrC8/view?usp=drive_link",
       "cv": "",
@@ -1060,7 +1060,7 @@
       "status": "",
       "video": "https://drive.google.com/file/d/11i9t6qynCiP6QuBei8srC5z_pwxY2N8T/view?usp=drive_link",
       "cv": "",
-      "notes": "Pending Salary confirmation"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -1078,7 +1078,7 @@
       "role": "Data Management Analyst",
       "name": "Ricardo R",
       "location": "Colombia",
-      "salary": "Pending",
+      "salary": "1,300",
       "status": "",
       "video": "https://drive.google.com/file/d/1gjvA8THyzS5bsexvwRV12cFRnpNx7Rmu/view?usp=drive_link",
       "cv": "",
