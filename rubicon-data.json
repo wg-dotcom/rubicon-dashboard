@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T01:04:17.000Z",
+  "updated": "2026-07-15T01:09:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1116,17 +1116,6 @@
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
       "cv": "",
       "notes": ""
-    },
-    {
-      "batch": "1",
-      "role": "Training Content Specialist",
-      "name": "Jose S",
-      "location": "Colombia",
-      "salary": "1,650",
-      "status": "",
-      "video": "https://drive.google.com/file/d/1IMNcM2gqIGPx8qcVDx5IB_qRB5KPCN0K/view?usp=drive_link",
-      "cv": "",
-      "notes": "Not sure about tenure"
     }
   ]
 }
