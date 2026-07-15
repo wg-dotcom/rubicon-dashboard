@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T03:46:49.000Z",
+  "updated": "2026-07-15T13:27:04.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -102,6 +102,15 @@
       "kickoff": "July 8,2026",
       "datePlaced": "",
       "notes": "3 candidates/ 12 months project \nSourcing - batch July 15"
+    },
+    {
+      "hr": "HR50452",
+      "role": "",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     }
   ],
   "rows": [
