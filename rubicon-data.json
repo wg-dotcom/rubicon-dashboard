@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T13:28:06.000Z",
+  "updated": "2026-07-15T13:28:56.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -108,7 +108,7 @@
       "role": "Revenue Project Specialist",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "July 15,2026",
       "datePlaced": "",
       "notes": ""
     }
