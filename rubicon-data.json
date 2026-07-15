@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T13:28:56.000Z",
+  "updated": "2026-07-15T13:50:09.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -106,6 +106,15 @@
     {
       "hr": "HR50452",
       "role": "Revenue Project Specialist",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "July 15,2026",
+      "datePlaced": "",
+      "notes": ""
+    },
+    {
+      "hr": "HR42533",
+      "role": "Regional Sourcing Manager",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "July 15,2026",
@@ -431,18 +440,18 @@
       "status": "",
       "video": "https://drive.google.com/file/d/1f4PLonXZ_UL2SUPvtm_oyIQb1Fm0PcUc/view?usp=drive_link",
       "cv": "",
-      "notes": "Pending Salary confirmation"
+      "notes": ""
     },
     {
       "batch": "1",
       "role": "Data Management Analyst",
       "name": "Karla S.",
       "location": "Mexico",
-      "salary": "2,000",
+      "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1M961BmBz_P8-Y8ZrKglsvkCSbV_dOKaf/view",
       "cv": "",
-      "notes": "Pending IT requirements/Pending Salary confirmation"
+      "notes": ""
     },
     {
       "batch": "1",
