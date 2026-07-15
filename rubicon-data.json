@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T22:34:45.000Z",
+  "updated": "2026-07-15T22:38:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -413,10 +413,10 @@
       "batch": "4",
       "role": "Client Service Associate",
       "name": "Jorge C",
-      "location": "",
-      "salary": "",
+      "location": "El Salvador",
+      "salary": "1,300",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1gp4v5XJiR2_7WIn4O8ZWKi4Hn3zvycYr/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
