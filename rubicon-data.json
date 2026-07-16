@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T16:19:30.000Z",
+  "updated": "2026-07-16T17:24:31.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1209,6 +1209,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "",
+      "name": "Luis R",
+      "location": "Mexico",
+      "salary": "Pending",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
