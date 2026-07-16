@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T15:27:00.000Z",
+  "updated": "2026-07-16T16:19:30.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -679,7 +679,7 @@
       "name": "Emilio S",
       "location": "Mexico",
       "salary": "1,450",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1iEh0q-IUYlymblomE_LudYrZf9ERGwxe/view?usp=drive_link",
       "cv": "cvs/emilio-s.html",
       "notes": "JOL in progress"
