@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T20:20:56.000Z",
+  "updated": "2026-07-16T20:43:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -283,7 +283,7 @@
       "name": "Francisco",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1knhDnOjckiuW31ytCeLKE3-r2LKcztJS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -294,7 +294,7 @@
       "name": "Hector A",
       "location": "Nicaragua",
       "salary": "1,800",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/875c4704-ee3b-408e-94c4-a5e3c9dcd72b",
       "cv": "",
       "notes": ""
