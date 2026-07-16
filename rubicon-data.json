@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T20:08:57.000Z",
+  "updated": "2026-07-16T20:10:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -503,7 +503,7 @@
       "name": "Kelly N",
       "location": "Ecuador",
       "salary": "1,750",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1f4PLonXZ_UL2SUPvtm_oyIQb1Fm0PcUc/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -514,7 +514,7 @@
       "name": "Karla S.",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1M961BmBz_P8-Y8ZrKglsvkCSbV_dOKaf/view",
       "cv": "",
       "notes": ""
@@ -525,7 +525,7 @@
       "name": "Frida R",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/15HgxYayi9KwylwuMLnEl7ducUQi68amP/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -536,7 +536,7 @@
       "name": "Publio M",
       "location": "Brazil",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/11i9t6qynCiP6QuBei8srC5z_pwxY2N8T/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -547,7 +547,7 @@
       "name": "Roberto A",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1gD7pW_XO7F-J1GHTyLZ5-7dJelvKrkeJ/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -558,7 +558,7 @@
       "name": "Ricardo R",
       "location": "Colombia",
       "salary": "1,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1gjvA8THyzS5bsexvwRV12cFRnpNx7Rmu/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -569,7 +569,7 @@
       "name": "Jose M",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/17DEthsGTZR0jn8iEuXnUpDS72v-Qzwr-/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -580,7 +580,7 @@
       "name": "Alejandro G",
       "location": "Colombia",
       "salary": "1,700",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1ws1aXy8mBOT7WkaULrtHqHrahIv-2_FS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1174,7 +1174,7 @@
       "name": "Dayana R",
       "location": "Peru",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/10pBuusdhJVXTjnYL8GqIRVEDDkYa7tcz/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1185,7 +1185,7 @@
       "name": "Jonathan G",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1EyHATFlDeuQ31I1sqHpHGbIrajkslNG4/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1196,7 +1196,7 @@
       "name": "Aldana S",
       "location": "Uruguay",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/506231e6-1ade-443e-a9c6-b56da4467a6f",
       "cv": "",
       "notes": ""
@@ -1207,7 +1207,7 @@
       "name": "Genesis A",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
       "cv": "",
       "notes": ""
@@ -1218,7 +1218,7 @@
       "name": "Andrea M",
       "location": "El Salvador",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/14ce-u_-qabLiLy0KeT0bHYlpKcjnluW6/view?usp=drive_link",
       "cv": "",
       "notes": ""
