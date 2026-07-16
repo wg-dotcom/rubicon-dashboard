@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T18:01:47.000Z",
+  "updated": "2026-07-16T18:04:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1217,9 +1217,9 @@
       "role": "Training Content Specialist",
       "name": "Andrea M",
       "location": "El Salvador",
-      "salary": "",
+      "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/14ce-u_-qabLiLy0KeT0bHYlpKcjnluW6/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
