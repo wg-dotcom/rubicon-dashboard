@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T17:24:31.000Z",
+  "updated": "2026-07-16T17:25:18.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1214,12 +1214,12 @@
     },
     {
       "batch": "1",
-      "role": "",
+      "role": "Revenue Project Specialist",
       "name": "Luis R",
       "location": "Mexico",
       "salary": "Pending",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1d5BKjqjGGGmEnsL8TZik6R5GHoSE9Y-0/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
