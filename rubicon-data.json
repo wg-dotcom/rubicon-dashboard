@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T01:08:05.000Z",
+  "updated": "2026-07-16T15:27:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -866,7 +866,7 @@
       "name": "Carolina A",
       "location": "Mexico",
       "salary": "1,660",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/10Dsrp176MUxRNYQNbKEZ5tGkN2a-dbZj/view?usp=drive_link",
       "cv": "cvs/carolina-a.html",
       "notes": ""
@@ -877,7 +877,7 @@
       "name": "Jose Z",
       "location": "Ecuador",
       "salary": "2,000",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/1bUwIrXyASuLYunRLYa0kAI5XJ_4JfxFG/view?usp=drive_link",
       "cv": "",
       "notes": ""
