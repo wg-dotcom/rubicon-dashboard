@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T18:04:46.000Z",
+  "updated": "2026-07-16T20:08:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -338,7 +338,7 @@
       "name": "Grace G",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1vgdUzHB4bTFBXJOGFxviCo_Ca5tkS7wF/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -349,7 +349,7 @@
       "name": "Osvaldo R",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1GqoVHIi7a36_LpB_8Z_TzXFgXhkxq67D/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -360,7 +360,7 @@
       "name": "Lorena D",
       "location": "Argentina",
       "salary": "1,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/13J7gIkB6DEDrQiOHkf84njISrU11hZZ2/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -371,7 +371,7 @@
       "name": "Osman F",
       "location": "Nicaragua",
       "salary": "1,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/d85285e9-efb2-467e-9138-2d4d22b934f6",
       "cv": "",
       "notes": ""
@@ -382,7 +382,7 @@
       "name": "Julian Y",
       "location": "Colombia",
       "salary": "1,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/8d00d5b1-b0a0-4e20-988b-c6150678201f",
       "cv": "",
       "notes": ""
@@ -393,7 +393,7 @@
       "name": "Luis V",
       "location": "Nicaragua",
       "salary": "1,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/6a00164d-3a63-4ae1-abcb-edb96c88c7f8",
       "cv": "cvs/luis-v.html",
       "notes": ""
@@ -404,7 +404,7 @@
       "name": "Xiomy C.",
       "location": "Perú",
       "salary": "1,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/14q_4BMjcuxqGl3AYpT6Z2QD_mKxvCdQl/view?usp=drive_link",
       "cv": "",
       "notes": "Pending updated resume"
@@ -415,7 +415,7 @@
       "name": "Jorge C",
       "location": "El Salvador",
       "salary": "1,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1gp4v5XJiR2_7WIn4O8ZWKi4Hn3zvycYr/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -426,7 +426,7 @@
       "name": "Rafael S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1y4FGW7z7nSctSKUN6ul-J7rbj47tN8M9/view?usp=drive_link",
       "cv": "",
       "notes": "Pending updated resume"
