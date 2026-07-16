@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T21:09:55.000Z",
+  "updated": "2026-07-16T21:35:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -7,7 +7,7 @@
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
-      "status": "",
+      "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "",
@@ -16,7 +16,7 @@
     {
       "hr": "HR95911",
       "role": "Client Service Associate",
-      "status": "",
+      "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "",
@@ -25,7 +25,7 @@
     {
       "hr": "HR95269",
       "role": "Intake Analyst",
-      "status": "",
+      "status": "7. Invoice",
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "",
@@ -34,7 +34,7 @@
     {
       "hr": "HR60297",
       "role": "Key Account Analyst",
-      "status": "",
+      "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
       "kickoff": "May 28, 2026",
       "datePlaced": "",
@@ -43,7 +43,7 @@
     {
       "hr": "HR78147",
       "role": "Accounts Payable Operations Analyst role.",
-      "status": "",
+      "status": "7. Invoice",
       "advisor": "Vicky",
       "kickoff": "June 2,2026",
       "datePlaced": "",
@@ -52,7 +52,7 @@
     {
       "hr": "HR83733",
       "role": "Sales Development Representative",
-      "status": "",
+      "status": "5. Final Interview",
       "advisor": "Vicky",
       "kickoff": "June 3, 2026",
       "datePlaced": "",
@@ -61,7 +61,7 @@
     {
       "hr": "HR47113",
       "role": "Regional Sourcing Associate",
-      "status": "",
+      "status": "2. Candidates Presented",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
@@ -70,7 +70,7 @@
     {
       "hr": "HR62951",
       "role": "Regional Sourcing Team Lead",
-      "status": "",
+      "status": "3. 1st Round of Interviews",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
@@ -79,7 +79,7 @@
     {
       "hr": "HR70870",
       "role": "Sr Developer, Business Intelligence",
-      "status": "",
+      "status": "9. Closed / Paused / M.I.A.",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
@@ -88,7 +88,7 @@
     {
       "hr": "HR82449",
       "role": "Data Management Analyst",
-      "status": "",
+      "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
@@ -97,7 +97,7 @@
     {
       "hr": "HR98287",
       "role": "Training Content Specialist",
-      "status": "",
+      "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
@@ -106,7 +106,7 @@
     {
       "hr": "HR50452",
       "role": "Revenue Project Specialist",
-      "status": "",
+      "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "46218",
       "datePlaced": "",
@@ -115,7 +115,7 @@
     {
       "hr": "HR42533",
       "role": "Regional Sourcing Manager",
-      "status": "",
+      "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "46218",
       "datePlaced": "",
