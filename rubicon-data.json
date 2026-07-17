@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T02:43:22.000Z",
+  "updated": "2026-07-17T02:44:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -435,10 +435,10 @@
       "batch": "5",
       "role": "Client Service Associate",
       "name": "Fernando A",
-      "location": "",
-      "salary": "",
+      "location": "Nicaragua",
+      "salary": "1,000",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1BSpxpBA5r-8GFnEKLi76hT2PJSO7471r/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
