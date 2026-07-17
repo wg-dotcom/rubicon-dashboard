@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T19:40:11.000Z",
+  "updated": "2026-07-17T20:35:48.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1242,6 +1242,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1dX6LNuiVUnORPfKiVC3v09lXrPJYAllF/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Training Content Specialist",
+      "name": "Laura M",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
