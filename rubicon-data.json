@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T22:48:13.000Z",
+  "updated": "2026-07-17T02:43:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -430,6 +430,17 @@
       "video": "https://drive.google.com/file/d/1y4FGW7z7nSctSKUN6ul-J7rbj47tN8M9/view?usp=drive_link",
       "cv": "",
       "notes": "Pending updated resume"
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Fernando A",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
