@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T02:43:16.000Z",
+  "updated": "2026-07-20T03:46:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1275,6 +1275,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1Z-S5slKdgZYhLvFpm_A-JktIJn8O4Z6c/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Training Content Specialist",
+      "name": "Johana M",
+      "location": "Mexico",
+      "salary": "1,700",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
