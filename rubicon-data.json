@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T21:05:47.000Z",
+  "updated": "2026-07-20T02:43:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -927,6 +927,17 @@
       "notes": ""
     },
     {
+      "batch": "3",
+      "role": "Regional Sourcing Associate",
+      "name": "Daniela H",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1FkjIzOwhqpFaHKu1-Q8gaJMXcDpJlBPb/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
       "batch": "1",
       "role": "Regional Sourcing Team Lead",
       "name": "Carlos V.",
@@ -1147,6 +1158,17 @@
       "notes": ""
     },
     {
+      "batch": "2",
+      "role": "Sales Development Representative",
+      "name": "Ricardo M",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/3dc1c936-90e2-490c-8815-72bb0dd064e9",
+      "cv": "",
+      "notes": ""
+    },
+    {
       "batch": "1",
       "role": "Sr Developer, Business Intelligence",
       "name": "Jose P",
@@ -1264,6 +1286,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1d5BKjqjGGGmEnsL8TZik6R5GHoSE9Y-0/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Revenue Project Specialist",
+      "name": "Joao S",
+      "location": "Brazil",
+      "salary": "2,300",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1Ey0Ov6bBe5kMyzHlPt1pLBp1oYEkJkTC/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
