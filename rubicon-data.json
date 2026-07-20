@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:31:52.000Z",
+  "updated": "2026-07-20T14:32:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -120,6 +120,15 @@
       "kickoff": "July 16,2026",
       "datePlaced": "",
       "notes": "Sourcing for candidates"
+    },
+    {
+      "hr": "HR47156",
+      "role": "AP Operations Analyst",
+      "status": "1. KickOff Meeting",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     }
   ],
   "rows": [
