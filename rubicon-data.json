@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:32:40.000Z",
+  "updated": "2026-07-20T14:33:23.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -126,7 +126,7 @@
       "role": "AP Operations Analyst",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "Jul 17, 2026",
       "datePlaced": "",
       "notes": ""
     }
