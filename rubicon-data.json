@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:34:14.000Z",
+  "updated": "2026-07-20T15:31:43.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1317,6 +1317,17 @@
       "salary": "2,300",
       "status": "",
       "video": "https://drive.google.com/file/d/1Ey0Ov6bBe5kMyzHlPt1pLBp1oYEkJkTC/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Revenue Project Specialist",
+      "name": "Isabelle L",
+      "location": "Colombia",
+      "salary": "1,700",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
