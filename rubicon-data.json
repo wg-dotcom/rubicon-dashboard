@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T01:03:33.000Z",
+  "updated": "2026-07-21T14:37:58.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1328,6 +1328,17 @@
       "salary": "1,700",
       "status": "",
       "video": "https://drive.google.com/file/d/1ZguZpux9bo3r-YkFlYVLtBG7GSi-1fQ_/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Carolina S",
+      "location": "Mexico",
+      "salary": "3,200",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/f5126932-b343-48c3-bd01-a08b8592cd5f",
       "cv": "",
       "notes": ""
     }
