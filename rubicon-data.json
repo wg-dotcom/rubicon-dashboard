@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T18:03:22.000Z",
+  "updated": "2026-07-21T18:15:25.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1346,10 +1346,10 @@
       "batch": "1",
       "role": "Regional Sourcing Manager",
       "name": "Eslin U",
-      "location": "",
+      "location": "Costa Rica",
       "salary": "2,500",
       "status": "",
-      "video": "",
+      "video": "Pending",
       "cv": "",
       "notes": ""
     }
