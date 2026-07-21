@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T16:39:29.000Z",
+  "updated": "2026-07-21T18:03:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1339,6 +1339,17 @@
       "salary": "3,200",
       "status": "",
       "video": "https://candidate-video.com/uploads/f5126932-b343-48c3-bd01-a08b8592cd5f",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Eslin U",
+      "location": "",
+      "salary": "2,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
