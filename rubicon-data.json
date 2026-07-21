@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T18:57:22.000Z",
+  "updated": "2026-07-21T01:03:33.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -655,7 +655,7 @@
       "name": "Lizbeth E",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1fS9p1G0k_CsWNbNptToktiyP7719A_eV/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -666,7 +666,7 @@
       "name": "Jan G",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1RUGMeWCSqUU7CIbi4m1DKeSx9vpwLiEy/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -677,7 +677,7 @@
       "name": "Daniela A",
       "location": "Colombia",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1oFUAVAfg8I9yEmL4ZIH2ZAJ_-Am4cviT/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -688,7 +688,7 @@
       "name": "Jackeline D",
       "location": "Peru",
       "salary": "1,900",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1AqU-Hytlk_z4m1Jv5Lobj4caB_NuRxLX/view?usp=drive_link",
       "cv": "",
       "notes": ""
