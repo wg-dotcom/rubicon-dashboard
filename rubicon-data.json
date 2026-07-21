@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T19:47:43.000Z",
+  "updated": "2026-07-21T22:32:05.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1361,6 +1361,17 @@
       "salary": "2,500",
       "status": "",
       "video": "Pending",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Lourdes",
+      "location": "Mexico",
+      "salary": "3,200",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/edfe6707-033c-4b9e-a20a-af0b19092447",
       "cv": "",
       "notes": ""
     }
