@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T18:15:25.000Z",
+  "updated": "2026-07-21T19:29:11.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1295,6 +1295,17 @@
       "salary": "1,700",
       "status": "",
       "video": "https://drive.google.com/file/d/1QvKpg0RPdUeahnuho2tHEiOklQ89tzfP/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Training Content Specialist",
+      "name": "Jhony C",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
