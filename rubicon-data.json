@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T13:47:59.000Z",
+  "updated": "2026-07-22T15:22:54.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1371,7 +1371,7 @@
       "location": "Costa Rica",
       "salary": "2,500",
       "status": "",
-      "video": "Pending",
+      "video": "https://drive.google.com/file/d/1fWT3ptw5ctcl97JZZl9C6QOI-jkUZ2SS/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
