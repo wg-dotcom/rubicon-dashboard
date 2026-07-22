@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:38:59.000Z",
+  "updated": "2026-07-22T17:40:50.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1446,9 +1446,9 @@
       "role": "AP Operations Analyst",
       "name": "Raquel C",
       "location": "Panama",
-      "salary": "",
+      "salary": "1,300",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1kCeuUjpa8Rd393PVfo_F5B8GRjZ1LKT4/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
