@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:40:50.000Z",
+  "updated": "2026-07-22T17:45:08.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1416,6 +1416,17 @@
       "salary": "3,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Sofia S",
+      "location": "Colombia",
+      "salary": "3,200",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
