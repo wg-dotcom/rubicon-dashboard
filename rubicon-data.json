@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T13:37:36.000Z",
+  "updated": "2026-07-22T13:38:28.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1394,6 +1394,17 @@
       "salary": "3,200",
       "status": "",
       "video": "https://drive.google.com/file/d/1QhqsxUSp7Pm_rgqIqzsSF_EqTvbKyad1/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Cindy A",
+      "location": "El Salvador",
+      "salary": "3,200",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
