@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T15:53:36.000Z",
+  "updated": "2026-07-22T15:54:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1416,6 +1416,17 @@
       "salary": "1,300",
       "status": "",
       "video": "https://drive.google.com/file/d/1hUrQ8HneCe_zzX8Tbp5NCi0JiSUVuKDF/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "AP Operations Analyst",
+      "name": "Julio A",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
