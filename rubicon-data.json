@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T00:19:58.000Z",
+  "updated": "2026-07-22T13:34:53.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1383,6 +1383,17 @@
       "salary": "3,200",
       "status": "",
       "video": "https://candidate-video.com/uploads/edfe6707-033c-4b9e-a20a-af0b19092447",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Regional Sourcing Manager",
+      "name": "Jose E",
+      "location": "Peru",
+      "salary": "3,200",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
