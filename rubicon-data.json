@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T19:35:21.000Z",
+  "updated": "2026-08-12T19:36:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1834,6 +1834,17 @@
       "salary": "3,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1EgulhuYbb7OGcesKH5Mb_PcwvDYA110b/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Manager",
+      "name": "Liliana M",
+      "location": "Peru",
+      "salary": "3,200",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
