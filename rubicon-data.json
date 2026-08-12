@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T17:12:41.000Z",
+  "updated": "2026-08-12T17:13:33.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -569,6 +569,17 @@
       "salary": "1,200",
       "status": "",
       "video": "https://candidate-video.com/uploads/1bcff315-68c3-416e-9d2d-2d98f8e9261f",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Xavier R",
+      "location": "",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
