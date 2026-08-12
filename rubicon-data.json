@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T14:37:35.000Z",
+  "updated": "2026-08-12T15:57:17.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -145,7 +145,7 @@
     },
     {
       "batch": "1",
-      "role": "Client Service Associate",
+      "role": "vanessaevo1995@gmail.com",
       "name": "Gilma A",
       "location": "Colombia",
       "salary": "1,200",
@@ -514,6 +514,17 @@
       "salary": "1,300",
       "status": "First Interview",
       "video": "https://candidate-video.com/uploads/838b3541-3a84-4e25-9bed-85e1021b4b69",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Kimberly L",
+      "location": "Honduras",
+      "salary": "1,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
