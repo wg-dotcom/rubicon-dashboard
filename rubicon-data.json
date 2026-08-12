@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T17:18:39.000Z",
+  "updated": "2026-08-12T17:25:20.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -580,6 +580,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/150DP4kBbyGnvryhdWDxE6uNsXMZDRO9H/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Jose A",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/1e1aa49a-5a2b-4051-9afa-154e40fc350d",
       "cv": "",
       "notes": ""
     },
