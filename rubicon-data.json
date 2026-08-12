@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T17:13:33.000Z",
+  "updated": "2026-08-12T17:18:39.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -576,10 +576,10 @@
       "batch": "6",
       "role": "Client Service Associate",
       "name": "Xavier R",
-      "location": "",
+      "location": "Nicaragua",
       "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/150DP4kBbyGnvryhdWDxE6uNsXMZDRO9H/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
