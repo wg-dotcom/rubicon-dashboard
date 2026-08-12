@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T18:17:03.000Z",
+  "updated": "2026-08-12T19:35:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2051,7 +2051,7 @@
       "dateShared": "08/11/26"
     },
     {
-      "name": "Abilene P",
+      "name": "Abilene Portillo Escarcega",
       "role": "Intake Analyst",
       "country": "Mexico",
       "sent": "08/10/26",
@@ -2068,6 +2068,42 @@
       "country": "Nicaragua",
       "sent": "08/11/26",
       "criminal": "Clear",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Samuel Garrido Páez",
+      "role": "Key Account Analyst",
+      "country": "Ecuador",
+      "sent": "08/12/26",
+      "criminal": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Mariana Prada Arzabe",
+      "role": "Key Account Analyst",
+      "country": "Bolivia",
+      "sent": "08/12/26",
+      "criminal": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Juan José Ruiz Mendoza",
+      "role": "Key Account Analyst",
+      "country": "Colombia",
+      "sent": "08/12/26",
+      "criminal": "Pending",
       "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
