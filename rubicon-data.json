@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T17:46:30.000Z",
+  "updated": "2026-08-12T14:14:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -7,65 +7,83 @@
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
-      "status": "6. Job Offer Letter / Signature",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
-      "datePlaced": "",
-      "notes": "07/21:Kelly - Signed the offer, invoice sent · Evanan - JOL - Background check in progress (July 6) · Fidel - moving forward to interview"
+      "datePlaced": "Jun 24, 2026",
+      "notes": "Kelly placed · Evanan -  Accepted another offer. BGC took a month. · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager, will presente more candidates this week. Tatiana withdrew from the process\n08/06: Presented another batch, waiting feedback"
     },
     {
       "hr": "HR95911",
       "role": "Client Service Associate",
-      "status": "6. Job Offer Letter / Signature",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
-      "datePlaced": "",
-      "notes": "Ronaldo - Background check in progress · July 8 - additional batch (4) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) had their interviews"
+      "datePlaced": "June 5, 2026",
+      "notes": "Ronald hired, invoice sent · Francisco - Background requested, pending employment verification, reached out asking for some sort of documentation · July 8 - additional batch (5) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) will have second interviews this week. \nAdonay, Luis, and Osvaldo invited to interviews for this week\nOsman and Rafael moving to second interviews next week \nLast batch 9 candidates.\n Rafael, Osman, - Offered\n5th batch July 30 - 7 candidates"
     },
     {
       "hr": "HR95269",
       "role": "Intake Analyst",
-      "status": "7. Invoice",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
-      "datePlaced": "",
-      "notes": "Alex hired - Start date July 6\nWaiting on payment · July 8th, presented 4 candidates - feedback pending \n07/20: Feedback requested and presented 4 more candidates"
+      "datePlaced": "May 27, 2026",
+      "notes": "Alex hired - Start date July 6\npayment Reflected · July 8th, presented 4 candidates. \n Abilene and Jackeline had their interview, waiting updates\nAbilene offered, working on her background check"
     },
     {
       "hr": "HR60297",
       "role": "Key Account Analyst",
-      "status": "7. Invoice",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "May 28, 2026",
-      "datePlaced": "",
-      "notes": "Emilio  - hired - pending payment · Presented 6 more candidates on July 6th - pending feedback \n07/20 Feedback requested"
+      "datePlaced": "June 12,2026",
+      "notes": "Emilio  - hired - payment reflected · Presented 6 more candidates on July 6th -  \nMariana, Juan, and Samuel -  Offered\n08/11:They need 3 more candidates for this role"
     },
     {
       "hr": "HR78147",
       "role": "Accounts Payable Operations Analyst role.",
-      "status": "7. Invoice",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "June 2,2026",
-      "datePlaced": "",
-      "notes": "Judy - start date June 22 - pending payment, invoice sent on Friday"
+      "datePlaced": "June 2,2026",
+      "notes": "Judy - start date June 22 - pending reflected"
     },
     {
       "hr": "HR83733",
       "role": "Sales Development Representative",
-      "status": "5. Final Interview",
+      "status": "9. Closed / Paused / M.I.A.",
       "advisor": "Vicky",
       "kickoff": "June 3, 2026",
       "datePlaced": "",
-      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/20 Feedback requested"
+      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
     },
     {
       "hr": "HR47113",
       "role": "Regional Sourcing Associate",
-      "status": "2. Candidates Presented",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
+      "datePlaced": "July 10,2026",
+      "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16, Background requested, pending employment verification, reached out asking for some sort of documentation · New batch July 30 - 5 candidates, pending feedback"
+    },
+    {
+      "hr": "HR70870",
+      "role": "Sr Developer, Business Intelligence",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "N/A",
+      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
+    },
+    {
+      "hr": "HR50452",
+      "role": "Revenue Project Specialist",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 16,2026",
       "datePlaced": "",
-      "notes": "Fernando backgound checks pending confirmations · Carlos (GTC) - backgound checks pending confirmations · Jose Offered 07/16, start working on BG check · New batch July 15 \nCarolina's 2nd interview scheduled for Wed 07/15"
+      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
     },
     {
       "hr": "HR62951",
@@ -74,16 +92,7 @@
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
-      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \n07/20 Feedback requested"
-    },
-    {
-      "hr": "HR70870",
-      "role": "Sr Developer, Business Intelligence",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
+      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (6 candidates), pending feedback"
     },
     {
       "hr": "HR82449",
@@ -92,49 +101,40 @@
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates)"
+      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback"
     },
     {
       "hr": "HR98287",
       "role": "Training Content Specialist",
-      "status": "2. Candidates Presented",
+      "status": "3. 1st Round of Interviews",
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
-      "notes": "3 candidates/ 12 months project \n07/16 Presented Batch 1 (5 candidates)"
-    },
-    {
-      "hr": "HR50452",
-      "role": "Revenue Project Specialist",
-      "status": "1. KickOff Meeting",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "1st batch July 22"
+      "notes": "3 candidates/ 12 months project \n07/16 Presented Batch 1 (5 candidates),  pending feedback but have 4 more candidates ready to present - batch July 23\nDayana, Jhony, and Johana had their interviews; waiting feedback \nSadeak, Geraldine and Raymond invited to interviews · Andrea - background check cleared, shared with Lu"
     },
     {
       "hr": "HR42533",
       "role": "Regional Sourcing Manager",
-      "status": "1. KickOff Meeting",
+      "status": "3. 1st Round of Interviews",
       "advisor": "Vicky",
       "kickoff": "July 16,2026",
       "datePlaced": "",
-      "notes": "1st batch July 22"
+      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback"
     },
     {
       "hr": "HR47156",
       "role": "AP Operations Analyst",
-      "status": "1. KickOff Meeting",
+      "status": "2. Candidates Presented",
       "advisor": "Vicky",
       "kickoff": "Jul 17, 2026",
       "datePlaced": "",
-      "notes": "Sourcing"
+      "notes": "Presented candidates last week - feedback pending \nThey now want 11 candidates for this role"
     }
   ],
   "rows": [
     {
       "batch": "1",
-      "role": "Client Service Associate",
+      "role": "AP Operations Analyst",
       "name": "Judy A",
       "location": "Colombia",
       "salary": "1,300",
@@ -193,10 +193,10 @@
       "name": "Ricardo B",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1_vjZBlWYsYugE6mfbMorchK9xhseYS_t/view?usp=drive_link",
       "cv": "cvs/ricardo-b.html",
-      "notes": "Waiitng for the Background check clearance"
+      "notes": "Lie on his resume"
     },
     {
       "batch": "1",
@@ -215,10 +215,10 @@
       "name": "Genesis M",
       "location": "Honduras",
       "salary": "1,600",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/6fa2938e-bd64-4706-9b86-ffb3cf1dd9df",
       "cv": "cvs/genesis-m.html",
-      "notes": "Working on her background check"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -226,10 +226,10 @@
       "name": "Ronald M",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/15rUBDBXcgH1jzi8qRuPVJibyIuHz-j6f/view?usp=drive_link",
       "cv": "cvs/ronald-m.html",
-      "notes": "Waiting feedback after his second interview"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -237,10 +237,10 @@
       "name": "Alex D",
       "location": "Guatemala",
       "salary": "1,200",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1Pc6XwX_GRfhn3A0yW1aNivgYCeKAsGAX/view?usp=drive_link",
       "cv": "cvs/alex-d.html",
-      "notes": "Job Offer Letter in Progress"
+      "notes": "offered for the Accounts Intake Analyst role"
     },
     {
       "batch": "2",
@@ -292,7 +292,7 @@
       "name": "Francisco",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "First Interview",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1knhDnOjckiuW31ytCeLKE3-r2LKcztJS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -325,7 +325,7 @@
       "name": "Adonay R",
       "location": "Honduras",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/d99c7839-cc6e-4ca2-bbfa-aac6ca6f1a42",
       "cv": "",
       "notes": ""
@@ -336,7 +336,7 @@
       "name": "Anayla T",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/1bYSlcFJhL569iNQo3n_oQvsnMmjWE_Bl/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -358,7 +358,7 @@
       "name": "Osvaldo R",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1GqoVHIi7a36_LpB_8Z_TzXFgXhkxq67D/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -380,7 +380,7 @@
       "name": "Osman F",
       "location": "Nicaragua",
       "salary": "1,000",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://candidate-video.com/uploads/d85285e9-efb2-467e-9138-2d4d22b934f6",
       "cv": "",
       "notes": ""
@@ -402,7 +402,7 @@
       "name": "Luis V",
       "location": "Nicaragua",
       "salary": "1,300",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/6a00164d-3a63-4ae1-abcb-edb96c88c7f8",
       "cv": "cvs/luis-v.html",
       "notes": ""
@@ -435,10 +435,10 @@
       "name": "Rafael S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1y4FGW7z7nSctSKUN6ul-J7rbj47tN8M9/view?usp=drive_link",
       "cv": "",
-      "notes": "Pending updated resume"
+      "notes": ""
     },
     {
       "batch": "5",
@@ -446,8 +446,74 @@
       "name": "Fernando A",
       "location": "Nicaragua",
       "salary": "1,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1BSpxpBA5r-8GFnEKLi76hT2PJSO7471r/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Bret O",
+      "location": "Colombia",
+      "salary": "1,200",
+      "status": "First Interview",
+      "video": "https://candidate-video.com/uploads/4e28aa2c-09dd-4514-9434-a96dbaba6ffb",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Julieanna R",
+      "location": "Argentina",
+      "salary": "1,500",
+      "status": "First Interview",
+      "video": "https://candidate-video.com/uploads/464e3f70-d5be-4318-99c3-8251566a764c",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Giovanni B",
+      "location": "Costa Rica",
+      "salary": "1,200",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/40074d0a-9691-4367-b03d-9ba8ed701e44",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Dyna M",
+      "location": "Nicaragua",
+      "salary": "1,200",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/59d98f51-34b8-4dc0-9d92-553e3995abd5",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Carlos M",
+      "location": "Mexico",
+      "salary": "1,300",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/959a0a5b-92fe-4d9b-8dfa-ac2483b3d0c5",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Client Service Associate",
+      "name": "Percy R",
+      "location": "Perú",
+      "salary": "1,300",
+      "status": "First Interview",
+      "video": "https://candidate-video.com/uploads/838b3541-3a84-4e25-9bed-85e1021b4b69",
       "cv": "",
       "notes": ""
     },
@@ -457,10 +523,10 @@
       "name": "Evanan C",
       "location": "Colombia",
       "salary": "1,700",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/fac99832-48dc-41ae-abd0-ef24ab8ea99f",
       "cv": "cvs/evanan-c.html",
-      "notes": "Offfered"
+      "notes": "Accepted another job offer"
     },
     {
       "batch": "1",
@@ -468,10 +534,10 @@
       "name": "Tatiana R",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1YppN7apPHrnnkNCfADNcwsaaa6d5ihyN/view?usp=drive_link",
       "cv": "cvs/tatiana-r.html",
-      "notes": "Waiting feedback"
+      "notes": "No longer interested"
     },
     {
       "batch": "1",
@@ -490,10 +556,10 @@
       "name": "Camilo M",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/162f2b52-5c24-409d-83e5-326c7f44a2df",
       "cv": "cvs/camilo-m.html",
-      "notes": "Waiting feedback"
+      "notes": "Accepted another job offer"
     },
     {
       "batch": "1",
@@ -501,10 +567,10 @@
       "name": "Kelly G",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/1b18db3c-31c4-434f-9891-9859c4b08096",
       "cv": "cvs/kelly-g.html",
-      "notes": "Offfered"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -516,6 +582,83 @@
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/34390875-0328-457d-ad87-8feb8dbd16d0",
       "cv": "cvs/hydel-h.html",
       "notes": "Waiting feedback"
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Blanca L",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1h8o_Dk7ALwS6ffom-PpBxDLBcGYq2gMm/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Jonathan B",
+      "location": "Nicaragua",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/682d7376-d849-4f44-8800-4c78d6d4b5b0",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Marcos B",
+      "location": "Guatemala",
+      "salary": "1,200",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1rLurIrVSXKmvaXt_9IHXXLpToKSfAmxn/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Rodolfo R",
+      "location": "Guatemala",
+      "salary": "1,250",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/11b9YBxvzWPwcssleOcrVIjGjkhoxXahB/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Nathaly R",
+      "location": "Colombia",
+      "salary": "1,850",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1bdL-o5KzSTRZ63BwtrshQJ8aTJw6_oAR/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Client Services Team Lead",
+      "name": "Vann A",
+      "location": "Colombia",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1fc6VbhFJfzzqQ1ht8s-n4BBOj5_F5r0B/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Kevin M",
+      "location": "Honduras",
+      "salary": "1,800",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1fhzxnOmd_OQTASa0O_48TGnNt0lpr9bN/view?usp=drive_link",
+      "cv": "cvs/kevin-m.html",
+      "notes": ""
     },
     {
       "batch": "1",
@@ -606,6 +749,17 @@
       "notes": ""
     },
     {
+      "batch": "2",
+      "role": "Data Management Analyst",
+      "name": "Jairo S",
+      "location": "Nicaragua",
+      "salary": "1,800",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1Vkecvj3zjpHQTZ8oPTCkqpC_fDMBczK-/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
       "batch": "1",
       "role": "Intake Analyst",
       "name": "Jeffry T",
@@ -622,7 +776,7 @@
       "name": "Abilene P",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1-7hcC2qITNd_reXPKXmLJaVTf8iNU7Yq/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -688,7 +842,7 @@
       "name": "Jackeline D",
       "location": "Peru",
       "salary": "1,900",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1AqU-Hytlk_z4m1Jv5Lobj4caB_NuRxLX/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -702,7 +856,7 @@
       "status": "Placed",
       "video": "https://drive.google.com/file/d/1iEh0q-IUYlymblomE_LudYrZf9ERGwxe/view?usp=drive_link",
       "cv": "cvs/emilio-s.html",
-      "notes": "JOL in progress"
+      "notes": ""
     },
     {
       "batch": "1",
@@ -754,7 +908,7 @@
       "name": "Mariana P",
       "location": "Bolivia",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1_cnKZBsOFH39Ds_4KeW8VksNzTRUSr53/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -776,7 +930,7 @@
       "name": "Juan R",
       "location": "Colombia",
       "salary": "1,600",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://candidate-video.com/uploads/cdddce93-f14f-4083-bf2d-d55433cfd7f9",
       "cv": "",
       "notes": ""
@@ -790,7 +944,7 @@
       "status": "Presented",
       "video": "https://candidate-video.com/uploads/754d8389-07e5-4720-9074-647404de32e7",
       "cv": "",
-      "notes": "PENDING CONFIRMATION"
+      "notes": ""
     },
     {
       "batch": "2",
@@ -798,7 +952,7 @@
       "name": "Samuel G",
       "location": "Ecuador",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/19MypRuyIcNgpUxy7fFZJCv4lI_v1eCCh/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -842,10 +996,10 @@
       "name": "Fernando M",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1DuN9C4wFEtIe8C9shzCyO6mOgnFwcwWt/view?usp=drive_link",
       "cv": "cvs/fernando-m.html",
-      "notes": "Invited to interview"
+      "notes": ""
     },
     {
       "batch": "2",
@@ -908,7 +1062,7 @@
       "name": "Arturo",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/7a752d99-d329-4b53-83d2-1bb44fb9b28b",
       "cv": "",
       "notes": ""
@@ -919,7 +1073,7 @@
       "name": "Gina A",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1YZ0W4E2I_TJ7E6fI8gUHufjiTJGe0CEF/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -930,7 +1084,7 @@
       "name": "Joaquin R",
       "location": "Honduras",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/16pUe65jtgJy_vpfXP9geFq3GCd8pfzz0/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -941,7 +1095,7 @@
       "name": "Daniela H",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1FkjIzOwhqpFaHKu1-Q8gaJMXcDpJlBPb/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -952,8 +1106,19 @@
       "name": "Victor M",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "",
-      "video": "",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/13Wf19NnEpgKeQBgW8HJW9ACfNoGyJHJh/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Associate",
+      "name": "Brenda S",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1A_FdtL8dhATjZaiXgI0GY6zaEE9JUSLa/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -963,7 +1128,7 @@
       "name": "Carlos V.",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1Opc_-bbzsHyhz81vj1kK6kX4lzNgkk9r/view",
       "cv": "cvs/carlos-v.html",
       "notes": "Offered willl be extended for the Regional Sourcing Associate"
@@ -1018,7 +1183,7 @@
       "name": "Michelle S",
       "location": "Honduras",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1m-gp56joNkZKfLIGZgBFCv00nQw-xdpf/view?usp=drive_link",
       "cv": "",
       "notes": "Accepted another offer"
@@ -1035,15 +1200,59 @@
       "notes": ""
     },
     {
+      "batch": "3",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Lina P",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1dZLeIPwdnoPofe21c-kFulkS39LBbduq/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Oscar L",
+      "location": "Guatemala",
+      "salary": "1,850",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/28e7b059-2a3d-433a-8025-e2ed16a86fc2",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Ricardo E",
+      "location": "Panama",
+      "salary": "1,700",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/02395e51-95d6-40f5-83cc-9b763ac4dcad",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Salett H",
+      "location": "Bolivia",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/dd9d6e3f-b253-4b41-a10e-07915a799206",
+      "cv": "",
+      "notes": ""
+    },
+    {
       "batch": "1",
       "role": "Sales Development Representative",
       "name": "Bruno B",
       "location": "Brazil",
       "salary": "2,000",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/fd2c9864-a63f-4208-9508-af7640f39516",
       "cv": "cvs/bruno-b.html",
-      "notes": "Waiting feedback after his first interview"
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1062,10 +1271,10 @@
       "name": "Linval L",
       "location": "Jamaica",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/5d22fdb0-0916-4faf-9cbc-125a7cd45796",
       "cv": "cvs/linval-l.html",
-      "notes": "Waiting feedback"
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1073,10 +1282,10 @@
       "name": "Leonardo M",
       "location": "Ecuador",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/189BpmcrlyCJHJiHzmJcHFeaYcM3OT8sW/view?usp=drive_link",
       "cv": "cvs/leonardo-m.html",
-      "notes": "Waiting feedback"
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1084,10 +1293,10 @@
       "name": "Carlos S",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1GBywlwqoE935tj7FplU52frcq0f1O1C2/view?usp=drive_link",
       "cv": "cvs/carlos-s.html",
-      "notes": "Waiting feedback"
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1095,10 +1304,10 @@
       "name": "Marlon M",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1XI-5sx86lAdJhDYLoTOq1HmajAGlAz2I/view?usp=drive_link",
       "cv": "cvs/marlon-m.html",
-      "notes": "Waiting feedback"
+      "notes": "On hold"
     },
     {
       "batch": "",
@@ -1106,10 +1315,10 @@
       "name": "Carlos D",
       "location": "El Salvador",
       "salary": "1,700",
-      "status": "",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "",
@@ -1117,10 +1326,10 @@
       "name": "Jose O",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Rejected",
       "video": "Pending",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1128,10 +1337,10 @@
       "name": "Agustina M",
       "location": "Argentina",
       "salary": "1,700",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/14zC1Xcu-vfemwvw4bdsSP2usHNFJjRht/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1139,10 +1348,10 @@
       "name": "Marlon M",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/0d2688e7-7d61-4e91-a44a-28c047182a94",
       "cv": "cvs/marlon-m.html",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1150,10 +1359,10 @@
       "name": "Willoughby C",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/a94b83e8-35e9-4977-9236-ee3aba902599",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1161,10 +1370,10 @@
       "name": "Sasha L",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/de64b8a9-a920-45ba-a4fe-c4b4d597cfa3",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1172,10 +1381,10 @@
       "name": "Karla M",
       "location": "El Salvador",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/1e05b488-c178-406d-ab34-1f300d911e6b",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "3",
@@ -1183,10 +1392,10 @@
       "name": "Ricardo M",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/3dc1c936-90e2-490c-8815-72bb0dd064e9",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1194,10 +1403,10 @@
       "name": "Jose P",
       "location": "Colombia",
       "salary": "4,500",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1QcWYaRuU46SVzvJX86MddUpvB8EPYDjw/view?usp=drive_link",
       "cv": "cvs/jose-p.html",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1205,10 +1414,10 @@
       "name": "Ricardo U",
       "location": "El Salvador",
       "salary": "5,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/b89aa615-3d79-4a0c-b20b-5c2c52f76198",
       "cv": "cvs/ricardo-u.html",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "2",
@@ -1216,10 +1425,10 @@
       "name": "Gimena M",
       "location": "Argentina",
       "salary": "3,000",
-      "status": "",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1NUjVpP1lxOa3iIW9eTneVxQgGMU_lRaN/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "On hold"
     },
     {
       "batch": "1",
@@ -1227,7 +1436,7 @@
       "name": "Dayana R",
       "location": "Peru",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/10pBuusdhJVXTjnYL8GqIRVEDDkYa7tcz/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1271,7 +1480,7 @@
       "name": "Andrea M",
       "location": "El Salvador",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/14ce-u_-qabLiLy0KeT0bHYlpKcjnluW6/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1282,7 +1491,7 @@
       "name": "Lina C",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1dX6LNuiVUnORPfKiVC3v09lXrPJYAllF/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1293,7 +1502,7 @@
       "name": "Laura M",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Z-S5slKdgZYhLvFpm_A-JktIJn8O4Z6c/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1304,7 +1513,7 @@
       "name": "Johana M",
       "location": "Mexico",
       "salary": "1,700",
-      "status": "",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1QvKpg0RPdUeahnuho2tHEiOklQ89tzfP/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1315,8 +1524,63 @@
       "name": "Jhony C",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1PIvHr9n1gXWBtVZGAMrg_7jLLs4Dh-kr/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Training Content Specialist",
+      "name": "Raymond",
+      "location": "Honduras",
+      "salary": "1,550",
+      "status": "First Interview",
+      "video": "https://candidate-video.com/uploads/24a6a0f0-cc71-4bc1-9d47-3fd1870f3c68",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Training Content Specialist",
+      "name": "Geraldine",
+      "location": "Colombia",
+      "salary": "1,200",
+      "status": "First Interview",
+      "video": "",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Training Content Specialist",
+      "name": "Sadeak",
+      "location": "Jamaica",
+      "salary": "1,400",
+      "status": "First Interview",
+      "video": "",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Training Content Specialist",
+      "name": "Mauricio V",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1fApSvowxesHuaEfkXPdATAETSqpc7brC/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Training Content Specialist",
+      "name": "Luis R.",
+      "location": "Colombia",
+      "salary": "1,600",
+      "status": "",
+      "video": "https://drive.google.com/file/d/18uTF4LYnjsvMDNjb83An5Ad4Vx2qRPFq/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1326,7 +1590,7 @@
       "name": "Luis R",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1d5BKjqjGGGmEnsL8TZik6R5GHoSE9Y-0/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1337,7 +1601,7 @@
       "name": "Joao S",
       "location": "Brazil",
       "salary": "2,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Ey0Ov6bBe5kMyzHlPt1pLBp1oYEkJkTC/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1348,8 +1612,41 @@
       "name": "Isabelle L",
       "location": "Colombia",
       "salary": "1,700",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1RxUNQRJkZ6cK9ehc8pDkGGazynJBFREw/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Revenue Project Specialist",
+      "name": "Heyka P",
+      "location": "Colombia",
+      "salary": "1,800",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/10gRZhRzL2sF1bwsAugPeA-eGH3y1IH83/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Revenue Project Specialist",
+      "name": "Julio C",
+      "location": "Honduras",
+      "salary": "2,300",
       "status": "",
-      "video": "https://drive.google.com/file/d/1ZguZpux9bo3r-YkFlYVLtBG7GSi-1fQ_/view?usp=drive_link",
+      "video": "Pending",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Revenue Project Specialist",
+      "name": "Cristian M",
+      "location": "Colombia",
+      "salary": "2,300",
+      "status": "",
+      "video": "Pending",
       "cv": "",
       "notes": ""
     },
@@ -1359,7 +1656,7 @@
       "name": "Carolina S",
       "location": "Mexico",
       "salary": "3,200",
-      "status": "",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/f5126932-b343-48c3-bd01-a08b8592cd5f",
       "cv": "",
       "notes": ""
@@ -1370,7 +1667,7 @@
       "name": "Eslin U",
       "location": "Costa Rica",
       "salary": "2,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1fWT3ptw5ctcl97JZZl9C6QOI-jkUZ2SS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1381,7 +1678,7 @@
       "name": "Lourdes",
       "location": "Mexico",
       "salary": "3,200",
-      "status": "",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/edfe6707-033c-4b9e-a20a-af0b19092447",
       "cv": "",
       "notes": ""
@@ -1392,8 +1689,8 @@
       "name": "Jose E",
       "location": "Peru",
       "salary": "3,200",
-      "status": "",
-      "video": "https://drive.google.com/file/d/1QhqsxUSp7Pm_rgqIqzsSF_EqTvbKyad1/view?usp=drive_link",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1kT-TyVqP46gmf_AB87kQ-Xhsq_CCTr-i/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1403,7 +1700,7 @@
       "name": "Cindy A",
       "location": "El Salvador",
       "salary": "3,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Xm6HjPBkuXP3vnwK21gGybzfE4Jhy5dI/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1414,7 +1711,7 @@
       "name": "Adriana S",
       "location": "Mexico",
       "salary": "3,000",
-      "status": "",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1422,11 +1719,44 @@
     {
       "batch": "1",
       "role": "Regional Sourcing Manager",
+      "name": "Alejandra C",
+      "location": "Mexico",
+      "salary": "3,200",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1u_PpjaP-676k4e-qRG8bDigwQ4aF4SEI/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Manager",
       "name": "Sofia S",
       "location": "Colombia",
       "salary": "3,200",
       "status": "",
-      "video": "Pending",
+      "video": "https://drive.google.com/file/d/13muy7drfQ8JVN8KEc4uEfaAtR6UCFpNB/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Manager",
+      "name": "Astrid S",
+      "location": "Colombia",
+      "salary": "3,200",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Manager",
+      "name": "Sofia M",
+      "location": "Mexico",
+      "salary": "3,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1EgulhuYbb7OGcesKH5Mb_PcwvDYA110b/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1436,8 +1766,8 @@
       "name": "Jose R",
       "location": "Honduras",
       "salary": "1,300",
-      "status": "",
-      "video": "https://drive.google.com/file/d/1hUrQ8HneCe_zzX8Tbp5NCi0JiSUVuKDF/view?usp=drive_link",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/16cuifhjHRVxekj_Ok1KzTM5Q5_DXxd7T/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1447,7 +1777,7 @@
       "name": "Julio A",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/3126d8ee-b80c-45d8-b43b-ea32f7e25579",
       "cv": "",
       "notes": ""
@@ -1458,8 +1788,30 @@
       "name": "Raquel C",
       "location": "Panama",
       "salary": "1,300",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1kCeuUjpa8Rd393PVfo_F5B8GRjZ1LKT4/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "AP Operations Analyst",
+      "name": "Edrei P",
+      "location": "Belize",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1M87BsPWV8q8Cvemaj3aaj1Rta1yKxez3/view",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "AP Operations Analyst",
+      "name": "Erick G",
+      "location": "Guatemala",
+      "salary": "1,400",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1TnGjN_4f_8w8GfyP-vpJpOUiIr29ZeJp/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
