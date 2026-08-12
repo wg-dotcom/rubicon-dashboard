@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T14:35:05.000Z",
+  "updated": "2026-08-12T14:37:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1826,7 +1826,6 @@
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "",
       "docsShared": "Yes - via Teams",
       "dateShared": "06/08/26"
     },
@@ -1839,7 +1838,6 @@
       "watchlist": "Clear",
       "employment": "Consider",
       "overall": "Consider",
-      "notes": "Candidate provided missing documentation",
       "docsShared": "Yes - via Teams",
       "dateShared": "06/26/26"
     },
@@ -1852,7 +1850,6 @@
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "",
       "docsShared": "Yes - via Teams",
       "dateShared": "06/30/26"
     },
@@ -1865,7 +1862,6 @@
       "watchlist": "Clear",
       "employment": "Consider",
       "overall": "Consider",
-      "notes": "MIA",
       "docsShared": "",
       "dateShared": "-"
     },
@@ -1878,7 +1874,6 @@
       "watchlist": "Clear",
       "employment": "Consider",
       "overall": "Consider",
-      "notes": "Lied on the dates",
       "docsShared": "",
       "dateShared": "-"
     },
@@ -1891,7 +1886,6 @@
       "watchlist": "Clear",
       "employment": "Consider",
       "overall": "Clear",
-      "notes": "Candidate provided missing documentation",
       "docsShared": "Yes - via Teams",
       "dateShared": "07/24/2026"
     },
@@ -1904,7 +1898,6 @@
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "",
       "docsShared": "Yes - via Teams",
       "dateShared": "07/20/2026"
     },
@@ -1917,7 +1910,6 @@
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "Not completely clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "07/27/2026"
     },
@@ -1930,85 +1922,78 @@
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "Certn",
       "docsShared": "Yes - via Teams",
       "dateShared": "07/31/2026"
     },
     {
       "name": "Carlos Armando Valdez Cordon",
-      "role": "",
+      "role": "Regional Sourcing Team Lead",
       "country": "Guatemala",
       "sent": "07/13/26",
       "criminal": "Clear",
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "Certn",
       "docsShared": "Yes - via Teams",
       "dateShared": "07/31/2026"
     },
     {
       "name": "Jose Zambrano",
-      "role": "",
+      "role": "Regional Sourcing Associate",
       "country": "Ecuador",
       "sent": "07/21/26",
       "criminal": "Pending",
       "watchlist": "Pending",
       "employment": "Pending",
       "overall": "Pending",
-      "notes": "Certn",
       "docsShared": "",
       "dateShared": ""
     },
     {
       "name": "Francisco Javier Antuna Mendiola",
-      "role": "",
+      "role": "Client Service Associate",
       "country": "Mexico",
       "sent": "07/30/26",
       "criminal": "Pending",
       "watchlist": "Pending",
       "employment": "Pending",
       "overall": "Pending",
-      "notes": "Certn",
       "docsShared": "",
       "dateShared": ""
     },
     {
       "name": "Andrea Martinez",
-      "role": "",
+      "role": "Training Content Specialist",
       "country": "El Salvador",
       "sent": "07/31/26",
       "criminal": "Clear",
       "watchlist": "Clear",
       "employment": "Clear",
       "overall": "Clear",
-      "notes": "Certn",
       "docsShared": "Yes - via Teams",
       "dateShared": "08/11/26"
     },
     {
       "name": "Abilene P",
-      "role": "",
+      "role": "Intake Analyst",
       "country": "Mexico",
       "sent": "08/10/26",
       "criminal": "Pending",
       "watchlist": "Pending",
       "employment": "Pending",
       "overall": "Pending",
-      "notes": "Certn",
       "docsShared": "",
       "dateShared": ""
     },
     {
       "name": "Osman Flores",
-      "role": "",
+      "role": "Client Service Associate",
       "country": "Nicaragua",
       "sent": "08/11/26",
       "criminal": "Pending",
       "watchlist": "Pending",
       "employment": "Pending",
       "overall": "Pending",
-      "notes": "Certn",
       "docsShared": "",
       "dateShared": ""
     }

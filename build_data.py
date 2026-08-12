@@ -108,7 +108,6 @@ def build_bgchecks(path):
             "watchlist": col(r, "global watchlist", "watchlist"),
             "employment": col(r, "employment verification", "employment"),
             "overall": col(r, "overall result", "overall"),
-            "notes": col(r, "notes / flags", "notes"),
             "docsShared": col(r, "docs shared with rubicon?", "docs shared"),
             "dateShared": col(r, "date shared"),
         })
