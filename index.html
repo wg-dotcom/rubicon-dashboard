@@ -83,8 +83,18 @@
   .stat .h{font-family:var(--mono);font-size:10px;color:rgba(255,255,255,.66);margin-top:3px;}
   @media(max-width:640px){.stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.1);}.stat:last-child{border-bottom:none;}}
 
+  /* ── PIPELINE TOGGLE ── */
+  .pipe-switch{display:inline-flex;gap:4px;margin:40px 0 4px;padding:5px;background:var(--paper);border:1px solid var(--line);border-radius:30px;box-shadow:var(--sh-sm);}
+  .pipe-tab{font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.3px;color:var(--ink-2);background:transparent;border:none;cursor:pointer;padding:9px 20px;border-radius:24px;display:inline-flex;align-items:center;gap:8px;transition:background .18s,color .18s;}
+  .pipe-tab:hover{color:var(--green-dark);}
+  .pipe-tab.active{background:linear-gradient(150deg,#0d2119,#061210);color:#fff;}
+  .pipe-ct{font-family:var(--mono);font-size:11px;font-weight:600;min-width:20px;height:19px;padding:0 6px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;background:var(--green-soft2);color:var(--green-dark);}
+  .pipe-tab.active .pipe-ct{background:rgba(255,255,255,.16);color:#fff;}
+  .panel{display:none;animation:rise .35s both;}
+  .panel.active{display:block;}
+
   /* ── SECTION HEAD ── */
-  .head{display:flex;align-items:baseline;gap:14px;margin:46px 0 20px;}
+  .head{display:flex;align-items:baseline;gap:14px;margin:26px 0 20px;}
   .head h2{font-family:var(--disp);font-weight:600;font-size:25px;color:var(--ink);}
   .head .n{font-family:var(--mono);font-size:10.5px;color:var(--mut);letter-spacing:1.4px;text-transform:uppercase;}
   .head .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--line-2),transparent);}
@@ -189,12 +199,21 @@
       <div class="stats" id="stats"></div>
     </section>
 
-    <div class="head"><h2>Hiring request pipeline</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
-    <div class="board" id="req-board"></div>
+    <div class="pipe-switch" role="tablist">
+      <button class="pipe-tab active" role="tab" data-panel="req">Hiring requests <span class="pipe-ct" id="tab-req-ct"></span></button>
+      <button class="pipe-tab" role="tab" data-panel="cand">Candidates <span class="pipe-ct" id="tab-cand-ct"></span></button>
+    </div>
 
-    <div class="head"><h2>Candidate pipeline</h2><span class="n">by stage</span><div class="rule"></div></div>
-    <div class="filters" id="filters"></div>
-    <div class="board" id="board"></div>
+    <section class="panel active" id="panel-req">
+      <div class="head"><h2>Hiring request pipeline</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
+      <div class="board" id="req-board"></div>
+    </section>
+
+    <section class="panel" id="panel-cand">
+      <div class="head"><h2>Candidate pipeline</h2><span class="n">by stage</span><div class="rule"></div></div>
+      <div class="filters" id="filters"></div>
+      <div class="board" id="board"></div>
+    </section>
 
     <div class="foot">
       <div>Confidential · prepared for <b>Rubicon</b> by Sagan. Candidate data only.</div>
@@ -875,8 +894,22 @@ async function init(){
   document.getElementById('meta-updated').textContent="Synced "+upd;
   document.getElementById('foot-updated').textContent="Last synced "+upd;
   renderStats();renderRequisitions();renderFilters();renderBoard();
+  setupTabs();
 }
 function activeRows(){return DATA.rows.filter(r=>!r._out);}
+
+// Pipeline toggle: show one panel at a time, set counts on the tabs.
+function setupTabs(){
+  document.getElementById('tab-req-ct').textContent = buildRequisitions().length;
+  document.getElementById('tab-cand-ct').textContent = activeRows().length;
+  document.querySelectorAll('.pipe-tab').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      const target = btn.dataset.panel;
+      document.querySelectorAll('.pipe-tab').forEach(b=>b.classList.toggle('active', b===btn));
+      document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active', p.id==='panel-'+target));
+    });
+  });
+}
 
 // Derive a requisition status from the most-advanced candidate when the tracker has none.
 function deriveStatusFromCands(cs){
