@@ -26,6 +26,7 @@ const EVENT_TYPE   = 'sheet-changed';
 const SHEET_IDS = [
   '1swUUYMpyb5e9zocbONdhqH1ahg53jaQTXM6jyVKXqmc',         // candidates sheet
   '1pKvIJlav4FvYQa4HqOusb0yhfinI-1XaQbESZ-vjMfI',         // open-process tracker
+  '1mCiKfumGCIaDxeG5Z3JMUXKg2bioKwgsaQbRFR4fFpk',         // background-check tracker
 ];
 const MIN_INTERVAL_MS = 45 * 1000;   // rate-limit: at most one dispatch per 45s
 // ─────────────────────────────────────────────────────────────────────

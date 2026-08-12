@@ -22,12 +22,13 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Fetch both sheets
+      - name: Fetch all three sheets
         run: |
           set -e
           curl -fsSL "https://docs.google.com/spreadsheets/d/1swUUYMpyb5e9zocbONdhqH1ahg53jaQTXM6jyVKXqmc/export?format=csv" -o cand.csv
           curl -fsSL "https://docs.google.com/spreadsheets/d/1pKvIJlav4FvYQa4HqOusb0yhfinI-1XaQbESZ-vjMfI/export?format=csv&gid=1378398655" -o trk.csv
-          echo "candidates $(wc -c < cand.csv) bytes, tracker $(wc -c < trk.csv) bytes"
+          curl -fsSL "https://docs.google.com/spreadsheets/d/1mCiKfumGCIaDxeG5Z3JMUXKg2bioKwgsaQbRFR4fFpk/export?format=csv" -o bg.csv
+          echo "candidates $(wc -c < cand.csv) / tracker $(wc -c < trk.csv) / bgchecks $(wc -c < bg.csv) bytes"
 
       # Anonymize any NEW candidates' CVs into branded pages. Skips automatically
       # if ANTHROPIC_API_KEY isn't set, so the data sync keeps working without it.
@@ -43,11 +44,11 @@ jobs:
           python3 anonymize_cvs.py cand.csv cvs cv_map.json
 
       - name: Build rubicon-data.json
-        run: python3 build_data.py cand.csv trk.csv rubicon-data.json
+        run: python3 build_data.py cand.csv trk.csv bg.csv rubicon-data.json
 
       - name: Commit if changed
         run: |
-          rm -f cand.csv trk.csv
+          rm -f cand.csv trk.csv bg.csv
           git add -A cvs cv_map.json rubicon-data.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes."

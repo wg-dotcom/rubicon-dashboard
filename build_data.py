@@ -92,12 +92,43 @@ def build_requests(path):
         order.append(key)
     return [by_key[k] for k in order]
 
+def build_bgchecks(path):
+    """Background-check tracker → columns A–K only. Full names kept (these candidates are hired)."""
+    out = []
+    for r in rows_of(path):
+        full = col(r, "candidate")
+        if not full:
+            continue
+        out.append({
+            "name": full,
+            "role": col(r, "role"),
+            "country": col(r, "country"),
+            "sent": col(r, "date sent processed", "date sent"),
+            "criminal": col(r, "criminal search", "criminal"),
+            "watchlist": col(r, "global watchlist", "watchlist"),
+            "employment": col(r, "employment verification", "employment"),
+            "overall": col(r, "overall result", "overall"),
+            "notes": col(r, "notes / flags", "notes"),
+            "docsShared": col(r, "docs shared with rubicon?", "docs shared"),
+            "dateShared": col(r, "date shared"),
+        })
+    return out
+
 def main():
-    cand_path, trk_path, out_path = sys.argv[1], sys.argv[2], sys.argv[3]
+    args = sys.argv[1:]
+    if len(args) >= 4:
+        cand_path, trk_path, bg_path, out_path = args[0], args[1], args[2], args[3]
+    else:
+        cand_path, trk_path, out_path = args[0], args[1], args[2]; bg_path = None
     rows, contact, advisor = build_candidates(cand_path)
     requests = build_requests(trk_path)
+    if bg_path and os.path.exists(bg_path):
+        bgchecks = build_bgchecks(bg_path)
+    else:  # no bg sheet passed — preserve whatever's already published
+        try: bgchecks = json.load(open(out_path, encoding="utf-8")).get("bgchecks", [])
+        except Exception: bgchecks = []
     payload = {"customer": "Rubicon", "contact": contact, "advisor": advisor or "Vicky",
-               "requests": requests, "rows": rows}
+               "requests": requests, "rows": rows, "bgchecks": bgchecks}
 
     # Skip rewrite if nothing but the timestamp would change → no noisy commits.
     try:
