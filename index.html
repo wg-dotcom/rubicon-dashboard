@@ -100,7 +100,7 @@
   .head .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--line-2),transparent);}
 
   /* ── BOARD (kanban grid) ── */
-  .board{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;}
+  .board{display:grid;grid-template-columns:repeat(var(--cols,5),minmax(0,1fr));gap:14px;}
   @media(max-width:1080px){.board{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:560px){.board{grid-template-columns:1fr;}}
   .col{display:flex;flex-direction:column;gap:11px;min-width:0;}
@@ -967,7 +967,9 @@ function renderRequisitions(){
   const totalSeats=reqs.filter(r=>r._st.n!==9).reduce((s,r)=>s+r.seats,0);
   document.getElementById('hr-count').textContent=reqs.length+" roles · "+totalSeats+" seats";
   const cols=REQ_COLUMNS.filter(col=>col.key!=="Closed / Paused" || reqs.some(r=>col.has(r._st.n)));
-  document.getElementById('req-board').innerHTML=cols.map(col=>{
+  const board=document.getElementById('req-board');
+  board.style.setProperty('--cols', cols.length);   // fit all stages (incl. Closed/Paused) in one row
+  board.innerHTML=cols.map(col=>{
     const items=reqs.filter(r=>col.has(r._st.n));
     const seats=items.reduce((s,r)=>s+r.seats,0);
     const cards=items.length?items.map((req,i)=>reqCard(req,col,i)).join(''):`<div class="col-empty">— none —</div>`;
