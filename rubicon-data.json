@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T20:09:57.000Z",
+  "updated": "2026-08-12T20:12:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1612,10 +1612,10 @@
       "name": "Raymond",
       "location": "Honduras",
       "salary": "1,550",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/24a6a0f0-cc71-4bc1-9d47-3fd1870f3c68",
       "cv": "",
-      "notes": ""
+      "notes": "Withdrew"
     },
     {
       "batch": "3",
