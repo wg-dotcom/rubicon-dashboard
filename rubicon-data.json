@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T16:09:08.000Z",
+  "updated": "2026-08-12T16:09:59.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -533,9 +533,9 @@
       "role": "Client Service Associate",
       "name": "Andres C",
       "location": "Nicaragua",
-      "salary": "",
+      "salary": "1,100",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/93c2484e-dbb8-473e-b13b-22d63aa7e1fb",
       "cv": "",
       "notes": ""
     },
