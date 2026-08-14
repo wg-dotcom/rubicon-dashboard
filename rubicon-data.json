@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:20:20.000Z",
+  "updated": "2026-08-14T15:21:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -532,7 +532,7 @@
       "name": "Kimberly L",
       "location": "Honduras",
       "salary": "1,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1AMCmm90z1eqfeLFQhXgMtYjfTXoZ4KG5/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -543,7 +543,7 @@
       "name": "Andres C",
       "location": "Nicaragua",
       "salary": "1,100",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/93c2484e-dbb8-473e-b13b-22d63aa7e1fb",
       "cv": "",
       "notes": ""
@@ -554,7 +554,7 @@
       "name": "Jewel M",
       "location": "Nicaragua",
       "salary": "1,100",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1LPRsCKcaN7BHLxHVY4BUZev7ovd3hkNw/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -565,7 +565,7 @@
       "name": "Alejandro S",
       "location": "Nicaragua",
       "salary": "1,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/84854591-0b69-4c87-9e81-b16cc6e46c1b",
       "cv": "",
       "notes": ""
@@ -576,7 +576,7 @@
       "name": "Carlos Q",
       "location": "Nicaragua",
       "salary": "1,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/1bcff315-68c3-416e-9d2d-2d98f8e9261f",
       "cv": "",
       "notes": ""
@@ -587,7 +587,7 @@
       "name": "Xavier R",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/150DP4kBbyGnvryhdWDxE6uNsXMZDRO9H/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -598,7 +598,7 @@
       "name": "Jose A",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/1e1aa49a-5a2b-4051-9afa-154e40fc350d",
       "cv": "",
       "notes": ""
