@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T13:57:50.000Z",
+  "updated": "2026-08-14T13:58:41.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1931,6 +1931,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/cb5c9d55-32a5-48b8-87a3-1b1f3d1d75e6",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Gabriel G",
+      "location": "Brazil",
+      "salary": "",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
       "cv": "",
       "notes": ""
     }
