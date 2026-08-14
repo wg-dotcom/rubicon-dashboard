@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T20:50:10.000Z",
+  "updated": "2026-08-14T21:11:33.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1953,6 +1953,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/42aa50f7-8e87-4387-971c-8ff2031373be",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Rodrigo G",
+      "location": "Bolivia",
+      "salary": "1,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
