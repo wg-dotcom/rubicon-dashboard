@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:00:28.000Z",
+  "updated": "2026-08-14T15:01:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1555,10 +1555,10 @@
       "name": "Genesis A",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
       "cv": "",
-      "notes": ""
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
