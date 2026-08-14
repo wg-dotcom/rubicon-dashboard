@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T14:29:27.000Z",
+  "updated": "2026-08-14T14:32:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1942,6 +1942,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Dennys P",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/b6551ed0-1799-4c97-99e7-487396c785ea",
       "cv": "",
       "notes": ""
     }
