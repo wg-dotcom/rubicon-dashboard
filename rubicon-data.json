@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:21:07.000Z",
+  "updated": "2026-08-14T15:30:02.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -477,7 +477,7 @@
       "name": "Julieanna R",
       "location": "Argentina",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/464e3f70-d5be-4318-99c3-8251566a764c",
       "cv": "",
       "notes": ""
@@ -532,7 +532,7 @@
       "name": "Kimberly L",
       "location": "Honduras",
       "salary": "1,000",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1AMCmm90z1eqfeLFQhXgMtYjfTXoZ4KG5/view?usp=drive_link",
       "cv": "",
       "notes": ""
