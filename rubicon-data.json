@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T19:30:26.000Z",
+  "updated": "2026-08-14T00:41:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1904,7 +1904,7 @@
       "notes": ""
     },
     {
-      "batch": "1",
+      "batch": "2",
       "role": "AP Operations Analyst",
       "name": "Alejandro",
       "location": "Mexico",
@@ -2101,7 +2101,7 @@
       "role": "Key Account Analyst",
       "country": "Ecuador",
       "sent": "08/12/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
@@ -2113,7 +2113,7 @@
       "role": "Key Account Analyst",
       "country": "Bolivia",
       "sent": "08/12/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
@@ -2125,6 +2125,18 @@
       "role": "Key Account Analyst",
       "country": "Colombia",
       "sent": "08/12/26",
+      "criminal": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Sadeak Black",
+      "role": "Training Content Specialist",
+      "country": "Jamaica",
+      "sent": "08/13/26",
       "criminal": "Pending",
       "watchlist": "",
       "employment": "Pending",
