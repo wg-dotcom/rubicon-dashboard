@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T13:37:55.000Z",
+  "updated": "2026-08-14T13:53:31.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -129,6 +129,15 @@
       "kickoff": "Jul 17, 2026",
       "datePlaced": "",
       "notes": "Presented candidates last week - feedback pending \nThey now want 11 candidates for this role"
+    },
+    {
+      "hr": "HR98330",
+      "role": "",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "",
+      "datePlaced": "",
+      "notes": ""
     }
   ],
   "rows": [
