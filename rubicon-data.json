@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T15:30:02.000Z",
+  "updated": "2026-08-14T18:13:10.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1942,6 +1942,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Konrad R",
+      "location": "Bolivia",
+      "salary": "1,5",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
