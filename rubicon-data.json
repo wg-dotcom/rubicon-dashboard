@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T14:46:57.000Z",
+  "updated": "2026-08-17T14:52:02.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -29,7 +29,7 @@
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "May 27, 2026",
-      "notes": "Alex hired - Start date July 6\npayment Reflected · July 8th, presented 4 candidates. \n Abilene and Jackeline had their interview, waiting updates\nAbilene offered, working on her background check"
+      "notes": "Alex hired - Start date July 6\npayment Reflected · July 8th, presented 4 candidates. \n Abilene and Jackeline had their interview, waiting updates\nAbilene offered, working on her background check, Jackeline was offered as well (Alex's replacement?"
     },
     {
       "hr": "HR60297",
@@ -750,10 +750,10 @@
       "batch": "3",
       "role": "Client Services Team Lead",
       "name": "Ana",
-      "location": "",
-      "salary": "",
+      "location": "Guatemala",
+      "salary": "1,800",
       "status": "",
-      "video": "",
+      "video": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-6He5yj4rU7us/e06df2fd-9f59-43e9-8515-31802779c993-LtvswLdT48envMOdOdh7lISXZ0GqrO1mpKVdecfLIXKuE7EuMqux6vSMyLVQ65ZPckwLWyMwcfu9XmcVO7DNoNEEp1mZNavaLIQ/Ana-C-Trimarchi-ResumA.pdf",
       "cv": "",
       "notes": ""
     },
