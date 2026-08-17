@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:32:36.000Z",
+  "updated": "2026-08-17T16:06:20.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -68,6 +68,15 @@
       "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer · New batch July 30 - 5 candidates, pending feedback"
     },
     {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (4 candidates), pending feedback"
+    },
+    {
       "hr": "HR70870",
       "role": "Sr Developer, Business Intelligence",
       "status": "9. Closed / Paused / M.I.A.",
@@ -84,15 +93,6 @@
       "kickoff": "July 16,2026",
       "datePlaced": "",
       "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
-    },
-    {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (4 candidates), pending feedback"
     },
     {
       "hr": "HR82449",
