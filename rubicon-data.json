@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:29:28.000Z",
+  "updated": "2026-08-17T18:47:46.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -444,10 +444,10 @@
       "name": "Rafael S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1y4FGW7z7nSctSKUN6ul-J7rbj47tN8M9/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Lie on his resume"
     },
     {
       "batch": "5",
