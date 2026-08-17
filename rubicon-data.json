@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T17:12:00.000Z",
+  "updated": "2026-08-17T17:28:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1084,6 +1084,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/d63a411d-51f5-4c1e-81a9-b8bfef670b52",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Sofia O",
+      "location": "Mexico",
+      "salary": "Pending",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
