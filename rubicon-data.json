@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T20:09:02.000Z",
+  "updated": "2026-08-17T20:26:50.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2063,6 +2063,17 @@
       "salary": "Pending",
       "status": "",
       "video": "Pending",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Mnauela G",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
