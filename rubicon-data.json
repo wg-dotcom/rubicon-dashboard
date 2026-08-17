@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T20:26:50.000Z",
+  "updated": "2026-08-17T20:27:53.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2073,7 +2073,7 @@
       "location": "Mexico",
       "salary": "2,000",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1r33kOfFwF2TyOEWDTfSukgReWnqE8jge/view",
       "cv": "",
       "notes": ""
     }
