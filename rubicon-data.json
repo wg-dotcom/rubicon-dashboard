@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T14:09:50.000Z",
+  "updated": "2026-08-17T14:12:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1048,9 +1048,9 @@
       "role": "Key Account Analyst",
       "name": "Andre Z",
       "location": "Ecuador",
-      "salary": "",
+      "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/d63a411d-51f5-4c1e-81a9-b8bfef670b52",
       "cv": "",
       "notes": ""
     },
