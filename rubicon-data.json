@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T14:12:13.000Z",
+  "updated": "2026-08-17T14:46:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -744,6 +744,17 @@
       "status": "",
       "video": "https://drive.google.com/file/d/1fhzxnOmd_OQTASa0O_48TGnNt0lpr9bN/view?usp=drive_link",
       "cv": "cvs/kevin-m.html",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Ana",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
+      "cv": "",
       "notes": ""
     },
     {
