@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T21:12:19.000Z",
+  "updated": "2026-08-17T12:52:28.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1964,6 +1964,17 @@
       "salary": "1,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/0b7f4890-ae7d-41d7-b29d-ae6c0475abea",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Rogelio",
+      "location": "",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
