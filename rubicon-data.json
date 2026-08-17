@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T16:52:30.000Z",
+  "updated": "2026-08-17T17:12:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2183,12 +2183,12 @@
       "role": "Client Service Associate",
       "country": "Mexico",
       "sent": "07/30/26",
-      "criminal": "Clear",
+      "criminal": "Pending",
       "watchlist": "",
-      "employment": "Pending",
+      "employment": "Clear",
       "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/17/26"
     },
     {
       "name": "Andrea Martinez",
