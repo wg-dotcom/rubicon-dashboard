@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:27:06.000Z",
+  "updated": "2026-08-17T15:30:15.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -750,7 +750,7 @@
       "batch": "3",
       "role": "Client Services Team Lead",
       "name": "Ana",
-      "location": "Guatemala",
+      "location": "Honduras",
       "salary": "1,800",
       "status": "",
       "video": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-6He5yj4rU7us/e06df2fd-9f59-43e9-8515-31802779c993-LtvswLdT48envMOdOdh7lISXZ0GqrO1mpKVdecfLIXKuE7EuMqux6vSMyLVQ65ZPckwLWyMwcfu9XmcVO7DNoNEEp1mZNavaLIQ/Ana-C-Trimarchi-ResumA.pdf",
@@ -2175,8 +2175,8 @@
       "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/14/2026"
     },
     {
       "name": "Francisco Javier Antuna Mendiola",
