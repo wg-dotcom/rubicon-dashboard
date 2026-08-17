@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T20:51:36.000Z",
+  "updated": "2026-08-17T20:57:02.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1973,7 +1973,7 @@
       "name": "Alejandro I",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1hvQNyDSOCHSAgC-wqfANihAWXC2NLgNc/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1984,7 +1984,7 @@
       "name": "Felipe S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/cb5c9d55-32a5-48b8-87a3-1b1f3d1d75e6",
       "cv": "",
       "notes": ""
@@ -1995,7 +1995,7 @@
       "name": "Gabriel G",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
       "cv": "",
       "notes": ""
@@ -2006,7 +2006,7 @@
       "name": "Konrad R",
       "location": "Bolivia",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/42aa50f7-8e87-4387-971c-8ff2031373be",
       "cv": "",
       "notes": ""
@@ -2017,7 +2017,7 @@
       "name": "Rodrigo G",
       "location": "Bolivia",
       "salary": "1,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/0b7f4890-ae7d-41d7-b29d-ae6c0475abea",
       "cv": "",
       "notes": ""
@@ -2028,7 +2028,7 @@
       "name": "Rogelio s",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1OB3BSU2ID8D7ibUezUIce36-KHSqAUtW/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2039,7 +2039,7 @@
       "name": "Alvaro G",
       "location": "Colombia",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1KmPLrSX4G643QVhbKBKp6LUg_p1MEc1f/view?usp=drive_link",
       "cv": "",
       "notes": ""
