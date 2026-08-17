@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T19:55:21.000Z",
+  "updated": "2026-08-17T20:06:18.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2052,6 +2052,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/b6551ed0-1799-4c97-99e7-487396c785ea",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Ivan V",
+      "location": "Mexico",
+      "salary": "Pending",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
