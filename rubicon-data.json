@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T19:16:43.000Z",
+  "updated": "2026-08-17T19:55:21.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1687,7 +1687,7 @@
       "name": "Geraldine",
       "location": "Colombia",
       "salary": "1,200",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "",
       "cv": "",
       "notes": ""
@@ -2266,7 +2266,7 @@
       "role": "Key Account Analyst",
       "country": "Colombia",
       "sent": "08/12/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
@@ -2278,6 +2278,18 @@
       "role": "Training Content Specialist",
       "country": "Jamaica",
       "sent": "08/13/26",
+      "criminal": "Consider",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jackeline Diaz Uribe",
+      "role": "Client Service Associate",
+      "country": "Peru",
+      "sent": "08/17/26",
       "criminal": "Pending",
       "watchlist": "",
       "employment": "Pending",
