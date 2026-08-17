@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T15:04:16.000Z",
+  "updated": "2026-08-17T15:06:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -765,6 +765,17 @@
       "salary": "1,800",
       "status": "",
       "video": "https://drive.google.com/file/d/18raZevNHAd8i0JTdiUfWbV8vWYnFmOuv/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Daniel G",
+      "location": "Colombia",
+      "salary": "1,800",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/9d8b8fa6-d87a-4c17-8791-7bcf415ba834",
       "cv": "",
       "notes": ""
     },
