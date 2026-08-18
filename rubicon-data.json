@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:34:36.000Z",
+  "updated": "2026-08-18T16:36:30.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1113,8 +1113,8 @@
       "batch": "3",
       "role": "Key Account Analyst",
       "name": "Hector R",
-      "location": "",
-      "salary": "",
+      "location": "Colombia",
+      "salary": "2,000",
       "status": "",
       "video": "",
       "cv": "",
