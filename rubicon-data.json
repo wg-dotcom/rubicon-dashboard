@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:50:40.000Z",
+  "updated": "2026-08-18T16:51:20.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2072,6 +2072,17 @@
       "name": "Jhostin G",
       "location": "Bolivia",
       "salary": "1,500",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Eddelia M",
+      "location": "Nicaragua",
+      "salary": "",
       "status": "",
       "video": "",
       "cv": "",
