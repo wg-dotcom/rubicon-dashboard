@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:59:03.000Z",
+  "updated": "2026-08-18T17:40:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -776,6 +776,17 @@
       "salary": "1,800",
       "status": "",
       "video": "https://candidate-video.com/uploads/9d8b8fa6-d87a-4c17-8791-7bcf415ba834",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Client Services Team Lead",
+      "name": "Carlo A",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
