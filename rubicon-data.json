@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T14:05:31.000Z",
+  "updated": "2026-08-18T15:05:42.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2085,6 +2085,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1r33kOfFwF2TyOEWDTfSukgReWnqE8jge/view",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Liliana G",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/4d2d8bb3-a4af-42bb-918e-48f779e60187",
       "cv": "",
       "notes": ""
     }
