@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T16:46:54.000Z",
+  "updated": "2026-08-18T16:50:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2063,6 +2063,17 @@
       "salary": "1,500",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1KmPLrSX4G643QVhbKBKp6LUg_p1MEc1f/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Jhostin G",
+      "location": "Bolivia",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
