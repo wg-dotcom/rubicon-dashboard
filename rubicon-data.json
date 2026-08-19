@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:30:30.000Z",
+  "updated": "2026-08-19T13:35:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2184,6 +2184,17 @@
       "salary": "1,500",
       "status": "",
       "video": "Pending",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Alejandro Z",
+      "location": "Costa Rica",
+      "salary": "1,700",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
