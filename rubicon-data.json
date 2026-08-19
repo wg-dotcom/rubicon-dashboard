@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:11:40.000Z",
+  "updated": "2026-08-19T18:13:11.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2147,10 +2147,10 @@
       "batch": "3",
       "role": "AP Operations Analyst",
       "name": "Andres V",
-      "location": "",
-      "salary": "",
+      "location": "Colombia",
+      "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1l_JilWzbmE22BPC-9YmhvGMyznpmFgN8/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
