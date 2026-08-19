@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T15:38:14.000Z",
+  "updated": "2026-08-19T17:00:11.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -741,7 +741,7 @@
       "name": "Kevin M",
       "location": "Honduras",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1fhzxnOmd_OQTASa0O_48TGnNt0lpr9bN/view?usp=drive_link",
       "cv": "cvs/kevin-m.html",
       "notes": ""
@@ -752,7 +752,7 @@
       "name": "Ana",
       "location": "Honduras",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/cbe65e4c-fbea-49d5-8b40-586164c9d2c6",
       "cv": "",
       "notes": ""
@@ -763,7 +763,7 @@
       "name": "Melissa H",
       "location": "Nicaragua",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/18raZevNHAd8i0JTdiUfWbV8vWYnFmOuv/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -774,7 +774,7 @@
       "name": "Daniel G",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/9d8b8fa6-d87a-4c17-8791-7bcf415ba834",
       "cv": "",
       "notes": ""
@@ -785,7 +785,7 @@
       "name": "Carlo A",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1UiKXtCMSHmXNQp8iV6kPaJLy9gyWbv45/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1139,6 +1139,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/32794945-fedc-4642-bd83-ffc1f30652b7",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Key Account Analyst",
+      "name": "Angel M",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/12K6XtR1JtUIQbQx340C2ItgfiQzxXkAU/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
