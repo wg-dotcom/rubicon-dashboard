@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T20:48:25.000Z",
+  "updated": "2026-08-19T20:49:14.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1093,7 +1093,7 @@
       "name": "Andre Z",
       "location": "Ecuador",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/d63a411d-51f5-4c1e-81a9-b8bfef670b52",
       "cv": "",
       "notes": ""
@@ -1104,7 +1104,7 @@
       "name": "Sofia O",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1rTblt7zxhEk6M7LcOTkHTVp6mA9cVJ9W/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1115,7 +1115,7 @@
       "name": "Cristiana B",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/19vsiJQy-tKYAAgZXfcYQjVc9tZHu9yY2/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1126,7 +1126,7 @@
       "name": "Hector R",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1LwxYL6ycMM6rGPlOcrTUlb8F994qdaHc/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1137,7 +1137,7 @@
       "name": "Jose F",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/32794945-fedc-4642-bd83-ffc1f30652b7",
       "cv": "",
       "notes": ""
@@ -2204,7 +2204,7 @@
       "name": "Jessica P",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/18gLYQpIIMMGheckw3Tn8lu8812W-QAw8/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2226,7 +2226,7 @@
       "name": "Alejandro Z",
       "location": "Costa Rica",
       "salary": "1,700",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1gHsZ7Ktvoex00XwnwFQFlruY6kVD1pkw/view?usp=drive_link",
       "cv": "",
       "notes": ""
