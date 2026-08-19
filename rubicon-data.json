@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:13:11.000Z",
+  "updated": "2026-08-19T18:19:50.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -133,11 +133,11 @@
     {
       "hr": "HR98330",
       "role": "Senior Accounts Receivable Analyst",
-      "status": "1. KickOff Meeting",
+      "status": "2. Candidates Presented",
       "advisor": "Vicky",
       "kickoff": "August 13, 2026",
       "datePlaced": "",
-      "notes": "Surfacing candidates. Presenting mid week"
+      "notes": "08/19: Batch 1 presented (6 candidates)"
     }
   ],
   "rows": [
