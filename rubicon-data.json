@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T02:13:35.000Z",
+  "updated": "2026-08-20T13:39:52.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1777,6 +1777,17 @@
       "salary": "1,600",
       "status": "",
       "video": "https://drive.google.com/file/d/18uTF4LYnjsvMDNjb83An5Ad4Vx2qRPFq/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Training Content Specialist",
+      "name": "Kasandra",
+      "location": "Ecuador",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
