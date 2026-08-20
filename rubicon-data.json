@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T14:07:00.000Z",
+  "updated": "2026-08-20T14:07:52.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2162,6 +2162,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1l_JilWzbmE22BPC-9YmhvGMyznpmFgN8/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Monica H",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
