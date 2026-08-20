@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T20:49:14.000Z",
+  "updated": "2026-08-20T02:13:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -345,10 +345,10 @@
       "name": "Anayla T",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1bYSlcFJhL569iNQo3n_oQvsnMmjWE_Bl/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Accepted another offer"
     },
     {
       "batch": "4",
