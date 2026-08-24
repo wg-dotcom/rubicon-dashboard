@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:12:37.000Z",
+  "updated": "2026-08-24T17:13:37.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -169,7 +169,7 @@
       "name": "Juan G",
       "location": "Colombia",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1D4ZYthdlOcWJWlYvy6h9OtUYgUURH2_T/view?usp=drive_link",
       "cv": "cvs/juan-g.html",
       "notes": "Accepted another offer"
