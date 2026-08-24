@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:08:10.000Z",
+  "updated": "2026-08-24T17:09:28.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -356,7 +356,7 @@
       "name": "Carlos D",
       "location": "El Salvador",
       "salary": "1,700",
-      "status": "Rejected",
+      "status": "",
       "video": "https://drive.google.com/file/d/1JC7s2jrPQapl5Vu04GhI9RGykJGA4-i6/view?usp=drive_link",
       "cv": "",
       "notes": "On hold"
@@ -367,7 +367,7 @@
       "name": "Jose O",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "",
       "video": "Pending",
       "cv": "",
       "notes": "On hold"
