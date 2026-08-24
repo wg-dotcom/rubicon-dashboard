@@ -111,6 +111,14 @@
   .chk.pending{color:#6b7280;background:rgba(107,114,128,.12);}
   .chk.flag{color:#c0392b;background:rgba(192,57,43,.10);}
 
+  /* ── TIME-TO-FILL STRIP ── */
+  .ttf{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px;}
+  .ttf-card{flex:1;min-width:200px;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--green);border-radius:14px;padding:16px 18px;box-shadow:var(--sh-sm);}
+  .ttf-v{font-family:var(--disp);font-weight:600;font-size:30px;line-height:1;color:var(--ink);}
+  .ttf-v small{font-size:15px;color:var(--mut);font-family:var(--ui);}
+  .ttf-l{font-size:12.5px;font-weight:600;color:var(--ink-2);margin-top:8px;}
+  .ttf-h{font-family:var(--mono);font-size:10px;color:var(--mut);margin-top:3px;letter-spacing:.3px;}
+
   /* ── SECTION HEAD ── */
   .head{display:flex;align-items:baseline;gap:14px;margin:26px 0 20px;}
   .head h2{font-family:var(--disp);font-weight:600;font-size:25px;color:var(--ink);}
@@ -221,10 +229,12 @@
       <button class="pipe-tab active" role="tab" data-panel="req">Hiring requests <span class="pipe-ct" id="tab-req-ct"></span></button>
       <button class="pipe-tab" role="tab" data-panel="cand">Candidates <span class="pipe-ct" id="tab-cand-ct"></span></button>
       <button class="pipe-tab" role="tab" data-panel="bg">Background checks <span class="pipe-ct" id="tab-bg-ct"></span></button>
+      <button class="pipe-tab" role="tab" data-panel="exited">Not moving forward <span class="pipe-ct" id="tab-exited-ct"></span></button>
     </div>
 
     <section class="panel active" id="panel-req">
       <div class="head"><h2>Hiring request pipeline</h2><span class="n" id="hr-count"></span><div class="rule"></div></div>
+      <div class="ttf" id="ttf"></div>
       <div class="board" id="req-board"></div>
     </section>
 
@@ -239,6 +249,11 @@
       <div class="bg-wrap" id="bg-table"></div>
     </section>
 
+    <section class="panel" id="panel-exited">
+      <div class="head"><h2>Not moving forward</h2><span class="n">disqualified · withdrawn</span><div class="rule"></div></div>
+      <div class="bg-wrap" id="exited-table"></div>
+    </section>
+
     <div class="foot">
       <div>Confidential · prepared for <b>Rubicon</b> by Sagan. Candidate data only.</div>
       <div id="foot-updated"></div>
@@ -248,7 +263,7 @@
 
 <!-- seed data: overwritten by live rubicon-data.json when deployed -->
 <script id="seed" type="application/json">{
-  "updated": "2026-08-12T14:37:35.000Z",
+  "updated": "2026-08-24T15:51:50.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -260,7 +275,7 @@
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "Jun 24, 2026",
-      "notes": "Kelly placed · Evanan -  Accepted another offer. BGC took a month. · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager, will presente more candidates this week. Tatiana withdrew from the process\n08/06: Presented another batch, waiting feedback"
+      "notes": "Kelly placed · Evanan -  Accepted another offer. BGC took a month. · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager.\n08/06: Presented another batch, waiting feedback\n08/17: presenting 4 additional candidates today, waiting feedback"
     },
     {
       "hr": "HR95911",
@@ -269,7 +284,7 @@
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "June 5, 2026",
-      "notes": "Ronald hired, invoice sent · Francisco - Background requested, pending employment verification, reached out asking for some sort of documentation · July 8 - additional batch (5) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) will have second interviews this week. \nAdonay, Luis, and Osvaldo invited to interviews for this week\nOsman and Rafael moving to second interviews next week \nLast batch 9 candidates.\n Rafael, Osman, - Offered\n5th batch July 30 - 7 candidates"
+      "notes": "Ronald hired, invoice sent · Francisco - Background completed; Feli will share the results \n08/17: Feli reached out to someone from Certn · Julieanna Offered, background check · Osman background check · July 8 - additional batch (5) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) will have second interviews this week. \nAdonay, Luis, and Osvaldo invited to interviews for this week\nOsman and Rafael moving to second interviews next week \nLast batch 9 candidates.\n Rafael, Osman, - Offered\n5th batch July 30 - 7 candidates (Bret, Percy, and Julliana invited to interviews)\nJuliana will have a 2nd interview next week\n08/13: Batch 6 (7 candidates) (Kimberly, Xavier, and Jose invited to interviews)\nJulieanna Offered, along with Osman (Rafael rejected, lie on his resume). Julieanna and Osman working on background check \n08/24: Percy, Jose, and Xavier invited to second interviews, Kimberly rejected (not the best fit based on the hiring manager feedback)"
     },
     {
       "hr": "HR95269",
@@ -278,7 +293,7 @@
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "May 27, 2026",
-      "notes": "Alex hired - Start date July 6\npayment Reflected · July 8th, presented 4 candidates. \n Abilene and Jackeline had their interview, waiting updates\nAbilene offered, working on her background check"
+      "notes": "Alex hired - Start date July 6\npayment Reflected · Abilene offered, background checks in progress · Jackeline offered, background checks in progress - replacement for Alex"
     },
     {
       "hr": "HR60297",
@@ -287,7 +302,7 @@
       "advisor": "Vicky",
       "kickoff": "May 28, 2026",
       "datePlaced": "June 12,2026",
-      "notes": "Emilio  - hired - payment reflected · Presented 6 more candidates on July 6th -  \nMariana, Juan, and Samuel -  Offered\n08/11:They need 3 more candidates for this role"
+      "notes": "Emilio  - hired - payment reflected · Presented 6 more candidates on July 6th -  \nMariana, Juan, and Samuel -  Offered, working on their background checks\n08/11:They need 3 more candidates for this role\n08/19: Batch 3 presented (5 candidates) · Mariana,  Offered, working on their background checks · Juan - Offered, working on their background checks · Samuel, offer letter. BCG complete, signed offer, invoice sent"
     },
     {
       "hr": "HR78147",
@@ -314,7 +329,7 @@
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "July 10,2026",
-      "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16, Background requested, pending employment verification, reached out asking for some sort of documentation · New batch July 30 - 5 candidates, pending feedback"
+      "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer, invoice sent · New batch July 30 - 5 candidates, pending feedback\nFollow up on 08/21"
     },
     {
       "hr": "HR70870",
@@ -335,13 +350,22 @@
       "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
     },
     {
+      "hr": "HR98287",
+      "role": "Training Content Specialist",
+      "status": "8. Placed",
+      "advisor": "Vicky",
+      "kickoff": "July 8,2026",
+      "datePlaced": "July 31,2026",
+      "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, working on her background check · 3 candidates/ 12 months project \n07/16 Presented Batch 1 (5 candidates),  pending feedback but have 4 more candidates ready to present - batch July 23\nDayana, Jhony, and Johana had their interviews; waiting feedback \nSadeak, Geraldine and Raymond invited to interviews\nRaymond withdrew (looking for a long term) \nSadeak Offered, working on her background check\nGeraldine had her interview, but it did not went well, Dayana and Jhony will have a 2nd interview this week\n08/21: Jhony offered, initiate background check"
+    },
+    {
       "hr": "HR62951",
       "role": "Regional Sourcing Team Lead",
       "status": "3. 1st Round of Interviews",
       "advisor": "Vicky",
       "kickoff": "June 8,2026",
       "datePlaced": "",
-      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (6 candidates), pending feedback"
+      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (4 candidates), pending feedback\nFollow up on 08/21"
     },
     {
       "hr": "HR82449",
@@ -350,16 +374,7 @@
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback"
-    },
-    {
-      "hr": "HR98287",
-      "role": "Training Content Specialist",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "July 8,2026",
-      "datePlaced": "",
-      "notes": "3 candidates/ 12 months project \n07/16 Presented Batch 1 (5 candidates),  pending feedback but have 4 more candidates ready to present - batch July 23\nDayana, Jhony, and Johana had their interviews; waiting feedback \nSadeak, Geraldine and Raymond invited to interviews · Andrea - background check cleared, shared with Lu"
+      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21"
     },
     {
       "hr": "HR42533",
@@ -368,16 +383,25 @@
       "advisor": "Vicky",
       "kickoff": "July 16,2026",
       "datePlaced": "",
-      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback"
+      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21"
     },
     {
       "hr": "HR47156",
       "role": "AP Operations Analyst",
-      "status": "2. Candidates Presented",
+      "status": "3. 1st Round of Interviews",
       "advisor": "Vicky",
       "kickoff": "Jul 17, 2026",
       "datePlaced": "",
-      "notes": "Presented candidates last week - feedback pending \nThey now want 11 candidates for this role"
+      "notes": "Presented candidates last week - feedback pending \nThey now want 11 candidates for this role\n08/17: Batch 2 Shared, pending feedback\n5 candidates presented previously (Batch 1). Erick, Raquel, and Julio had their interviews\n08/21: Presented Batch 3 (8 candidates), waiting for feedback on batch 2 and 3"
+    },
+    {
+      "hr": "HR98330",
+      "role": "Senior Accounts Receivable Analyst",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "August 13, 2026",
+      "datePlaced": "",
+      "notes": "08/19: Batch 1 presented (6 candidates), waiting feedback"
     }
   ],
   "rows": [
@@ -394,7 +418,7 @@
     },
     {
       "batch": "1",
-      "role": "Client Service Associate",
+      "role": "vanessaevo1995@gmail.com",
       "name": "Gilma A",
       "location": "Colombia",
       "salary": "1,200",
@@ -585,10 +609,10 @@
       "name": "Anayla T",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1bYSlcFJhL569iNQo3n_oQvsnMmjWE_Bl/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Accepted another offer"
     },
     {
       "batch": "4",
@@ -684,10 +708,10 @@
       "name": "Rafael S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1y4FGW7z7nSctSKUN6ul-J7rbj47tN8M9/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Lie on his resume"
     },
     {
       "batch": "5",
@@ -717,7 +741,7 @@
       "name": "Julieanna R",
       "location": "Argentina",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Offered",
       "video": "https://candidate-video.com/uploads/464e3f70-d5be-4318-99c3-8251566a764c",
       "cv": "",
       "notes": ""
@@ -761,8 +785,85 @@
       "name": "Percy R",
       "location": "Perú",
       "salary": "1,300",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/838b3541-3a84-4e25-9bed-85e1021b4b69",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Kimberly L",
+      "location": "Honduras",
+      "salary": "1,000",
+      "status": "Rejected",
+      "video": "https://drive.google.com/file/d/1AMCmm90z1eqfeLFQhXgMtYjfTXoZ4KG5/view?usp=drive_link",
+      "cv": "",
+      "notes": "Lu said: The hiring team doesn't think Kimberly is a strong fit for their team's needs."
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Andres C",
+      "location": "Nicaragua",
+      "salary": "1,100",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/93c2484e-dbb8-473e-b13b-22d63aa7e1fb",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Jewel M",
+      "location": "Nicaragua",
+      "salary": "1,100",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1LPRsCKcaN7BHLxHVY4BUZev7ovd3hkNw/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Alejandro S",
+      "location": "Nicaragua",
+      "salary": "1,200",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/84854591-0b69-4c87-9e81-b16cc6e46c1b",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Carlos Q",
+      "location": "Nicaragua",
+      "salary": "1,200",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/1bcff315-68c3-416e-9d2d-2d98f8e9261f",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Xavier R",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Final Interview",
+      "video": "https://drive.google.com/file/d/150DP4kBbyGnvryhdWDxE6uNsXMZDRO9H/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "Client Service Associate",
+      "name": "Jose A",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Final Interview",
+      "video": "https://candidate-video.com/uploads/1e1aa49a-5a2b-4051-9afa-154e40fc350d",
       "cv": "",
       "notes": ""
     },
@@ -904,9 +1005,53 @@
       "name": "Kevin M",
       "location": "Honduras",
       "salary": "1,800",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1fhzxnOmd_OQTASa0O_48TGnNt0lpr9bN/view?usp=drive_link",
       "cv": "cvs/kevin-m.html",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Ana",
+      "location": "Honduras",
+      "salary": "1,800",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/cbe65e4c-fbea-49d5-8b40-586164c9d2c6",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Melissa H",
+      "location": "Nicaragua",
+      "salary": "1,800",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/18raZevNHAd8i0JTdiUfWbV8vWYnFmOuv/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Client Services Team Lead",
+      "name": "Daniel G",
+      "location": "Colombia",
+      "salary": "1,800",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/9d8b8fa6-d87a-4c17-8791-7bcf415ba834",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Client Services Team Lead",
+      "name": "Carlo A",
+      "location": "Guatemala",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1UiKXtCMSHmXNQp8iV6kPaJLy9gyWbv45/view?usp=drive_link",
+      "cv": "",
       "notes": ""
     },
     {
@@ -1091,7 +1236,7 @@
       "name": "Jackeline D",
       "location": "Peru",
       "salary": "1,900",
-      "status": "First Interview",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1AqU-Hytlk_z4m1Jv5Lobj4caB_NuRxLX/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1203,6 +1348,72 @@
       "salary": "1,500",
       "status": "Offered",
       "video": "https://drive.google.com/file/d/19MypRuyIcNgpUxy7fFZJCv4lI_v1eCCh/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Andre Z",
+      "location": "Ecuador",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/d63a411d-51f5-4c1e-81a9-b8bfef670b52",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Sofia O",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1rTblt7zxhEk6M7LcOTkHTVp6mA9cVJ9W/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Cristiana B",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/19vsiJQy-tKYAAgZXfcYQjVc9tZHu9yY2/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Hector R",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1LwxYL6ycMM6rGPlOcrTUlb8F994qdaHc/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Key Account Analyst",
+      "name": "Jose F",
+      "location": "Guatemala",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/32794945-fedc-4642-bd83-ffc1f30652b7",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Key Account Analyst",
+      "name": "Angel M",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/12K6XtR1JtUIQbQx340C2ItgfiQzxXkAU/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1361,7 +1572,7 @@
       "notes": ""
     },
     {
-      "batch": "3",
+      "batch": "4",
       "role": "Regional Sourcing Associate",
       "name": "Brenda S",
       "location": "Mexico",
@@ -1489,6 +1700,39 @@
       "salary": "2,000",
       "status": "Presented",
       "video": "https://candidate-video.com/uploads/dd9d6e3f-b253-4b41-a10e-07915a799206",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Carolina L",
+      "location": "Colombia",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1MW_QtWrTabyxMROkXiR2KjYzesdFwpUs/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Paola J",
+      "location": "Bolivia",
+      "salary": "1,800",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1_dvdnHGvX4FtAsh-yhDmKqMwUwvSwnTK/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Kalvin E",
+      "location": "Panama",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1NIQWbWjAwVo9adt-j_0AeUeXENdx_qcd/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1696,10 +1940,10 @@
       "name": "Jonathan G",
       "location": "Colombia",
       "salary": "1,800",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1EyHATFlDeuQ31I1sqHpHGbIrajkslNG4/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "08/14: Lu said And we'd like to pass the rest of the candidates from the profile link."
     },
     {
       "batch": "1",
@@ -1707,10 +1951,10 @@
       "name": "Aldana S",
       "location": "Uruguay",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/506231e6-1ade-443e-a9c6-b56da4467a6f",
       "cv": "",
-      "notes": ""
+      "notes": "08/14: Lu said And we'd like to pass the rest of the candidates from the profile link."
     },
     {
       "batch": "1",
@@ -1718,10 +1962,10 @@
       "name": "Genesis A",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/67fe1d6a-8e16-415f-98cd-5ff8a479e33c",
       "cv": "",
-      "notes": ""
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
@@ -1740,10 +1984,10 @@
       "name": "Lina C",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1dX6LNuiVUnORPfKiVC3v09lXrPJYAllF/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "08/14: Lu said And we'd like to pass the rest of the candidates from the profile link."
     },
     {
       "batch": "2",
@@ -1751,10 +1995,10 @@
       "name": "Laura M",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1Z-S5slKdgZYhLvFpm_A-JktIJn8O4Z6c/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "08/14: Lu said And we'd like to pass the rest of the candidates from the profile link."
     },
     {
       "batch": "2",
@@ -1765,7 +2009,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/1QvKpg0RPdUeahnuho2tHEiOklQ89tzfP/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "passed on due to no remote work experience"
     },
     {
       "batch": "2",
@@ -1773,10 +2017,10 @@
       "name": "Jhony C",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/1PIvHr9n1gXWBtVZGAMrg_7jLLs4Dh-kr/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "experienced candidate; hold for now"
     },
     {
       "batch": "3",
@@ -1784,10 +2028,10 @@
       "name": "Raymond",
       "location": "Honduras",
       "salary": "1,550",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/24a6a0f0-cc71-4bc1-9d47-3fd1870f3c68",
       "cv": "",
-      "notes": ""
+      "notes": "Withdrew"
     },
     {
       "batch": "3",
@@ -1795,7 +2039,7 @@
       "name": "Geraldine",
       "location": "Colombia",
       "salary": "1,200",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "",
       "cv": "",
       "notes": ""
@@ -1806,7 +2050,7 @@
       "name": "Sadeak",
       "location": "Jamaica",
       "salary": "1,400",
-      "status": "First Interview",
+      "status": "Offered",
       "video": "",
       "cv": "",
       "notes": ""
@@ -1830,6 +2074,17 @@
       "salary": "1,600",
       "status": "",
       "video": "https://drive.google.com/file/d/18uTF4LYnjsvMDNjb83An5Ad4Vx2qRPFq/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Training Content Specialist",
+      "name": "Kasandra",
+      "location": "Ecuador",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1dOqEOwjv90Xr-xSidM8msG3uKHJE09tg/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -1982,7 +2237,7 @@
       "name": "Sofia S",
       "location": "Colombia",
       "salary": "3,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/13muy7drfQ8JVN8KEc4uEfaAtR6UCFpNB/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1993,7 +2248,7 @@
       "name": "Astrid S",
       "location": "Colombia",
       "salary": "3,200",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2004,8 +2259,19 @@
       "name": "Sofia M",
       "location": "Mexico",
       "salary": "3,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1EgulhuYbb7OGcesKH5Mb_PcwvDYA110b/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Regional Sourcing Manager",
+      "name": "Liliana M",
+      "location": "Peru",
+      "salary": "3,200",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1aTGWlt80KqGp5aEDy68LJlgcfjqZkntm/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -2026,7 +2292,7 @@
       "name": "Julio A",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/3126d8ee-b80c-45d8-b43b-ea32f7e25579",
       "cv": "",
       "notes": ""
@@ -2037,7 +2303,7 @@
       "name": "Raquel C",
       "location": "Panama",
       "salary": "1,300",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1kCeuUjpa8Rd393PVfo_F5B8GRjZ1LKT4/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2059,8 +2325,261 @@
       "name": "Erick G",
       "location": "Guatemala",
       "salary": "1,400",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1TnGjN_4f_8w8GfyP-vpJpOUiIr29ZeJp/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Alejandro I",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1hvQNyDSOCHSAgC-wqfANihAWXC2NLgNc/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Felipe S",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/cb5c9d55-32a5-48b8-87a3-1b1f3d1d75e6",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Gabriel G",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Konrad R",
+      "location": "Bolivia",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/42aa50f7-8e87-4387-971c-8ff2031373be",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Rodrigo G",
+      "location": "Bolivia",
+      "salary": "1,000",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/0b7f4890-ae7d-41d7-b29d-ae6c0475abea",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Rogelio s",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1OB3BSU2ID8D7ibUezUIce36-KHSqAUtW/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "AP Operations Analyst",
+      "name": "Alvaro G",
+      "location": "Colombia",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1KmPLrSX4G643QVhbKBKp6LUg_p1MEc1f/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Jhostin G",
+      "location": "Bolivia",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1d-4FGQbi2nkr45URPhqTy7eEflLdGnJs/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Eddelia M",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1CszbpZh5ny42SiY5pF-rF8nbIxB9VOiG/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Carolina C",
+      "location": "Ecuador",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1DW7zYrFC_Zntjswv_4BdZ6V1FpdR-oQ9/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Luis B",
+      "location": "Panama",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1aTmSeJ2EQX_O5EtyOk14mNMSBtDMkLkX/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Andres V",
+      "location": "Colombia",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1l_JilWzbmE22BPC-9YmhvGMyznpmFgN8/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Monica H",
+      "location": "Peru",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/11QkAoFgC4Df_URk0hhIx7pQjhz3A2c0m/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Esteban F",
+      "location": "El Salvador",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/18b1fb08-8cf2-40c5-b8a3-bfd8c623a4ee",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "AP Operations Analyst",
+      "name": "Valeria G",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1xbKW1lie2SVOBFjtLKuDSIVlYa5obs8Y/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Dennys P",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/b6551ed0-1799-4c97-99e7-487396c785ea",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Ivan V",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1EwgwjwFgfJ5u6rsA4f8m66oB6qTHTyq3/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Manuela G",
+      "location": "Mexico",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1r33kOfFwF2TyOEWDTfSukgReWnqE8jge/view",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Marysol G",
+      "location": "Guatemala",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://candidate-video.com/uploads/4d2d8bb3-a4af-42bb-918e-48f779e60187",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Jessica P",
+      "location": "Guatemala",
+      "salary": "2,000",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/18gLYQpIIMMGheckw3Tn8lu8812W-QAw8/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Carolina H",
+      "location": "Panama",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1LGmPGifEwphfkiImJ4tzR9dU05rqYABA/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Alejandro Z",
+      "location": "Costa Rica",
+      "salary": "1,700",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1gHsZ7Ktvoex00XwnwFQFlruY6kVD1pkw/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Daissy V",
+      "location": "Peru",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1KHZBvjMhoT5-hfWO4VTPMIiNgr1GHenB/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
@@ -2072,7 +2591,7 @@
       "country": "Colombia",
       "sent": "06/04/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2084,7 +2603,7 @@
       "country": "Guatemala",
       "sent": "05/28/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Consider",
       "overall": "Consider",
       "docsShared": "Yes - via Teams",
@@ -2096,7 +2615,7 @@
       "country": "Mexico",
       "sent": "06/15/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2108,7 +2627,7 @@
       "country": "Honduras",
       "sent": "06/08/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Consider",
       "overall": "Consider",
       "docsShared": "",
@@ -2120,7 +2639,7 @@
       "country": "Nicaragua",
       "sent": "06/08/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Consider",
       "overall": "Consider",
       "docsShared": "",
@@ -2132,7 +2651,7 @@
       "country": "Colombia",
       "sent": "06/26/26",
       "criminal": "Pending",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Consider",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2144,7 +2663,7 @@
       "country": "Nicaragua",
       "sent": "06/26/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2156,7 +2675,7 @@
       "country": "Nicaragua",
       "sent": "07/06/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2168,7 +2687,7 @@
       "country": "Mexico",
       "sent": "07/13/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2180,7 +2699,7 @@
       "country": "Guatemala",
       "sent": "07/13/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
@@ -2191,12 +2710,12 @@
       "role": "Regional Sourcing Associate",
       "country": "Ecuador",
       "sent": "07/21/26",
-      "criminal": "Pending",
-      "watchlist": "Pending",
+      "criminal": "Clear",
+      "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/14/2026"
     },
     {
       "name": "Francisco Javier Antuna Mendiola",
@@ -2204,11 +2723,11 @@
       "country": "Mexico",
       "sent": "07/30/26",
       "criminal": "Pending",
-      "watchlist": "Pending",
-      "employment": "Pending",
+      "watchlist": "",
+      "employment": "Clear",
       "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/17/26"
     },
     {
       "name": "Andrea Martinez",
@@ -2216,19 +2735,19 @@
       "country": "El Salvador",
       "sent": "07/31/26",
       "criminal": "Clear",
-      "watchlist": "Clear",
+      "watchlist": "",
       "employment": "Clear",
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "08/11/26"
     },
     {
-      "name": "Abilene P",
+      "name": "Abilene Portillo Escarcega",
       "role": "Intake Analyst",
       "country": "Mexico",
       "sent": "08/10/26",
-      "criminal": "Pending",
-      "watchlist": "Pending",
+      "criminal": "Clear",
+      "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
       "docsShared": "",
@@ -2239,8 +2758,92 @@
       "role": "Client Service Associate",
       "country": "Nicaragua",
       "sent": "08/11/26",
+      "criminal": "Clear",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Samuel Garrido Páez",
+      "role": "Key Account Analyst",
+      "country": "Ecuador",
+      "sent": "08/12/26",
+      "criminal": "Clear",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/20/26"
+    },
+    {
+      "name": "Mariana Prada Arzabe",
+      "role": "Key Account Analyst",
+      "country": "Bolivia",
+      "sent": "08/12/26",
+      "criminal": "Clear",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Juan José Ruiz Mendoza",
+      "role": "Key Account Analyst",
+      "country": "Colombia",
+      "sent": "08/12/26",
+      "criminal": "Clear",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Sadeak Black",
+      "role": "Training Content Specialist",
+      "country": "Jamaica",
+      "sent": "08/13/26",
+      "criminal": "Consider",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jackeline Diaz Uribe",
+      "role": "Client Service Associate",
+      "country": "Peru",
+      "sent": "08/17/26",
       "criminal": "Pending",
-      "watchlist": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Julieanna Rodriguez",
+      "role": "Client Service Associate",
+      "country": "Argentina",
+      "sent": "08/20/26",
+      "criminal": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jhony Castillo Pineda",
+      "role": "",
+      "country": "Colombia",
+      "sent": "08/21/26",
+      "criminal": "Pending",
+      "watchlist": "",
       "employment": "Pending",
       "overall": "Pending",
       "docsShared": "",
@@ -2353,10 +2956,44 @@ async function init(){
   const upd=d?d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}):"—";
   document.getElementById('meta-updated').textContent="Synced "+upd;
   document.getElementById('foot-updated').textContent="Last synced "+upd;
-  renderStats();renderRequisitions();renderFilters();renderBoard();renderBg();
+  renderStats();renderRequisitions();renderFilters();renderBoard();renderBg();renderTTF();renderExited();
   setupTabs();
 }
 function activeRows(){return DATA.rows.filter(r=>!r._out);}
+
+// Date helpers for time-to-fill. Handles "Mon D, YYYY", "Mon D,YYYY", and "MM/DD/YY(YY)".
+function parseDate(s){
+  s=(s||"").trim(); if(!s||s==="-"||/^n\/a$/i.test(s)) return null;
+  let m=s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{2,4})$/);
+  if(m){let y=+m[3]; if(y<100) y+=2000; return new Date(y,+m[1]-1,+m[2]);}
+  const d=new Date(s.replace(/,(\S)/,', $1'));
+  return isNaN(d)?null:d;
+}
+function daysBetween(a,b){const x=parseDate(a),y=parseDate(b); if(!x||!y) return null; return Math.round((y-x)/864e5);}
+function avg(a){return a.length?Math.round(a.reduce((s,x)=>s+x,0)/a.length):null;}
+
+// #4 Time-to-fill: kickoff→placed for filled roles, and BG sent→shared turnaround.
+function renderTTF(){
+  const fills=(DATA.requests||[]).map(q=>daysBetween(q.kickoff,q.datePlaced)).filter(v=>v!=null&&v>=0);
+  const bgs=(DATA.bgchecks||[]).map(b=>daysBetween(b.sent,b.dateShared)).filter(v=>v!=null&&v>=0);
+  const cards=[];
+  if(fills.length) cards.push(['Avg time to fill', avg(fills), fills.length+' filled · kickoff → placed']);
+  if(bgs.length)   cards.push(['Avg background check', avg(bgs), bgs.length+' completed · sent → shared']);
+  document.getElementById('ttf').innerHTML = cards.map(c=>
+    `<div class="ttf-card"><div class="ttf-v">${c[1]}<small>&nbsp;days</small></div><div class="ttf-l">${c[0]}</div><div class="ttf-h">${c[2]}</div></div>`
+  ).join('');
+}
+
+// #3 Not-moving-forward: exited candidates (rejected/withdrawn/etc.) with reason.
+function renderExited(){
+  const ex=DATA.rows.filter(r=>r._out);
+  const el=document.getElementById('exited-table');
+  if(!ex.length){el.innerHTML='<div class="col-empty">No exited candidates</div>';return;}
+  const reason=r=>{const n=(r.notes||"").trim(); if(n) return n; const s=(r.status||"").toLowerCase(); return s.indexOf("reject")>-1?"Rejected":(r.status||"—");};
+  const head='<tr><th>Candidate</th><th>Role</th><th>Location</th><th>Stage reached</th><th>Reason</th></tr>';
+  const body=ex.map(r=>`<tr><td class="cand">${esc(r.name)}</td><td>${esc(r.role)||"—"}</td><td>${esc(r.location)||"—"}</td><td>${esc(r._stage)}</td><td class="note">${esc(reason(r))}</td></tr>`).join('');
+  el.innerHTML=`<table class="bg"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+}
 
 // Background-check tab: table straight from the BG sheet (full names — these are hires).
 function chkClass(v){v=(v||"").toLowerCase();
@@ -2417,6 +3054,7 @@ function setupTabs(){
   document.getElementById('tab-req-ct').textContent = buildRequisitions().length;
   document.getElementById('tab-cand-ct').textContent = activeRows().length;
   document.getElementById('tab-bg-ct').textContent = (DATA.bgchecks||[]).length;
+  document.getElementById('tab-exited-ct').textContent = DATA.rows.filter(r=>r._out).length;
   document.querySelectorAll('.pipe-tab').forEach(function(btn){
     btn.addEventListener('click', function(){
       const target = btn.dataset.panel;
@@ -2500,8 +3138,9 @@ function reqCard(req,col,i){
   const links=linksForRole(req.role);
   const stageCounts=STAGES.map(s=>({...s,n:req.cands.filter(r=>r._stage===s.key).length})).filter(s=>s.n>0);
   const mix=stageCounts.map(s=>`${s.n} ${s.key.replace('Interview','Int.')}`).join(' · ');
+  const fillDays=daysBetween(req.kickoff,req.datePlaced);
   const meta=[req.hr&&req.hr!=='N/A'?esc(req.hr):'', req.kickoff?'KO '+esc(req.kickoff):'',
-    (days!=null&&st.n!==8&&st.n!==9)?days+'d':''].filter(Boolean).join(' · ');
+    (st.n===8&&fillDays!=null&&fillDays>=0)?fillDays+'d to fill':((days!=null&&st.n!==8&&st.n!==9)?days+'d open':'')].filter(Boolean).join(' · ');
   return `
   <div class="rq" style="--cc:${col.c};animation-delay:${i*40}ms">
     <div class="rq-top">
