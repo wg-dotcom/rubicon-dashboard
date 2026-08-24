@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T19:09:58.000Z",
+  "updated": "2026-08-24T19:13:10.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1325,7 +1325,7 @@
       "location": "El Salvador",
       "salary": "1,750",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1GcNa3dT6EEjtaRtwuyvpc22vBPbiVVZF/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
