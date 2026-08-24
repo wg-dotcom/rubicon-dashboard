@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:13:37.000Z",
+  "updated": "2026-08-24T17:14:27.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -213,7 +213,7 @@
       "name": "Gabriel R",
       "location": "Argentina",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/ea11b1cc-bc91-4a91-972d-492fc1da3650",
       "cv": "cvs/gabriel-r.html",
       "notes": "He got disconnected from the interview and never rejoined."
