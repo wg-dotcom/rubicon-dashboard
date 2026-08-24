@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T20:23:45.000Z",
+  "updated": "2026-08-24T20:24:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1333,8 +1333,8 @@
       "batch": "4",
       "role": "Regional Sourcing Associate",
       "name": "Carlos M",
-      "location": "",
-      "salary": "",
+      "location": "Mexico",
+      "salary": "1,400",
       "status": "",
       "video": "",
       "cv": "",
