@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T19:13:10.000Z",
+  "updated": "2026-08-24T20:05:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2465,18 +2465,6 @@
       "dateShared": "08/14/2026"
     },
     {
-      "name": "Francisco Javier Antuna Mendiola",
-      "role": "Client Service Associate",
-      "country": "Mexico",
-      "sent": "07/30/26",
-      "criminal": "Clear",
-      "education": "Clear",
-      "employment": "Clear",
-      "overall": "Clear",
-      "docsShared": "Yes - via Teams",
-      "dateShared": "08/17/26"
-    },
-    {
       "name": "Andrea Martinez",
       "role": "Training Content Specialist",
       "country": "El Salvador",
@@ -2489,13 +2477,37 @@
       "dateShared": "08/11/26"
     },
     {
+      "name": "Samuel Garrido Páez",
+      "role": "Key Account Analyst",
+      "country": "Ecuador",
+      "sent": "08/12/26",
+      "criminal": "Clear",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/20/26"
+    },
+    {
+      "name": "Francisco Javier Antuna Mendiola",
+      "role": "Client Service Associate",
+      "country": "Mexico",
+      "sent": "07/30/26",
+      "criminal": "Clear",
+      "education": "Clear",
+      "employment": "Clear",
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "08/24/26"
+    },
+    {
       "name": "Abilene Portillo Escarcega",
       "role": "Intake Analyst",
       "country": "Mexico",
       "sent": "08/10/26",
-      "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
+      "criminal": "Pending",
+      "education": "Clear",
+      "employment": "Clear",
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
@@ -2511,18 +2523,6 @@
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
-    },
-    {
-      "name": "Samuel Garrido Páez",
-      "role": "Key Account Analyst",
-      "country": "Ecuador",
-      "sent": "08/12/26",
-      "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "Yes - via Teams",
-      "dateShared": "08/20/26"
     },
     {
       "name": "Mariana Prada Arzabe",
