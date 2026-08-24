@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T17:25:22.000Z",
+  "updated": "2026-08-24T17:28:34.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -249,7 +249,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/fac99832-48dc-41ae-abd0-ef24ab8ea99f",
       "cv": "cvs/evanan-c.html",
-      "notes": "Accepted another job offer"
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
@@ -271,7 +271,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/162f2b52-5c24-409d-83e5-326c7f44a2df",
       "cv": "cvs/camilo-m.html",
-      "notes": "Accepted another job offer"
+      "notes": "Accepted another offer"
     },
     {
       "batch": "1",
@@ -337,7 +337,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/5d22fdb0-0916-4faf-9cbc-125a7cd45796",
       "cv": "cvs/linval-l.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -348,7 +348,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/189BpmcrlyCJHJiHzmJcHFeaYcM3OT8sW/view?usp=drive_link",
       "cv": "cvs/leonardo-m.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -359,7 +359,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/1GBywlwqoE935tj7FplU52frcq0f1O1C2/view?usp=drive_link",
       "cv": "cvs/carlos-s.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -370,7 +370,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/1XI-5sx86lAdJhDYLoTOq1HmajAGlAz2I/view?usp=drive_link",
       "cv": "cvs/marlon-m.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -381,7 +381,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/14zC1Xcu-vfemwvw4bdsSP2usHNFJjRht/view?usp=drive_link",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -392,7 +392,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/0d2688e7-7d61-4e91-a44a-28c047182a94",
       "cv": "cvs/marlon-m.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -403,7 +403,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/a94b83e8-35e9-4977-9236-ee3aba902599",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -414,7 +414,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/de64b8a9-a920-45ba-a4fe-c4b4d597cfa3",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -425,7 +425,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/1e05b488-c178-406d-ab34-1f300d911e6b",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "3",
@@ -436,7 +436,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/3dc1c936-90e2-490c-8815-72bb0dd064e9",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -447,7 +447,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/1QcWYaRuU46SVzvJX86MddUpvB8EPYDjw/view?usp=drive_link",
       "cv": "cvs/jose-p.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -458,7 +458,7 @@
       "status": "Rejected",
       "video": "https://candidate-video.com/uploads/b89aa615-3d79-4a0c-b20b-5c2c52f76198",
       "cv": "cvs/ricardo-u.html",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -469,7 +469,7 @@
       "status": "Rejected",
       "video": "https://drive.google.com/file/d/1NUjVpP1lxOa3iIW9eTneVxQgGMU_lRaN/view?usp=drive_link",
       "cv": "",
-      "notes": "On hold"
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
