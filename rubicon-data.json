@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T14:08:31.000Z",
+  "updated": "2026-08-24T15:53:40.000Z",
   "customer": "Rubicon",
   "contact": "",
   "advisor": "Vicky",
@@ -387,6 +387,18 @@
       "role": "Client Service Associate",
       "country": "Argentina",
       "sent": "08/20/26",
+      "criminal": "Pending",
+      "watchlist": "",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jhony Castillo Pineda",
+      "role": "Training Content Specialist",
+      "country": "Colombia",
+      "sent": "08/21/26",
       "criminal": "Pending",
       "watchlist": "",
       "employment": "Pending",
