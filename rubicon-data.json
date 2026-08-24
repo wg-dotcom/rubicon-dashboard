@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-24T15:51:50.000Z",
+  "updated": "2026-08-24T16:04:28.000Z",
   "customer": "Rubicon",
-  "contact": "",
+  "contact": "JossLyn Castor",
   "advisor": "Vicky",
   "requests": [
     {
@@ -1709,7 +1709,7 @@
       "name": "Andrea M",
       "location": "El Salvador",
       "salary": "1,500",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/14ce-u_-qabLiLy0KeT0bHYlpKcjnluW6/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2320,7 +2320,6 @@
       "notes": ""
     }
   ],
-  "rows": [],
   "bgchecks": [
     {
       "name": "Judy Avila Salazar",
@@ -2576,7 +2575,7 @@
     },
     {
       "name": "Jhony Castillo Pineda",
-      "role": "",
+      "role": "Training Content Specialist",
       "country": "Colombia",
       "sent": "08/21/26",
       "criminal": "Pending",
