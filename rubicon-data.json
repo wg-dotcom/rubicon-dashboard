@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:04:28.000Z",
+  "updated": "2026-08-24T16:08:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -16,11 +16,11 @@
     {
       "hr": "HR95911",
       "role": "Client Service Associate",
-      "status": "8. Placed",
+      "status": "6. Job Offer Letter / Signature",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "June 5, 2026",
-      "notes": "Ronald hired, invoice sent · Francisco - Background completed; Feli will share the results \n08/17: Feli reached out to someone from Certn · Julieanna Offered, background check · Osman background check · July 8 - additional batch (5) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) will have second interviews this week. \nAdonay, Luis, and Osvaldo invited to interviews for this week\nOsman and Rafael moving to second interviews next week \nLast batch 9 candidates.\n Rafael, Osman, - Offered\n5th batch July 30 - 7 candidates (Bret, Percy, and Julliana invited to interviews)\nJuliana will have a 2nd interview next week\n08/13: Batch 6 (7 candidates) (Kimberly, Xavier, and Jose invited to interviews)\nJulieanna Offered, along with Osman (Rafael rejected, lie on his resume). Julieanna and Osman working on background check \n08/24: Percy, Jose, and Xavier invited to second interviews, Kimberly rejected (not the best fit based on the hiring manager feedback)"
+      "notes": "Francisco - Background completed; Feli will share the results \n08/17: Feli reached out to someone from Certn · Ronald hired, invoice sent · Julieanna Offered, background check · Osman background check · July 8 - additional batch (5) sent\nFrancisco, Hector, and Anayla scheduled (Batch 3) will have second interviews this week. \nAdonay, Luis, and Osvaldo invited to interviews for this week\nOsman and Rafael moving to second interviews next week \nLast batch 9 candidates.\n Rafael, Osman, - Offered\n5th batch July 30 - 7 candidates (Bret, Percy, and Julliana invited to interviews)\nJuliana will have a 2nd interview next week\n08/13: Batch 6 (7 candidates) (Kimberly, Xavier, and Jose invited to interviews)\nJulieanna Offered, along with Osman (Rafael rejected, lie on his resume). Julieanna and Osman working on background check \n08/24: Percy, Jose, and Xavier invited to second interviews, Kimberly rejected (not the best fit based on the hiring manager feedback)"
     },
     {
       "hr": "HR95269",
@@ -77,6 +77,15 @@
       "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
     },
     {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (4 candidates), pending feedback\nFollow up on 08/21"
+    },
+    {
       "hr": "HR50452",
       "role": "Revenue Project Specialist",
       "status": "9. Closed / Paused / M.I.A.",
@@ -93,15 +102,6 @@
       "kickoff": "July 8,2026",
       "datePlaced": "July 31,2026",
       "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, working on her background check · 3 candidates/ 12 months project \n07/16 Presented Batch 1 (5 candidates),  pending feedback but have 4 more candidates ready to present - batch July 23\nDayana, Jhony, and Johana had their interviews; waiting feedback \nSadeak, Geraldine and Raymond invited to interviews\nRaymond withdrew (looking for a long term) \nSadeak Offered, working on her background check\nGeraldine had her interview, but it did not went well, Dayana and Jhony will have a 2nd interview this week\n08/21: Jhony offered, initiate background check"
-    },
-    {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "Pending feedback - Interviewed 3 candidates, pending feedback\n3 additional presented, pending feedback \nMichelle no longer available; accepted another offer, asked for feedback on Cesar and Harold \nNext batch shared July 31st (4 candidates), pending feedback\nFollow up on 08/21"
     },
     {
       "hr": "HR82449",
