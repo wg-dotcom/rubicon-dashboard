@@ -1,12 +1,20 @@
 name: Sync Rubicon data
 
-# Rebuilds rubicon-data.json from both Google Sheets, event-driven:
-# fires when the Sheets onChange trigger pings repository_dispatch, or on manual run.
+# Rebuilds rubicon-data.json from both Google Sheets.
+# Three ways to run:
+#   1. Instantly, when the Sheets onChange trigger pings repository_dispatch.
+#   2. On a schedule: Mon / Wed / Fri at 8am ET (see the gate job for the DST-safe logic).
+#   3. Manually, via the "Run workflow" button.
 # No secrets needed for data: the sheets are link-readable and the built-in token commits.
 
 on:
   repository_dispatch:
-    types: [sheet-changed]    # fired instantly by the Sheets onChange trigger — the only auto path
+    types: [sheet-changed]    # fired instantly by the Sheets onChange trigger
+  schedule:
+    # GitHub cron is UTC only and never observes DST, so we fire at BOTH candidate
+    # hours (12:00 and 13:00 UTC) on Mon/Wed/Fri, then the gate job below keeps only
+    # the run that lands on 08:00 America/New_York. Result: exactly 8am ET year-round.
+    - cron: "0 12,13 * * 1,3,5"
   workflow_dispatch: {}       # manual "Run workflow" button
 
 permissions:
@@ -17,7 +25,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Decide whether the sync should run. Non-schedule events always pass.
+  # Schedule events pass only at 08:00 America/New_York, so DST never shifts the hour.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=yes" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          h=$(TZ=America/New_York date +%H)
+          echo "America/New_York hour: $h"
+          if [ "$h" = "08" ]; then echo "run=yes" >> "$GITHUB_OUTPUT";
+          else echo "run=no (not 8am ET)" ; echo "run=no" >> "$GITHUB_OUTPUT"; fi
+
   sync:
+    needs: gate
+    if: needs.gate.outputs.run == 'yes'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5

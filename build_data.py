@@ -105,7 +105,7 @@ def build_bgchecks(path):
             "country": col(r, "country"),
             "sent": col(r, "date sent processed", "date sent"),
             "criminal": col(r, "criminal search", "criminal"),
-            "watchlist": col(r, "global watchlist", "watchlist"),
+            "education": col(r, "education verification", "education"),
             "employment": col(r, "employment verification", "employment"),
             "overall": col(r, "overall result", "overall"),
             "docsShared": col(r, "docs shared with rubicon?", "docs shared"),
