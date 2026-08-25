@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T13:57:49.000Z",
+  "updated": "2026-08-25T14:39:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -600,6 +600,17 @@
       "salary": "1,500",
       "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/1e1aa49a-5a2b-4051-9afa-154e40fc350d",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "Client Service Associate",
+      "name": "Igor G",
+      "location": "Brazil",
+      "salary": "1,200",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/b8ec4ec9-d6e2-4071-bbda-191e2886f5d2",
       "cv": "",
       "notes": ""
     },
