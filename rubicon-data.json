@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T15:50:01.000Z",
+  "updated": "2026-08-25T16:09:24.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2327,6 +2327,17 @@
       "salary": "2,000",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1xbKW1lie2SVOBFjtLKuDSIVlYa5obs8Y/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "AP Operations Analyst",
+      "name": "Iliana L",
+      "location": "",
+      "salary": "1,600",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
