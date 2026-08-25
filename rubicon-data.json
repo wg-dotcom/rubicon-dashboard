@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:52:19.000Z",
+  "updated": "2026-08-25T14:55:55.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -632,7 +632,7 @@
       "location": "Colombia",
       "salary": "1,300",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1wG8So3Ueg6Covbs9v4hV4ei-7AiJKRIb/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
@@ -2116,7 +2116,7 @@
       "name": "Raquel C",
       "location": "Panama",
       "salary": "1,300",
-      "status": "First Interview",
+      "status": "Final Interview",
       "video": "https://drive.google.com/file/d/1kCeuUjpa8Rd393PVfo_F5B8GRjZ1LKT4/view?usp=drive_link",
       "cv": "",
       "notes": ""
