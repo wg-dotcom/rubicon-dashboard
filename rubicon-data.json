@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T18:13:36.000Z",
+  "updated": "2026-08-25T19:12:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2382,6 +2382,17 @@
       "salary": "",
       "status": "",
       "video": "https://candidate-video.com/uploads/1bb966df-0b2e-4eeb-b21c-5a4874568b43",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "AP Operations Analyst",
+      "name": "Claudinei",
+      "location": "Brazil",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
