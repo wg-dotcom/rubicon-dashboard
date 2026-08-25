@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:22:07.000Z",
+  "updated": "2026-08-25T21:22:51.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -684,10 +684,10 @@
       "batch": "7",
       "role": "Client Service Associate",
       "name": "Escarlet M",
-      "location": "",
-      "salary": "",
+      "location": "Mexico",
+      "salary": "1,200",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1Nasq-VLEHXTHU3w-UBOu-8gGPHF4VeP-/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
