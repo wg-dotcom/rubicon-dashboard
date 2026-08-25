@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:39:57.000Z",
+  "updated": "2026-08-25T14:44:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -611,6 +611,17 @@
       "salary": "1,200",
       "status": "",
       "video": "https://candidate-video.com/uploads/b8ec4ec9-d6e2-4071-bbda-191e2886f5d2",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "Client Service Associate",
+      "name": "Marcia F",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
