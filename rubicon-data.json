@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T16:16:45.000Z",
+  "updated": "2026-08-25T16:19:54.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2351,6 +2351,17 @@
       "video": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-gjT6R2cAJEus/c7d4368e-8275-477d-8bdf-40d462072b4b-aFib5eEVRXKpHs85dKOwRGguLtdG9ZPzaNfEcDg9sBHWlPuTXdcBrXFwRb0ZVCm8Qzjbx7szqzOE5geDXYXpkw0Nklcmq3Gl6TG/Marvin-castillo-currAculum.pdf",
       "cv": "",
       "notes": "Pending some info"
+    },
+    {
+      "batch": "4",
+      "role": "AP Operations Analyst",
+      "name": "Vivian A",
+      "location": "Guatemala",
+      "salary": "",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/1bb966df-0b2e-4eeb-b21c-5a4874568b43",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
