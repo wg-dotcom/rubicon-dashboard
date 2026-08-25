@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:51:27.000Z",
+  "updated": "2026-08-25T14:52:19.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -624,6 +624,17 @@
       "video": "https://candidate-video.com/uploads/c095ce10-33b7-4a83-91bc-02080ae32124",
       "cv": "",
       "notes": "Pending some confirmation"
+    },
+    {
+      "batch": "7",
+      "role": "Client Service Associate",
+      "name": "Valeria L",
+      "location": "Colombia",
+      "salary": "1,300",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
