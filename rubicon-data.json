@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T14:45:46.000Z",
+  "updated": "2026-08-25T14:51:27.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -621,9 +621,9 @@
       "location": "Nicaragua",
       "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/c095ce10-33b7-4a83-91bc-02080ae32124",
       "cv": "",
-      "notes": ""
+      "notes": "Pending some confirmation"
     },
     {
       "batch": "1",
