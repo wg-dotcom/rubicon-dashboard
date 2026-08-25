@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T16:12:58.000Z",
+  "updated": "2026-08-25T16:15:25.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2338,6 +2338,17 @@
       "salary": "1,600",
       "status": "",
       "video": "https://candidate-video.com/uploads/681fbf77-a779-4699-9c49-41510d579b54",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "AP Operations Analyst",
+      "name": "Marvin C",
+      "location": "Honduras",
+      "salary": "1,400",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
