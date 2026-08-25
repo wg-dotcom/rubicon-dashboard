@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T20:13:15.000Z",
+  "updated": "2026-08-25T20:38:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -666,6 +666,17 @@
       "salary": "1,300",
       "status": "",
       "video": "https://drive.google.com/file/d/1SLZrmhzpY84OOZKQb-BG1PmXP7KkNmp_/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "Client Service Associate",
+      "name": "Simey P",
+      "location": "Costa Rica",
+      "salary": "1,300",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
