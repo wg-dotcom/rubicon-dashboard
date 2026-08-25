@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T17:26:20.000Z",
+  "updated": "2026-08-25T18:00:43.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1216,6 +1216,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/12K6XtR1JtUIQbQx340C2ItgfiQzxXkAU/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Key Account Analyst",
+      "name": "Bruna S",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/7aa9a3b3-52c6-4eba-a789-17a5850b6e2b",
       "cv": "",
       "notes": ""
     },
