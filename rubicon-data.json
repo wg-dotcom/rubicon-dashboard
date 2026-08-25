@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T21:22:51.000Z",
+  "updated": "2026-08-25T21:31:19.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1412,7 +1412,7 @@
       "name": "Brenda S",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "",
       "video": "https://drive.google.com/file/d/1A_FdtL8dhATjZaiXgI0GY6zaEE9JUSLa/view?usp=drive_link",
       "cv": "",
       "notes": ""
