@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T02:21:42.000Z",
+  "updated": "2026-08-26T02:27:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1073,6 +1073,17 @@
       "salary": "1,900",
       "status": "Offered",
       "video": "https://drive.google.com/file/d/1AqU-Hytlk_z4m1Jv5Lobj4caB_NuRxLX/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Intake Analyst",
+      "name": "Evelin G",
+      "location": "Guatemala",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
