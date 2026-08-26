@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T01:07:20.000Z",
+  "updated": "2026-08-26T02:13:19.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2426,6 +2426,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1bNmekQePqCQ29OgMXFx-QAxHk_xRReTt/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "AP Operations Analyst",
+      "name": "Elias A",
+      "location": "Mexico",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
