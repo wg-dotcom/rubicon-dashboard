@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T19:12:55.000Z",
+  "updated": "2026-08-26T19:33:52.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1271,6 +1271,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/7aa9a3b3-52c6-4eba-a789-17a5850b6e2b",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Key Account Analyst",
+      "name": "Javier R",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
