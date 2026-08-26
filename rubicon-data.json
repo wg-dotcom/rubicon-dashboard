@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T16:42:20.000Z",
+  "updated": "2026-08-26T18:01:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2540,17 +2540,6 @@
       "notes": ""
     },
     {
-      "batch": "2",
-      "role": "Senior Accounts Receivable Analyst",
-      "name": "Carolina H",
-      "location": "Panama",
-      "salary": "1,500",
-      "status": "",
-      "video": "https://drive.google.com/file/d/1LGmPGifEwphfkiImJ4tzR9dU05rqYABA/view?usp=drive_link",
-      "cv": "",
-      "notes": ""
-    },
-    {
       "batch": "1",
       "role": "Senior Accounts Receivable Analyst",
       "name": "Alejandro Z",
@@ -2569,6 +2558,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1KHZBvjMhoT5-hfWO4VTPMIiNgr1GHenB/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Carolina H",
+      "location": "Panama",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1LGmPGifEwphfkiImJ4tzR9dU05rqYABA/view?usp=drive_link",
       "cv": "",
       "notes": ""
     }
