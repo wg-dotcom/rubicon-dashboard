@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T02:17:25.000Z",
+  "updated": "2026-08-26T02:20:28.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1623,6 +1623,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/f13e6259-0f53-4848-820a-fc96459d694f",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Regional Sourcing Team Lead",
+      "name": "Krystel M",
+      "location": "Honduras",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
