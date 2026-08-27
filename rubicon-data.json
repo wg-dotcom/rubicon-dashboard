@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T20:33:27.000Z",
+  "updated": "2026-08-27T22:39:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2246,10 +2246,10 @@
       "name": "Raquel C",
       "location": "Panama",
       "salary": "1,300",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1kCeuUjpa8Rd393PVfo_F5B8GRjZ1LKT4/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Withdrew from the process"
     },
     {
       "batch": "1",
