@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T21:59:37.000Z",
+  "updated": "2026-08-27T01:06:19.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1284,6 +1284,17 @@
       "video": "https://drive.google.com/file/d/1ltwNtOcXnPRIrpY7Ier1eAvZOsjusMY-/view?usp=drive_link",
       "cv": "",
       "notes": "waiting a new video"
+    },
+    {
+      "batch": "4",
+      "role": "Key Account Analyst",
+      "name": "Patricio D",
+      "location": "Argentina",
+      "salary": "1,300",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
     },
     {
       "batch": "1",
