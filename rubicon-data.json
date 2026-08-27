@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T13:40:24.000Z",
+  "updated": "2026-08-27T13:45:41.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1292,7 +1292,7 @@
       "location": "Argentina",
       "salary": "1,300",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1OucAsFSkFBSPyyyeETE9GXdF31_qQP-V/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
