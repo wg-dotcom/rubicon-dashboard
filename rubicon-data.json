@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T16:18:26.000Z",
+  "updated": "2026-08-27T16:19:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -144,7 +144,7 @@
       "role": "Financial & Operations Analyst",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
-      "kickoff": "",
+      "kickoff": "August 27, 2026",
       "datePlaced": "",
       "notes": ""
     }
