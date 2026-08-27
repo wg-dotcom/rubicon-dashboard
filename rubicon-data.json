@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T17:02:40.000Z",
+  "updated": "2026-08-27T17:47:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2755,9 +2755,9 @@
       "country": "Ecuador",
       "sent": "08/12/26",
       "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
-      "overall": "Pending",
+      "education": "Clear",
+      "employment": "Clear",
+      "overall": "Clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "08/20/26"
     },
