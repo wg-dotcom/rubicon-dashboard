@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T16:19:22.000Z",
+  "updated": "2026-08-27T16:20:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -140,13 +140,13 @@
       "notes": "08/19: Batch 1 presented (6 candidates), waiting feedback"
     },
     {
-      "hr": "????",
+      "hr": "HR????",
       "role": "Financial & Operations Analyst",
       "status": "1. KickOff Meeting",
       "advisor": "Vicky",
       "kickoff": "August 27, 2026",
       "datePlaced": "",
-      "notes": ""
+      "notes": "Sourcing candidates"
     }
   ],
   "rows": [
