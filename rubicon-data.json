@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T17:27:00.000Z",
+  "updated": "2026-08-31T20:33:39.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2633,6 +2633,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/574ed2d1-3f2a-4270-ad61-26ac9a2255cc",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Financial & Operations Analyst",
+      "name": "Fatima V",
+      "location": "El Salvador",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
