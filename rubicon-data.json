@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T14:54:34.000Z",
+  "updated": "2026-08-31T17:27:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -895,6 +895,17 @@
       "salary": "2,000",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1UiKXtCMSHmXNQp8iV6kPaJLy9gyWbv45/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "4",
+      "role": "Client Services Team Lead",
+      "name": "Isaac A",
+      "location": "Nicaragua",
+      "salary": "1,800",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/d5676608-6524-4a29-a686-49282106bb87",
       "cv": "",
       "notes": ""
     },
