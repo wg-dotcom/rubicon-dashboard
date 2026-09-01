@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T15:27:42.000Z",
+  "updated": "2026-09-01T15:29:26.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -110,7 +110,7 @@
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers"
+      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
     },
     {
       "hr": "HR42533",
@@ -915,10 +915,10 @@
       "name": "Kelly N",
       "location": "Ecuador",
       "salary": "1,750",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1f4PLonXZ_UL2SUPvtm_oyIQb1Fm0PcUc/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -926,10 +926,10 @@
       "name": "Karla S.",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1M961BmBz_P8-Y8ZrKglsvkCSbV_dOKaf/view",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -937,10 +937,10 @@
       "name": "Frida R",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/15HgxYayi9KwylwuMLnEl7ducUQi68amP/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -948,10 +948,10 @@
       "name": "Publio M",
       "location": "Brazil",
       "salary": "1,800",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/11i9t6qynCiP6QuBei8srC5z_pwxY2N8T/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -959,10 +959,10 @@
       "name": "Roberto A",
       "location": "Mexico",
       "salary": "1,900",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1gD7pW_XO7F-J1GHTyLZ5-7dJelvKrkeJ/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -970,10 +970,10 @@
       "name": "Ricardo R",
       "location": "Colombia",
       "salary": "1,300",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1gjvA8THyzS5bsexvwRV12cFRnpNx7Rmu/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -981,10 +981,10 @@
       "name": "Jose M",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/17DEthsGTZR0jn8iEuXnUpDS72v-Qzwr-/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
@@ -992,10 +992,10 @@
       "name": "Alejandro G",
       "location": "Colombia",
       "salary": "1,700",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1ws1aXy8mBOT7WkaULrtHqHrahIv-2_FS/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "2",
@@ -1006,7 +1006,7 @@
       "status": "",
       "video": "https://drive.google.com/file/d/1Vkecvj3zjpHQTZ8oPTCkqpC_fDMBczK-/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position On hold"
     },
     {
       "batch": "1",
