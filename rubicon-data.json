@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T17:03:12.000Z",
+  "updated": "2026-09-01T17:09:26.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2290,7 +2290,7 @@
       "name": "Alejandro I",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1hvQNyDSOCHSAgC-wqfANihAWXC2NLgNc/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2301,7 +2301,7 @@
       "name": "Felipe S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/cb5c9d55-32a5-48b8-87a3-1b1f3d1d75e6",
       "cv": "",
       "notes": ""
@@ -2312,7 +2312,7 @@
       "name": "Gabriel G",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/99ab5165-ad50-462e-aa1c-9b698c8f9397",
       "cv": "",
       "notes": ""
