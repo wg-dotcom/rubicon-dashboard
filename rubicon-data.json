@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T15:43:31.000Z",
+  "updated": "2026-09-01T16:20:10.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2644,6 +2644,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/7dd5e390-c39f-4373-9b9e-14e7b61f54a7",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "1",
+      "role": "Financial & Operations Analyst",
+      "name": "Santiago U",
+      "location": "Argentina",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
