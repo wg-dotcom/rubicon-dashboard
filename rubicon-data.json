@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T16:34:07.000Z",
+  "updated": "2026-09-01T17:00:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2249,7 +2249,7 @@
       "status": "Final Interview",
       "video": "https://candidate-video.com/uploads/3126d8ee-b80c-45d8-b43b-ea32f7e25579",
       "cv": "",
-      "notes": ""
+      "notes": "The team decided not to move forward with the him"
     },
     {
       "batch": "1",
@@ -2279,10 +2279,10 @@
       "name": "Erick G",
       "location": "Guatemala",
       "salary": "1,400",
-      "status": "Final Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1TnGjN_4f_8w8GfyP-vpJpOUiIr29ZeJp/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "The team decided not to move forward with the him"
     },
     {
       "batch": "2",
@@ -2905,9 +2905,9 @@
       "role": "Client Service Associate",
       "country": "Argentina",
       "sent": "08/20/26",
-      "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
+      "criminal": "Pending",
+      "education": "Clear",
+      "employment": "Clear",
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
