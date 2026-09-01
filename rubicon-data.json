@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T18:24:31.000Z",
+  "updated": "2026-09-01T19:14:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2869,12 +2869,12 @@
       "role": "Key Account Analyst",
       "country": "Bolivia",
       "sent": "08/12/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "education": "Clear",
       "employment": "Clear",
       "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "docsShared": "Yes - via Teams",
+      "dateShared": "09/01/26"
     },
     {
       "name": "Osman Flores",
