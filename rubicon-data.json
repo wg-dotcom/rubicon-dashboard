@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T20:12:10.000Z",
+  "updated": "2026-09-01T20:18:47.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -119,7 +119,7 @@
       "advisor": "Vicky",
       "kickoff": "July 16,2026",
       "datePlaced": "",
-      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21"
+      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
     },
     {
       "hr": "HR47156",
@@ -2114,10 +2114,10 @@
       "name": "Carolina S",
       "location": "Mexico",
       "salary": "3,200",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/f5126932-b343-48c3-bd01-a08b8592cd5f",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2125,10 +2125,10 @@
       "name": "Eslin U",
       "location": "Costa Rica",
       "salary": "2,500",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1fWT3ptw5ctcl97JZZl9C6QOI-jkUZ2SS/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2136,10 +2136,10 @@
       "name": "Lourdes",
       "location": "Mexico",
       "salary": "3,200",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/edfe6707-033c-4b9e-a20a-af0b19092447",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2147,10 +2147,10 @@
       "name": "Jose E",
       "location": "Peru",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1kT-TyVqP46gmf_AB87kQ-Xhsq_CCTr-i/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2158,10 +2158,10 @@
       "name": "Cindy A",
       "location": "El Salvador",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1Xm6HjPBkuXP3vnwK21gGybzfE4Jhy5dI/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2169,10 +2169,10 @@
       "name": "Adriana S",
       "location": "Mexico",
       "salary": "3,000",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2180,10 +2180,10 @@
       "name": "Alejandra C",
       "location": "Mexico",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1u_PpjaP-676k4e-qRG8bDigwQ4aF4SEI/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "2",
@@ -2191,10 +2191,10 @@
       "name": "Sofia S",
       "location": "Colombia",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/13muy7drfQ8JVN8KEc4uEfaAtR6UCFpNB/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "2",
@@ -2202,10 +2202,10 @@
       "name": "Astrid S",
       "location": "Colombia",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1c1w-sJF4RLWj57GqI1boAcPx4wdq2KeV/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "2",
@@ -2213,10 +2213,10 @@
       "name": "Sofia M",
       "location": "Mexico",
       "salary": "3,000",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1EgulhuYbb7OGcesKH5Mb_PcwvDYA110b/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "2",
@@ -2224,10 +2224,10 @@
       "name": "Liliana M",
       "location": "Peru",
       "salary": "3,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1aTGWlt80KqGp5aEDy68LJlgcfjqZkntm/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
@@ -2235,10 +2235,10 @@
       "name": "Jose R",
       "location": "Honduras",
       "salary": "1,300",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/16cuifhjHRVxekj_Ok1KzTM5Q5_DXxd7T/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Position Closed"
     },
     {
       "batch": "1",
