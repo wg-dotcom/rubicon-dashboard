@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T18:49:37.000Z",
+  "updated": "2026-09-02T23:48:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2611,6 +2611,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1LGmPGifEwphfkiImJ4tzR9dU05rqYABA/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Senior Accounts Receivable Analyst",
+      "name": "Jefry A",
+      "location": "",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
