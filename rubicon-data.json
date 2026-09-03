@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T20:35:13.000Z",
+  "updated": "2026-09-03T20:50:35.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2944,18 +2944,6 @@
       "dateShared": "09/03/26"
     },
     {
-      "name": "Julieanna Rodriguez",
-      "role": "Client Service Associate",
-      "country": "Argentina",
-      "sent": "08/20/26",
-      "criminal": "Pending",
-      "education": "Clear",
-      "employment": "Clear",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
-    },
-    {
       "name": "Osman Flores",
       "role": "Client Service Associate",
       "country": "Nicaragua",
@@ -2963,6 +2951,18 @@
       "criminal": "Clear",
       "education": "Clear",
       "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Julieanna Rodriguez",
+      "role": "Client Service Associate",
+      "country": "Argentina",
+      "sent": "08/20/26",
+      "criminal": "Pending",
+      "education": "Clear",
+      "employment": "Clear",
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
