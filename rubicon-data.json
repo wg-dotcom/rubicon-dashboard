@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:59:55.000Z",
+  "updated": "2026-09-03T16:08:10.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2527,13 +2527,13 @@
       "notes": ""
     },
     {
-      "batch": "4",
+      "batch": "5",
       "role": "AP Operations Analyst",
       "name": "Carlos G",
       "location": "Colombia",
       "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/b3cb9d24-c748-4dc3-923f-8b9e56196f34",
       "cv": "",
       "notes": ""
     },
