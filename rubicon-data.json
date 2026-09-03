@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T16:08:10.000Z",
+  "updated": "2026-09-03T19:47:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2534,6 +2534,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/b3cb9d24-c748-4dc3-923f-8b9e56196f34",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "AP Operations Analyst",
+      "name": "Stephanie G",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1Emvgaj_tq4bqesIf8Ud4HGz_Br1eAZff/view?usp=drive_link",
       "cv": "",
       "notes": ""
     },
