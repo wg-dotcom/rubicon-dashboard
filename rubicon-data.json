@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T20:12:45.000Z",
+  "updated": "2026-09-03T20:35:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2927,7 +2927,7 @@
       "criminal": "Clear",
       "education": "Clear",
       "employment": "Clear",
-      "overall": "Pending",
+      "overall": "Clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "09/01/26"
     },
@@ -2937,8 +2937,20 @@
       "country": "Peru",
       "sent": "08/17/26",
       "criminal": "Clear",
-      "education": "Pending",
+      "education": "Clear",
       "employment": "Pending",
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "09/03/26"
+    },
+    {
+      "name": "Julieanna Rodriguez",
+      "role": "Client Service Associate",
+      "country": "Argentina",
+      "sent": "08/20/26",
+      "criminal": "Pending",
+      "education": "Clear",
+      "employment": "Clear",
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
@@ -2951,18 +2963,6 @@
       "criminal": "Clear",
       "education": "Clear",
       "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
-    },
-    {
-      "name": "Julieanna Rodriguez",
-      "role": "Client Service Associate",
-      "country": "Argentina",
-      "sent": "08/20/26",
-      "criminal": "Pending",
-      "education": "Clear",
-      "employment": "Clear",
       "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
