@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T20:02:51.000Z",
+  "updated": "2026-09-03T20:12:45.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2549,6 +2549,17 @@
       "notes": ""
     },
     {
+      "batch": "5",
+      "role": "AP Operations Analyst",
+      "name": "Ana S",
+      "location": "Brazil",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
+      "cv": "",
+      "notes": ""
+    },
+    {
       "batch": "1",
       "role": "Senior Accounts Receivable Analyst",
       "name": "Dennys P",
@@ -2921,24 +2932,24 @@
       "dateShared": "09/01/26"
     },
     {
-      "name": "Osman Flores",
-      "role": "Client Service Associate",
-      "country": "Nicaragua",
-      "sent": "08/11/26",
-      "criminal": "Clear",
-      "education": "Clear",
-      "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
-    },
-    {
       "name": "Jackeline Diaz Uribe",
       "role": "Intake Analyst",
       "country": "Peru",
       "sent": "08/17/26",
       "criminal": "Clear",
       "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Osman Flores",
+      "role": "Client Service Associate",
+      "country": "Nicaragua",
+      "sent": "08/11/26",
+      "criminal": "Clear",
+      "education": "Clear",
       "employment": "Pending",
       "overall": "Pending",
       "docsShared": "",
