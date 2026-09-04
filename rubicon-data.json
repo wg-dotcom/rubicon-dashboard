@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:24:48.000Z",
+  "updated": "2026-09-04T14:47:09.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -20,7 +20,7 @@
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "June 5, 2026",
-      "notes": "Francisco - Background completed; signed the offer, start date 08/31, invoice sent, waiting for payment · Ronald hired, invoice sent · Julieanna Offered, background check · Osman background check · Sep 2: Percy, Jose, and Xavier completed second interviews, pending feedback \nNew Batch 7 on 08/27, waiting for feedback"
+      "notes": "Francisco - Background completed; signed the offer, start date 08/31, invoice paid · Ronald hired, invoice sent · Julieanna Offered, background check · Osman background check · Sep 2: Percy, Jose, and Xavier completed second interviews, pending feedback \nNew Batch 7 on 08/27, waiting for feedback"
     },
     {
       "hr": "HR95269",
@@ -2290,10 +2290,10 @@
       "name": "Alejandro I",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1hvQNyDSOCHSAgC-wqfANihAWXC2NLgNc/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Unresponsive"
     },
     {
       "batch": "2",
@@ -2301,10 +2301,10 @@
       "name": "Felipe S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "First Interview",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/cb5c9d55-32a5-48b8-87a3-1b1f3d1d75e6",
       "cv": "",
-      "notes": ""
+      "notes": "Unresponsive"
     },
     {
       "batch": "2",
