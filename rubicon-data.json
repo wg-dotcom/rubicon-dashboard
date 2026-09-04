@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T13:58:48.000Z",
+  "updated": "2026-09-04T13:59:47.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -128,7 +128,7 @@
       "advisor": "Vicky",
       "kickoff": "Jul 17, 2026",
       "datePlaced": "",
-      "notes": "They now want 11 candidates for this role\nSep 2: 4 batches have been sent. 5 candidates currently in 1st interview - coordinating for next week when Lu is back.\nGabriel, Alejandro, Felipe, Rogelio (Batch 2)\nAndres (Batch 3). Rogelio, Alejandro, and Felipe, unresponsive\nBatch 4 - pending feedback (7 candidates)\nWill share more candidates next week, once Lu is back"
+      "notes": "They now want 11 candidates for this role\nSep 2: 4 batches have been sent. 5 candidates currently in 1st interview - coordinating for next week when Lu is back.\nGabriel, Alejandro, Felipe, Rogelio (Batch 2)\nAndres (Batch 3). Rogelio, Alejandro, and Felipe, unresponsive, Gabriel and Andres already sch for next week\nBatch 4 - pending feedback (7 candidates)\nWill share more candidates next week, once Lu is back"
     },
     {
       "hr": "HR98330",
@@ -146,7 +146,7 @@
       "advisor": "Vicky",
       "kickoff": "August 27, 2026",
       "datePlaced": "",
-      "notes": "4 candidates ready to present. Presenting on Tuesday, when Lu is back from her time off."
+      "notes": "5 candidates ready to present. Presenting on Tuesday, when Lu is back from her time off."
     }
   ],
   "rows": [
