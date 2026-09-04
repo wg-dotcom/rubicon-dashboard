@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:47:09.000Z",
+  "updated": "2026-09-04T14:48:32.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -16,7 +16,7 @@
     {
       "hr": "HR95911",
       "role": "Client Service Associate",
-      "status": "7. Invoice",
+      "status": "8. Placed",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "June 5, 2026",
@@ -29,7 +29,7 @@
       "advisor": "Vicky",
       "kickoff": "May 26, 2026",
       "datePlaced": "May 27, 2026",
-      "notes": "Alex hired - Start date July 6\npayment Reflected · Abilene BGC completed, offer signed, pending invoice · Jackeline offered, background check completed, documents shared with Rubicon, pendig their confirmation"
+      "notes": "Alex hired - Start date July 6\npayment Reflected · Abilene BGC completed, offer signed, pending paid · Jackeline offered, background check completed, documents shared with Rubicon, pendig their confirmation"
     },
     {
       "hr": "HR60297",
@@ -38,7 +38,7 @@
       "advisor": "Vicky",
       "kickoff": "May 28, 2026",
       "datePlaced": "June 12,2026",
-      "notes": "Emilio  - hired - payment reflected · 08/19: Batch 3 presented (5 candidates), pending feedback \nNew Batch on 08/27, waiting for feedback \nMariana (4th hire for this role) Offered,  background completed, pending confirmation from Rubicon that they review the documentation, but I'll share the offer · Juan - BGC completed, offer signed, pending invoice · Samuel, offer letter. BCG complete, signed offer, invoice payed on 08/27"
+      "notes": "Emilio  - hired - payment reflected · 08/19: Batch 3 presented (5 candidates), pending feedback \nNew Batch on 08/27, waiting for feedback \nMariana (4th hire for this role) Offered,  background completed, pending confirmation from Rubicon that they review the documentation, but I'll share the offer · Juan - BGC completed, offer signed, invoice paid · Samuel, offer letter. BCG complete, signed offer, invoice payed on 08/27"
     },
     {
       "hr": "HR78147",
@@ -101,7 +101,7 @@
       "advisor": "Vicky",
       "kickoff": "July 8,2026",
       "datePlaced": "July 31,2026",
-      "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice sent · 08/21: Jhony offered, background check in progress"
+      "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid · 08/21: Jhony offered, background check in progress"
     },
     {
       "hr": "HR82449",
