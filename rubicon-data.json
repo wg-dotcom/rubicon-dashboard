@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T16:01:40.000Z",
+  "updated": "2026-09-08T16:09:14.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -719,6 +719,17 @@
       "salary": "1,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/9363effe-e821-4cce-914f-621a2a7d4812",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "8",
+      "role": "Client Service Associate",
+      "name": "Britney P",
+      "location": "Jamaica",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
