@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T17:09:33.000Z",
+  "updated": "2026-09-08T17:28:11.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -398,7 +398,7 @@
       "name": "Osman F",
       "location": "Nicaragua",
       "salary": "1,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://candidate-video.com/uploads/d85285e9-efb2-467e-9138-2d4d22b934f6",
       "cv": "",
       "notes": ""
@@ -1190,7 +1190,7 @@
       "name": "Mariana P",
       "location": "Bolivia",
       "salary": "2,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1_cnKZBsOFH39Ds_4KeW8VksNzTRUSr53/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1245,10 +1245,10 @@
       "name": "Andre Z",
       "location": "Ecuador",
       "salary": "1,500",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/d63a411d-51f5-4c1e-81a9-b8bfef670b52",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -1256,10 +1256,10 @@
       "name": "Sofia O",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1rTblt7zxhEk6M7LcOTkHTVp6mA9cVJ9W/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -1267,10 +1267,10 @@
       "name": "Cristiana B",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/19vsiJQy-tKYAAgZXfcYQjVc9tZHu9yY2/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -1278,10 +1278,10 @@
       "name": "Hector R",
       "location": "Colombia",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1LwxYL6ycMM6rGPlOcrTUlb8F994qdaHc/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "3",
@@ -1289,10 +1289,10 @@
       "name": "Jose F",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/32794945-fedc-4642-bd83-ffc1f30652b7",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "4",
@@ -1300,10 +1300,10 @@
       "name": "Angel M",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/12K6XtR1JtUIQbQx340C2ItgfiQzxXkAU/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "4",
@@ -1311,10 +1311,10 @@
       "name": "Bruna S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/7aa9a3b3-52c6-4eba-a789-17a5850b6e2b",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "4",
@@ -1322,10 +1322,10 @@
       "name": "Javier R",
       "location": "Venezuela",
       "salary": "1,200",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1ltwNtOcXnPRIrpY7Ier1eAvZOsjusMY-/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "4",
@@ -1333,10 +1333,10 @@
       "name": "Patricio D",
       "location": "Argentina",
       "salary": "1,300",
-      "status": "Rejected",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1OucAsFSkFBSPyyyeETE9GXdF31_qQP-V/view?usp=drive_link",
       "cv": "",
-      "notes": "Position Closed"
+      "notes": ""
     },
     {
       "batch": "1",
