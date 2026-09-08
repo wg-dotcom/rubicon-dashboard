@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T15:39:22.000Z",
+  "updated": "2026-09-08T15:55:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -708,6 +708,17 @@
       "salary": "1,000",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1wnMgcTDTOYaavGIqXwhzgp7-D4XslSuS/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "Client Service Associate",
+      "name": "Jeysmi A",
+      "location": "Nicaragua",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
