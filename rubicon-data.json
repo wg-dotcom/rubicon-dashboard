@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T17:47:34.000Z",
+  "updated": "2026-09-08T18:23:47.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2620,7 +2620,7 @@
       "name": "Ivan V",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Presented",
+      "status": "Contacted",
       "video": "https://drive.google.com/file/d/1EwgwjwFgfJ5u6rsA4f8m66oB6qTHTyq3/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2631,7 +2631,7 @@
       "name": "Manuela G",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1r33kOfFwF2TyOEWDTfSukgReWnqE8jge/view",
       "cv": "",
       "notes": ""
@@ -2642,7 +2642,7 @@
       "name": "Marysol G",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "Final Interview",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/4d2d8bb3-a4af-42bb-918e-48f779e60187",
       "cv": "",
       "notes": ""
@@ -2653,7 +2653,7 @@
       "name": "Jessica P",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/18gLYQpIIMMGheckw3Tn8lu8812W-QAw8/view?usp=drive_link",
       "cv": "",
       "notes": ""
