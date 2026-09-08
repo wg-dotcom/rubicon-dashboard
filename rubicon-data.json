@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T18:23:47.000Z",
+  "updated": "2026-09-08T21:21:57.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1119,7 +1119,7 @@
       "notes": "Withdrew"
     },
     {
-      "batch": "3",
+      "batch": "",
       "role": "Intake Analyst",
       "name": "Evelin G",
       "location": "Guatemala",
