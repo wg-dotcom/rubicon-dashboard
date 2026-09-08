@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T15:28:01.000Z",
+  "updated": "2026-09-08T15:28:48.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -142,11 +142,11 @@
     {
       "hr": "HR58093",
       "role": "Financial & Operations Analyst",
-      "status": "1. KickOff Meeting",
+      "status": "2. Candidates Presented",
       "advisor": "Vicky",
       "kickoff": "August 27, 2026",
       "datePlaced": "",
-      "notes": "5 candidates ready to present. Presenting on Tuesday, when Lu is back from her time off."
+      "notes": "09/08: Presented Batch 1 (5 candidates)"
     }
   ],
   "rows": [
