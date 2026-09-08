@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T16:10:41.000Z",
+  "updated": "2026-09-08T17:09:33.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1047,7 +1047,7 @@
       "name": "Abilene P",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "Offered",
+      "status": "Placed",
       "video": "https://drive.google.com/file/d/1-7hcC2qITNd_reXPKXmLJaVTf8iNU7Yq/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1113,10 +1113,10 @@
       "name": "Jackeline D",
       "location": "Peru",
       "salary": "1,900",
-      "status": "Offered",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1AqU-Hytlk_z4m1Jv5Lobj4caB_NuRxLX/view?usp=drive_link",
       "cv": "",
-      "notes": ""
+      "notes": "Withdrew"
     },
     {
       "batch": "3",
