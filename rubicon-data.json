@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T15:51:07.000Z",
+  "updated": "2026-09-09T15:54:26.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -760,9 +760,9 @@
       "role": "Client Service Associate",
       "name": "Leslie B",
       "location": "Ecuador",
-      "salary": "",
+      "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/85b7ae09-dca7-4592-928f-4e77a7b7e079",
       "cv": "",
       "notes": ""
     },
