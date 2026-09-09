@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:56:55.000Z",
+  "updated": "2026-09-09T15:43:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -741,6 +741,17 @@
       "salary": "1,200",
       "status": "",
       "video": "https://candidate-video.com/uploads/efb96557-b98b-4034-b1da-c77c8f9b18ff",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "8",
+      "role": "Client Service Associate",
+      "name": "Pedro D",
+      "location": "Argentina",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
