@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:38:26.000Z",
+  "updated": "2026-09-09T14:51:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -730,6 +730,17 @@
       "salary": "1,400",
       "status": "",
       "video": "https://drive.google.com/file/d/1hcxQ53SntZYwTaoetIhz-ChLlxnqwdsE/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "8",
+      "role": "Client Service Associate",
+      "name": "Gabriel S",
+      "location": "Brazil",
+      "salary": "1,200",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
