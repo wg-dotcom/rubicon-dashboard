@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T17:35:12.000Z",
+  "updated": "2026-09-09T20:27:55.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2886,6 +2886,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://drive.google.com/file/d/1i6D7MUwYFz5MhMiO2D0gqVNx5VS85IYE/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Financial & Operations Analyst",
+      "name": "Claudia O",
+      "location": "El Salvador",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/71779c5b-bd94-49ea-be01-9c3090064f25",
       "cv": "",
       "notes": ""
     }
