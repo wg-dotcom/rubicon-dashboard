@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:21:40.000Z",
+  "updated": "2026-09-09T14:28:43.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2644,6 +2644,17 @@
       "salary": "1,600",
       "status": "",
       "video": "https://candidate-video.com/uploads/9b679ac0-18e7-4cc5-bf1d-4e6ff372f30a",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "6",
+      "role": "AP Operations Analyst",
+      "name": "Jose M",
+      "location": "Guatemala",
+      "salary": "1,400",
+      "status": "",
+      "video": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-gjT6R2cAJEus/aa86f9fd-1482-456f-8fc2-76e4b10723f9-eIDCCFBc8MZheepmc3fDODPzewJEvvnPx1aIM9YjoTU7Y87vdqhIqF5GC0CTruGqs90AlVGiIQjCbPzbs5fC2s3zr1fu6bw1vj9/Jose-Marroquin-BO-CV.pdf",
       "cv": "",
       "notes": ""
     },
