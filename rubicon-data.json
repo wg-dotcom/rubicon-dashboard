@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T15:43:29.000Z",
+  "updated": "2026-09-09T15:51:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -750,6 +750,17 @@
       "name": "Pedro D",
       "location": "Argentina",
       "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/14mAY3Ad3uqzjsegY-RjL9LeEPH65CddK/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "8",
+      "role": "Client Service Associate",
+      "name": "Leslie B",
+      "location": "Ecuador",
+      "salary": "",
       "status": "",
       "video": "",
       "cv": "",
