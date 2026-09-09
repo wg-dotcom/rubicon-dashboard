@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T16:00:34.000Z",
+  "updated": "2026-09-09T16:03:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -574,10 +574,10 @@
       "name": "Alejandro S",
       "location": "Nicaragua",
       "salary": "1,200",
-      "status": "Presented",
+      "status": "Rejected",
       "video": "https://candidate-video.com/uploads/84854591-0b69-4c87-9e81-b16cc6e46c1b",
       "cv": "",
-      "notes": ""
+      "notes": "Accepted another offer"
     },
     {
       "batch": "6",
