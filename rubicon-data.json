@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T14:18:16.000Z",
+  "updated": "2026-09-09T14:21:40.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2640,10 +2640,10 @@
       "batch": "6",
       "role": "AP Operations Analyst",
       "name": "Juan",
-      "location": "",
-      "salary": "",
+      "location": "Brazil",
+      "salary": "1,600",
       "status": "",
-      "video": "",
+      "video": "https://candidate-video.com/uploads/9b679ac0-18e7-4cc5-bf1d-4e6ff372f30a",
       "cv": "",
       "notes": ""
     },
