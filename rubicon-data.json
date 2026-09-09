@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T20:51:16.000Z",
+  "updated": "2026-09-09T21:13:55.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3161,10 +3161,10 @@
       "sent": "08/21/26",
       "criminal": "Clear",
       "education": "Clear",
-      "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "employment": "Clear",
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "09/09/26"
     }
   ]
 }
