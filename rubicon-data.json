@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T19:07:12.000Z",
+  "updated": "2026-09-10T19:29:42.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1225,6 +1225,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1Vf4cMQag_JzKJhyrcu_hKn9B47F36vaS/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Intake Analyst",
+      "name": "Marcos G.",
+      "location": "Peru",
+      "salary": "1,500",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
