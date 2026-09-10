@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T21:20:33.000Z",
+  "updated": "2026-09-10T13:34:53.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -764,7 +764,7 @@
       "status": "",
       "video": "https://candidate-video.com/uploads/07fa9046-bd34-4712-b88a-1155199dabb0",
       "cv": "",
-      "notes": ""
+      "notes": "Pending equipment confirmation"
     },
     {
       "batch": "8",
@@ -1191,7 +1191,7 @@
       "location": "Jamaica",
       "salary": "1,500",
       "status": "",
-      "video": "Pending",
+      "video": "",
       "cv": "",
       "notes": ""
     },
