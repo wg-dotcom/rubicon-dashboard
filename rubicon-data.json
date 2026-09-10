@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T16:28:57.000Z",
+  "updated": "2026-09-10T16:30:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -255,7 +255,7 @@
       "name": "Alex D",
       "location": "Guatemala",
       "salary": "1,200",
-      "status": "Placed",
+      "status": "Rejected",
       "video": "https://drive.google.com/file/d/1Pc6XwX_GRfhn3A0yW1aNivgYCeKAsGAX/view?usp=drive_link",
       "cv": "cvs/alex-d.html",
       "notes": "offered for the Accounts Intake Analyst role"
