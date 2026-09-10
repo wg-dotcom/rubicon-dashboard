@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T21:03:46.000Z",
+  "updated": "2026-09-10T23:50:29.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1236,6 +1236,17 @@
       "salary": "1,500",
       "status": "",
       "video": "Pending",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Intake Analyst",
+      "name": "Sebastian T",
+      "location": "Ecuador",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/169fceed-91f8-4e39-83e6-b50fa66681de",
       "cv": "",
       "notes": ""
     },
