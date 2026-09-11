@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T17:22:43.000Z",
+  "updated": "2026-09-11T20:55:30.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1190,7 +1190,7 @@
       "name": "Tanya J",
       "location": "Jamaica",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1HMLC17RMRCH250mUBjH2F77dwaIQfJiP/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1201,7 +1201,7 @@
       "name": "Alexandra R",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Q1f99FX0gk18XEK2KowsVJiGguT76D5X/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1223,7 +1223,7 @@
       "name": "Yanique T",
       "location": "Jamaica",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Vf4cMQag_JzKJhyrcu_hKn9B47F36vaS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1234,7 +1234,7 @@
       "name": "Marcos G.",
       "location": "Peru",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1sI1jm2WwG-UDUmaSP7A6w1WqF6Sm_RMy/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -1245,7 +1245,7 @@
       "name": "Sebastian T",
       "location": "Ecuador",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/169fceed-91f8-4e39-83e6-b50fa66681de",
       "cv": "",
       "notes": ""
@@ -1256,7 +1256,7 @@
       "name": "Jose E",
       "location": "Honduras",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/14910331-8a95-4a8f-99b0-e8d7ad39fad6",
       "cv": "",
       "notes": ""
