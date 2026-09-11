@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:50:29.000Z",
+  "updated": "2026-09-11T01:02:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1247,6 +1247,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://candidate-video.com/uploads/169fceed-91f8-4e39-83e6-b50fa66681de",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Intake Analyst",
+      "name": "Jose E",
+      "location": "Honduras",
+      "salary": "",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/14910331-8a95-4a8f-99b0-e8d7ad39fad6",
       "cv": "",
       "notes": ""
     },
