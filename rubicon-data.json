@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T01:49:27.000Z",
+  "updated": "2026-09-11T13:15:56.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2686,7 +2686,7 @@
       "name": "Carlos G",
       "location": "Colombia",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/b3cb9d24-c748-4dc3-923f-8b9e56196f34",
       "cv": "",
       "notes": ""
@@ -2697,7 +2697,7 @@
       "name": "Stephanie G",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Emvgaj_tq4bqesIf8Ud4HGz_Br1eAZff/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2708,7 +2708,7 @@
       "name": "Ana S",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1EA92B7JsVporc9KBVTDUurK43SyjO50R/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2719,7 +2719,7 @@
       "name": "Jose O",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/14e_JT4MGRfX6po6sEsJagBP7P4vyDr3H/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2730,7 +2730,7 @@
       "name": "Adriana C",
       "location": "Argentina",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1e3WJ0pXKIkJS5C90C99GPxJjA0R1P3pF/view?usp=drive_link",
       "cv": "",
       "notes": ""
