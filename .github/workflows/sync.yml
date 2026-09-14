@@ -3,7 +3,7 @@ name: Sync Rubicon data
 # Rebuilds rubicon-data.json from both Google Sheets.
 # Three ways to run:
 #   1. Instantly, when the Sheets onChange trigger pings repository_dispatch.
-#   2. Every day at 8:00 AM Argentina time (11:00 UTC).
+#   2. Every day at 8:07 AM Argentina time (11:07 UTC).
 #   3. Manually, via the "Run workflow" button.
 # No secrets needed for data: the sheets are link-readable and the built-in token commits.
 
@@ -11,8 +11,9 @@ on:
   repository_dispatch:
     types: [sheet-changed]    # fired instantly by the Sheets onChange trigger
   schedule:
-    # Argentina uses UTC-3 year-round: 11:00 UTC = 08:00 Argentina.
-    - cron: "0 11 * * *"
+    # Argentina uses UTC-3 year-round: 11:07 UTC = 08:07 Argentina.
+    # Minute 7 avoids GitHub Actions' heavier top-of-hour scheduler load.
+    - cron: "7 11 * * *"
   workflow_dispatch: {}       # manual "Run workflow" button
 
 permissions:
