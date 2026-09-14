@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T15:39:10.000Z",
+  "updated": "2026-09-14T15:40:07.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -629,7 +629,7 @@
       "name": "Marcia F",
       "location": "Nicaragua",
       "salary": "1,500",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://candidate-video.com/uploads/c095ce10-33b7-4a83-91bc-02080ae32124",
       "cv": "",
       "notes": ""
@@ -695,7 +695,7 @@
       "name": "Escarlet M",
       "location": "Mexico",
       "salary": "1,200",
-      "status": "Presented",
+      "status": "First Interview",
       "video": "https://drive.google.com/file/d/1Nasq-VLEHXTHU3w-UBOu-8gGPHF4VeP-/view?usp=drive_link",
       "cv": "",
       "notes": ""
