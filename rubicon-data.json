@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T17:56:20.000Z",
+  "updated": "2026-09-15T17:58:43.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2906,7 +2906,7 @@
       "name": "Karla C",
       "location": "El Salvador",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1Z7fW-8-kxhtAmTr5Civch_f_X2floFOS/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2917,7 +2917,7 @@
       "name": "Ludwing M",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "",
+      "status": "First Interview",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/574ed2d1-3f2a-4270-ad61-26ac9a2255cc",
       "cv": "",
       "notes": ""
@@ -2928,7 +2928,7 @@
       "name": "Fatima V",
       "location": "El Salvador",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/7dd5e390-c39f-4373-9b9e-14e7b61f54a7",
       "cv": "",
       "notes": ""
@@ -2939,7 +2939,7 @@
       "name": "Santiago U",
       "location": "Argentina",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1XtWM31-ZOb4m0aoDgYTYA0j5HKBw7O8d/view?usp=drive_link",
       "cv": "",
       "notes": ""
@@ -2950,7 +2950,7 @@
       "name": "Manuel S",
       "location": "Mexico",
       "salary": "2,000",
-      "status": "",
+      "status": "Presented",
       "video": "https://drive.google.com/file/d/1i6D7MUwYFz5MhMiO2D0gqVNx5VS85IYE/view?usp=drive_link",
       "cv": "",
       "notes": ""
