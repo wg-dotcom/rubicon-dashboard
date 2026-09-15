@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T18:39:28.000Z",
+  "updated": "2026-09-15T18:40:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -1691,13 +1691,24 @@
       "notes": "Offered willl be extended for the Regional Sourcing Associate"
     },
     {
-      "batch": "",
+      "batch": "5",
       "role": "Regional Sourcing Associate",
       "name": "Tatiana L",
       "location": "Colombia",
       "salary": "1,500",
       "status": "",
       "video": "https://drive.google.com/file/d/1ZX4slWkpkbVtsISXvjS_xuMzEqqf3TUi/view?usp=drive_link",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Regional Sourcing Associate",
+      "name": "Ana M",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     },
