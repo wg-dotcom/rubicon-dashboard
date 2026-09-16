@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T20:15:45.000Z",
+  "updated": "2026-09-16T16:42:26.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -7,11 +7,56 @@
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
-      "status": "8. Placed",
+      "status": "9. Closed / Paused / M.I.A.",
       "advisor": "Vicky",
       "kickoff": "May 7, 2026",
       "datePlaced": "Jun 24, 2026",
-      "notes": "Kelly placed · Evanan -  Accepted another offer. BGC took a month. · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager.\n08/06: Presented another batch, waiting feedback\n08/24: presented 4 additional candidates last week, waiting feedback\nTalked to Lu requesting updates and feedback"
+      "notes": "Evanan -  Accepted another offer. BGC took a month. · Kelly placed · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager.\n08/06: Presented another batch, waiting feedback\n08/24: presented 4 additional candidates last week, waiting feedback\nTalked to Lu requesting updates and feedback"
+    },
+    {
+      "hr": "HR83733",
+      "role": "Sales Development Representative",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "June 3, 2026",
+      "datePlaced": "",
+      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
+    },
+    {
+      "hr": "HR70870",
+      "role": "Sr Developer, Business Intelligence",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "N/A",
+      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
+    },
+    {
+      "hr": "HR50452",
+      "role": "Revenue Project Specialist",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 16,2026",
+      "datePlaced": "",
+      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
+    },
+    {
+      "hr": "HR82449",
+      "role": "Data Management Analyst",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 8,2026",
+      "datePlaced": "",
+      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
+    },
+    {
+      "hr": "HR42533",
+      "role": "Regional Sourcing Manager",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 16,2026",
+      "datePlaced": "",
+      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
     },
     {
       "hr": "HR95911",
@@ -50,15 +95,6 @@
       "notes": "Judy - start date June 22 - pending reflected"
     },
     {
-      "hr": "HR83733",
-      "role": "Sales Development Representative",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 3, 2026",
-      "datePlaced": "",
-      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
-    },
-    {
       "hr": "HR47113",
       "role": "Regional Sourcing Associate",
       "status": "8. Placed",
@@ -68,24 +104,6 @@
       "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer, iinvoice payed on 08/27 · New batch July 30 - 5 candidates, pending feedback\nFollow up on 08/21\nNew Batch 4 on 08/27, waiting for feedback \nCarlos (Batch 4)'s invited to 2nd interview"
     },
     {
-      "hr": "HR70870",
-      "role": "Sr Developer, Business Intelligence",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "N/A",
-      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
-    },
-    {
-      "hr": "HR50452",
-      "role": "Revenue Project Specialist",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
-    },
-    {
       "hr": "HR98287",
       "role": "Training Content Specialist",
       "status": "8. Placed",
@@ -93,24 +111,6 @@
       "kickoff": "July 8,2026",
       "datePlaced": "July 31,2026",
       "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid · Jhony signed the offer, invoice sent"
-    },
-    {
-      "hr": "HR82449",
-      "role": "Data Management Analyst",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 8,2026",
-      "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
-    },
-    {
-      "hr": "HR42533",
-      "role": "Regional Sourcing Manager",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
     },
     {
       "hr": "HR62951",
@@ -1709,6 +1709,17 @@
       "salary": "1,400",
       "status": "",
       "video": "https://candidate-video.com/uploads/dcbc593d-8453-46f0-b846-6d5b738fa240",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "5",
+      "role": "Regional Sourcing Associate",
+      "name": "Katherine C",
+      "location": "Honduras",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/cae09469-388d-48a2-b2a7-fa2b1964854f",
       "cv": "",
       "notes": ""
     },
