@@ -1,9 +1,18 @@
 {
-  "updated": "2026-09-16T16:42:26.000Z",
+  "updated": "2026-09-16T17:00:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
   "requests": [
+    {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Batch 3 and 4 candidates currently in process\n09/02: Lina (batch 3) completed her second interview, pending feedback\n4th Batch on 08/27, waiting for feedback \nTalked to Lu requesting updates and feedback"
+    },
     {
       "hr": "HR38830",
       "role": "Client Services Team Lead",
@@ -14,6 +23,15 @@
       "notes": "Evanan -  Accepted another offer. BGC took a month. · Kelly placed · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager.\n08/06: Presented another batch, waiting feedback\n08/24: presented 4 additional candidates last week, waiting feedback\nTalked to Lu requesting updates and feedback"
     },
     {
+      "hr": "HR47156",
+      "role": "AP Operations Analyst",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "Jul 17, 2026",
+      "datePlaced": "",
+      "notes": "They now want 11 candidates for this role\nSep 2: 4 batches have been sent. 5 candidates currently in 1st interview - coordinating for next week when Lu is back.\nGabriel, Alejandro, Felipe, Rogelio (Batch 2)\nAndres (Batch 3). Rogelio, Alejandro, and Felipe, unresponsive, Gabriel and Andres already sch for next week\nBatch 4 - pending feedback (7 candidates)\n09/08: Present Batch 5 \nTalked to Lu, requesting updates and feedback; will present Batch 6, this week"
+    },
+    {
       "hr": "HR83733",
       "role": "Sales Development Representative",
       "status": "9. Closed / Paused / M.I.A.",
@@ -21,6 +39,15 @@
       "kickoff": "June 3, 2026",
       "datePlaced": "",
       "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
+    },
+    {
+      "hr": "HR98330",
+      "role": "Senior Accounts Receivable Analyst",
+      "status": "5. Final Interview",
+      "advisor": "Vicky",
+      "kickoff": "August 13, 2026",
+      "datePlaced": "",
+      "notes": "Marysol, and Manuela second interviews September 10 and 11"
     },
     {
       "hr": "HR70870",
@@ -39,6 +66,15 @@
       "kickoff": "July 16,2026",
       "datePlaced": "",
       "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
+    },
+    {
+      "hr": "HR58093",
+      "role": "Financial & Operations Analyst",
+      "status": "2. Candidates Presented",
+      "advisor": "Vicky",
+      "kickoff": "August 27, 2026",
+      "datePlaced": "",
+      "notes": "09/08: Presented Batch 1 (5 candidates)"
     },
     {
       "hr": "HR82449",
@@ -111,42 +147,6 @@
       "kickoff": "July 8,2026",
       "datePlaced": "July 31,2026",
       "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid · Jhony signed the offer, invoice sent"
-    },
-    {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "",
-      "notes": "Batch 3 and 4 candidates currently in process\n09/02: Lina (batch 3) completed her second interview, pending feedback\n4th Batch on 08/27, waiting for feedback \nTalked to Lu requesting updates and feedback"
-    },
-    {
-      "hr": "HR47156",
-      "role": "AP Operations Analyst",
-      "status": "3. 1st Round of Interviews",
-      "advisor": "Vicky",
-      "kickoff": "Jul 17, 2026",
-      "datePlaced": "",
-      "notes": "They now want 11 candidates for this role\nSep 2: 4 batches have been sent. 5 candidates currently in 1st interview - coordinating for next week when Lu is back.\nGabriel, Alejandro, Felipe, Rogelio (Batch 2)\nAndres (Batch 3). Rogelio, Alejandro, and Felipe, unresponsive, Gabriel and Andres already sch for next week\nBatch 4 - pending feedback (7 candidates)\n09/08: Present Batch 5 \nTalked to Lu, requesting updates and feedback; will present Batch 6, this week"
-    },
-    {
-      "hr": "HR98330",
-      "role": "Senior Accounts Receivable Analyst",
-      "status": "5. Final Interview",
-      "advisor": "Vicky",
-      "kickoff": "August 13, 2026",
-      "datePlaced": "",
-      "notes": "Marysol, and Manuela second interviews September 10 and 11"
-    },
-    {
-      "hr": "HR58093",
-      "role": "Financial & Operations Analyst",
-      "status": "2. Candidates Presented",
-      "advisor": "Vicky",
-      "kickoff": "August 27, 2026",
-      "datePlaced": "",
-      "notes": "09/08: Presented Batch 1 (5 candidates)"
     }
   ],
   "rows": [
