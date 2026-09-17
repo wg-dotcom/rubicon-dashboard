@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T20:09:14.000Z",
+  "updated": "2026-09-17T21:28:48.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3242,6 +3242,30 @@
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "09/09/26"
+    },
+    {
+      "name": "Liliana Marysol Granados Alvarado",
+      "role": "Senior Accounts Receivable Analyst",
+      "country": "Guatemala",
+      "sent": "09/17/26",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jessica Michelle Pineda Morales",
+      "role": "Senior Accounts Receivable Analyst",
+      "country": "Guatemala",
+      "sent": "09/17/26",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
     }
   ]
 }
