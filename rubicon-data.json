@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T15:03:07.000Z",
+  "updated": "2026-09-17T15:19:09.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2851,7 +2851,7 @@
       "name": "Marysol G",
       "location": "Guatemala",
       "salary": "1,500",
-      "status": "Final Interview",
+      "status": "Offered",
       "video": "https://candidate-video.com/uploads/4d2d8bb3-a4af-42bb-918e-48f779e60187",
       "cv": "",
       "notes": ""
@@ -2862,7 +2862,7 @@
       "name": "Jessica P",
       "location": "Guatemala",
       "salary": "2,000",
-      "status": "Final Interview",
+      "status": "Offered",
       "video": "https://drive.google.com/file/d/18gLYQpIIMMGheckw3Tn8lu8812W-QAw8/view?usp=drive_link",
       "cv": "",
       "notes": ""
