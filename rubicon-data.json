@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T20:02:49.000Z",
+  "updated": "2026-09-17T20:07:56.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2774,7 +2774,7 @@
       "name": "Pablo T",
       "location": "Brazil",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/20e80fca-e0be-463b-b82d-d052bc61ebdd",
       "cv": "",
       "notes": ""
@@ -2785,7 +2785,7 @@
       "name": "Juan",
       "location": "Brazil",
       "salary": "1,600",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/9b679ac0-18e7-4cc5-bf1d-4e6ff372f30a",
       "cv": "",
       "notes": ""
@@ -2796,7 +2796,7 @@
       "name": "Jose M",
       "location": "Guatemala",
       "salary": "1,400",
-      "status": "",
+      "status": "Presented",
       "video": "https://prod-fillout-oregon-s3.s3.us-west-2.amazonaws.com/orgid-351357/flowpublicid-gjT6R2cAJEus/aa86f9fd-1482-456f-8fc2-76e4b10723f9-eIDCCFBc8MZheepmc3fDODPzewJEvvnPx1aIM9YjoTU7Y87vdqhIqF5GC0CTruGqs90AlVGiIQjCbPzbs5fC2s3zr1fu6bw1vj9/Jose-Marroquin-BO-CV.pdf",
       "cv": "",
       "notes": ""
@@ -2807,7 +2807,7 @@
       "name": "Carolina M",
       "location": "Mexico",
       "salary": "1,500",
-      "status": "",
+      "status": "Presented",
       "video": "https://candidate-video.com/uploads/953a1719-f315-464f-9785-9a7a82c363bb",
       "cv": "",
       "notes": ""
