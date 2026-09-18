@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T15:15:15.000Z",
+  "updated": "2026-09-18T17:24:56.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2974,6 +2974,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/71779c5b-bd94-49ea-be01-9c3090064f25",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Financial & Operations Analyst",
+      "name": "Jean G",
+      "location": "Pero",
+      "salary": "2,000",
+      "status": "",
+      "video": "https://candidate-video.com/uploads/00d9fef5-5cbf-45b2-af4c-4296fc03cbaf",
       "cv": "",
       "notes": ""
     }
