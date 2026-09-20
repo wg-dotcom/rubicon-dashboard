@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T14:21:33.000Z",
+  "updated": "2026-09-20T14:40:54.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3283,10 +3283,10 @@
       "role": "Regional Sourcing Associate",
       "country": "Mexico",
       "sent": "09/19/26",
-      "criminal": "",
-      "education": "",
-      "employment": "",
-      "overall": "",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
       "docsShared": "",
       "dateShared": ""
     }
