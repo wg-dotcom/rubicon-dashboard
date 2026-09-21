@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T17:55:27.000Z",
+  "updated": "2026-09-21T20:10:01.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2985,6 +2985,17 @@
       "salary": "2,000",
       "status": "",
       "video": "https://candidate-video.com/uploads/00d9fef5-5cbf-45b2-af4c-4296fc03cbaf",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "2",
+      "role": "Financial & Operations Analyst",
+      "name": "Jose A",
+      "location": "Ecuador",
+      "salary": "2,000",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
