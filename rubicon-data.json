@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T14:40:54.000Z",
+  "updated": "2026-09-21T13:50:02.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -2928,10 +2928,10 @@
       "name": "Ludwing M",
       "location": "Nicaragua",
       "salary": "2,000",
-      "status": "Rejected",
+      "status": "First Interview",
       "video": "https://pub-320f624a298145c09bbf1003b5cf0a27.r2.dev/uploads/574ed2d1-3f2a-4270-ad61-26ac9a2255cc",
       "cv": "",
-      "notes": "Unresponsive"
+      "notes": ""
     },
     {
       "batch": "1",
