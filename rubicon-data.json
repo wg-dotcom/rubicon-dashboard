@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:10:01.000Z",
+  "updated": "2026-09-22T11:49:00.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3294,6 +3294,18 @@
       "role": "Regional Sourcing Associate",
       "country": "Mexico",
       "sent": "09/19/26",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Jose Martin Aleman",
+      "role": "Client Service Associate",
+      "country": "Nicaragua",
+      "sent": "09/21/26",
       "criminal": "Pending",
       "education": "Pending",
       "employment": "Pending",
