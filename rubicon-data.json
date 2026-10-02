@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T21:10:39.000Z",
+  "updated": "2026-10-02T17:37:20.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -12,51 +12,6 @@
       "kickoff": "May 7, 2026",
       "datePlaced": "Jun 24, 2026",
       "notes": "Evanan -  Accepted another offer. BGC took a month. · Kelly placed · Hydel, - we shared with Rubicon he's still interested but have not heard back from the hiring manager.\n08/06: Presented another batch, waiting feedback\n08/24: presented 4 additional candidates last week, waiting feedback\nTalked to Lu requesting updates and feedback"
-    },
-    {
-      "hr": "HR83733",
-      "role": "Sales Development Representative",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 3, 2026",
-      "datePlaced": "",
-      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
-    },
-    {
-      "hr": "HR70870",
-      "role": "Sr Developer, Business Intelligence",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "N/A",
-      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
-    },
-    {
-      "hr": "HR50452",
-      "role": "Revenue Project Specialist",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
-    },
-    {
-      "hr": "HR82449",
-      "role": "Data Management Analyst",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 8,2026",
-      "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
-    },
-    {
-      "hr": "HR42533",
-      "role": "Regional Sourcing Manager",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
     },
     {
       "hr": "HR95911",
@@ -95,6 +50,24 @@
       "notes": "Judy - start date June 22 - pending reflected"
     },
     {
+      "hr": "HR83733",
+      "role": "Sales Development Representative",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "June 3, 2026",
+      "datePlaced": "",
+      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
+    },
+    {
+      "hr": "HR70870",
+      "role": "Sr Developer, Business Intelligence",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "N/A",
+      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
+    },
+    {
       "hr": "HR47113",
       "role": "Regional Sourcing Associate",
       "status": "8. Placed",
@@ -102,6 +75,24 @@
       "kickoff": "June 8,2026",
       "datePlaced": "July 10,2026",
       "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer, iinvoice payed on 08/27 · New batch July 30 - 5 candidates, pending feedback\nFollow up on 08/21\nNew Batch 4 on 08/27, waiting for feedback \nCarlos (Batch 4)'s invited to 2nd interview"
+    },
+    {
+      "hr": "HR62951",
+      "role": "Regional Sourcing Team Lead",
+      "status": "3. 1st Round of Interviews",
+      "advisor": "Vicky",
+      "kickoff": "June 8,2026",
+      "datePlaced": "",
+      "notes": "Batch 3 and 4 candidates currently in process\n09/02: Lina (batch 3) completed her second interview, pending feedback\n4th Batch on 08/27, waiting for feedback \nTalked to Lu requesting updates and feedback"
+    },
+    {
+      "hr": "HR82449",
+      "role": "Data Management Analyst",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 8,2026",
+      "datePlaced": "",
+      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
     },
     {
       "hr": "HR98287",
@@ -113,13 +104,22 @@
       "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid · Jhony signed the offer, invoice sent"
     },
     {
-      "hr": "HR62951",
-      "role": "Regional Sourcing Team Lead",
-      "status": "3. 1st Round of Interviews",
+      "hr": "HR50452",
+      "role": "Revenue Project Specialist",
+      "status": "9. Closed / Paused / M.I.A.",
       "advisor": "Vicky",
-      "kickoff": "June 8,2026",
+      "kickoff": "July 16,2026",
       "datePlaced": "",
-      "notes": "Batch 3 and 4 candidates currently in process\n09/02: Lina (batch 3) completed her second interview, pending feedback\n4th Batch on 08/27, waiting for feedback \nTalked to Lu requesting updates and feedback"
+      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
+    },
+    {
+      "hr": "HR42533",
+      "role": "Regional Sourcing Manager",
+      "status": "9. Closed / Paused / M.I.A.",
+      "advisor": "Vicky",
+      "kickoff": "July 16,2026",
+      "datePlaced": "",
+      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
     },
     {
       "hr": "HR47156",
