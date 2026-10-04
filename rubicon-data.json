@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T23:23:21.000Z",
+  "updated": "2026-10-04T23:26:49.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3006,7 +3006,7 @@
       "location": "",
       "salary": "1,500",
       "status": "",
-      "video": "",
+      "video": "https://drive.google.com/file/d/1Qh4xJcOh6bkscTNf9V7jlxdRE_7ad83A/view?usp=sharing",
       "cv": "",
       "notes": ""
     },
@@ -3014,6 +3014,17 @@
       "batch": "7",
       "role": "AP Operations Analyst",
       "name": "Pedro",
+      "location": "",
+      "salary": "1,500",
+      "status": "",
+      "video": "https://drive.google.com/file/d/1ecxkEJxXlK84Yz9oEpLE1QgID_3qaX2Q/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Kenny",
       "location": "",
       "salary": "1,500",
       "status": "",
