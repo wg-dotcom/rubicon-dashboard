@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:12:35.000Z",
+  "updated": "2026-10-05T22:16:16.000Z",
   "customer": "Rubicon",
   "contact": "",
   "advisor": "Vicky",
@@ -466,7 +466,7 @@
     {
       "name": "Carlos Gonzalez Ramirez",
       "role": "AP Operations Analyst",
-      "country": "",
+      "country": "Mexico",
       "sent": "09/28/26",
       "criminal": "Pending",
       "education": "Pending",
@@ -478,7 +478,7 @@
     {
       "name": "Eddelia Meza Blandón",
       "role": "AP Operations Analyst",
-      "country": "",
+      "country": "Nicaragua",
       "sent": "09/28/26",
       "criminal": "Pending",
       "education": "Pending",
@@ -490,7 +490,7 @@
     {
       "name": "Alvaro Gutierrez Arias",
       "role": "AP Operations Analyst",
-      "country": "",
+      "country": "Colombia",
       "sent": "09/28/26",
       "criminal": "Clear",
       "education": "Pending",
@@ -502,7 +502,7 @@
     {
       "name": "Lis Rodriguez Rosales",
       "role": "AP Operations Analyst",
-      "country": "",
+      "country": "Mexico",
       "sent": "09/28/26",
       "criminal": "Pending",
       "education": "Pending",
