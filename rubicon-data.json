@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T15:01:51.000Z",
+  "updated": "2026-10-05T15:06:06.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3073,6 +3073,17 @@
       "salary": "1,500",
       "status": "",
       "video": "https://ta-dashboard-supabase.replit.app/api/screening-candidates/recCWm0DrPgcXHCER/video-intro",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "",
+      "role": "Financial & Operations Analyst",
+      "name": "Fernando T",
+      "location": "",
+      "salary": "",
+      "status": "",
+      "video": "",
       "cv": "",
       "notes": ""
     }
