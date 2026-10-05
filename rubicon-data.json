@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:16:16.000Z",
+  "updated": "2026-10-05T22:33:06.000Z",
   "customer": "Rubicon",
   "contact": "",
   "advisor": "Vicky",
@@ -480,7 +480,7 @@
       "role": "AP Operations Analyst",
       "country": "Nicaragua",
       "sent": "09/28/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "education": "Pending",
       "employment": "Pending",
       "overall": "Pending",
@@ -504,7 +504,7 @@
       "role": "AP Operations Analyst",
       "country": "Mexico",
       "sent": "09/28/26",
-      "criminal": "Pending",
+      "criminal": "Clear",
       "education": "Pending",
       "employment": "Pending",
       "overall": "Pending",
@@ -513,7 +513,7 @@
     },
     {
       "name": "Carolina Adame",
-      "role": "",
+      "role": "AP Operations Analyst",
       "country": "Mexico",
       "sent": "10/05/26",
       "criminal": "Pending",
