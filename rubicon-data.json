@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T15:23:20.000Z",
+  "updated": "2026-10-05T15:48:39.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3062,17 +3062,6 @@
       "salary": "2,000",
       "status": "Presented",
       "video": "https://drive.google.com/file/d/1yVPUD81RloBUlbU2kBPy84ZirM0KZA37/view?usp=sharing",
-      "cv": "",
-      "notes": ""
-    },
-    {
-      "batch": "3",
-      "role": "Financial & Operations Analyst",
-      "name": "Geisa M",
-      "location": "Brazil",
-      "salary": "2,000",
-      "status": "Presented",
-      "video": "https://ta-dashboard-supabase.replit.app/api/screening-candidates/recCWm0DrPgcXHCER/video-intro",
       "cv": "",
       "notes": ""
     },
