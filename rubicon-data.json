@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T15:48:39.000Z",
+  "updated": "2026-10-05T17:42:16.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3389,6 +3389,42 @@
       "overall": "Clear",
       "docsShared": "Yes - via Teams",
       "dateShared": "09/29/26"
+    },
+    {
+      "name": "Carlos Gonzalez Ramirez",
+      "role": "",
+      "country": "",
+      "sent": "",
+      "criminal": "",
+      "education": "",
+      "employment": "",
+      "overall": "",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Eddelia Meza Blandón",
+      "role": "",
+      "country": "",
+      "sent": "",
+      "criminal": "",
+      "education": "",
+      "employment": "",
+      "overall": "",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Alvaro Gutierrez Arias",
+      "role": "",
+      "country": "",
+      "sent": "",
+      "criminal": "",
+      "education": "",
+      "employment": "",
+      "overall": "",
+      "docsShared": "",
+      "dateShared": ""
     }
   ]
 }
