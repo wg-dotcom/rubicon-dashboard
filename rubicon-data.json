@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T17:42:16.000Z",
+  "updated": "2026-10-05T17:45:13.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Vicky",
@@ -3416,6 +3416,18 @@
     },
     {
       "name": "Alvaro Gutierrez Arias",
+      "role": "",
+      "country": "",
+      "sent": "",
+      "criminal": "",
+      "education": "",
+      "employment": "",
+      "overall": "",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Lis Rodriguez Rosales",
       "role": "",
       "country": "",
       "sent": "",
