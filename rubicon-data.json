@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T22:33:06.000Z",
+  "updated": "2026-10-06T13:53:00.000Z",
   "customer": "Rubicon",
   "contact": "",
   "advisor": "Vicky",
@@ -516,6 +516,18 @@
       "role": "AP Operations Analyst",
       "country": "Mexico",
       "sent": "10/05/26",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Ludwing Mendieta",
+      "role": "Financial and operation Analyst role",
+      "country": "Nicaragua",
+      "sent": "10/06/26",
       "criminal": "Pending",
       "education": "Pending",
       "employment": "Pending",
