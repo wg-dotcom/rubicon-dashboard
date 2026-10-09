@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-08T17:50:29.000Z",
+  "updated": "2026-10-09T17:19:59.000Z",
   "customer": "Rubicon",
-  "contact": "",
-  "advisor": "Vicky",
+  "contact": "JossLyn Castor",
+  "advisor": "Kath",
   "requests": [
     {
       "hr": "HR38830",
@@ -149,7 +149,74 @@
       "notes": "09/08: Presented Batch 1 (5 candidates)"
     }
   ],
-  "rows": [],
+  "rows": [
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Giovanna",
+      "location": "Mexico",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1Qh4xJcOh6bkscTNf9V7jlxdRE_7ad83A/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Pedro",
+      "location": "Venezuela",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1ecxkEJxXlK84Yz9oEpLE1QgID_3qaX2Q/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Kenny",
+      "location": "Nicaragua",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/14sunVq18_3djl0yeLtyCTde19b46o5Q0/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Andreina",
+      "location": "Venezuela",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1rNMeiqoqv1pp92fzs_i9QkLzS9450W-p/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "7",
+      "role": "AP Operations Analyst",
+      "name": "Jonnathan",
+      "location": "Costa Rica",
+      "salary": "1,500",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1WnyKcl08B8NkpMim19uMqCQWT_ogIHwi/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    },
+    {
+      "batch": "3",
+      "role": "Financial & Operations Analyst",
+      "name": "Fernando T",
+      "location": "Honduras",
+      "salary": "2,600",
+      "status": "Presented",
+      "video": "https://drive.google.com/file/d/1sNZ04s3MALifPgQLVhcuwTjHANV07LyP/view?usp=sharing",
+      "cv": "",
+      "notes": ""
+    }
+  ],
   "bgchecks": [
     {
       "name": "Judy Avila Salazar",
