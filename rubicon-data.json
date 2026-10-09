@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T17:19:59.000Z",
+  "updated": "2026-10-09T19:05:17.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Kath",
@@ -539,7 +539,7 @@
       "education": "Pending",
       "employment": "Pending",
       "overall": "Pending",
-      "docsShared": "",
+      "docsShared": "Yes - via Teams",
       "dateShared": ""
     },
     {
@@ -548,11 +548,11 @@
       "country": "Nicaragua",
       "sent": "09/28/26",
       "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "education": "Clear",
+      "employment": "Clear",
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "10/09/2026"
     },
     {
       "name": "Alvaro Gutierrez Arias",
@@ -560,11 +560,11 @@
       "country": "Colombia",
       "sent": "09/28/26",
       "criminal": "Clear",
-      "education": "Pending",
+      "education": "Clear",
       "employment": "Clear",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "10/09/2026"
     },
     {
       "name": "Lis Rodriguez Rosales",
@@ -572,11 +572,11 @@
       "country": "Mexico",
       "sent": "09/28/26",
       "criminal": "Clear",
-      "education": "Pending",
-      "employment": "Pending",
-      "overall": "Pending",
-      "docsShared": "",
-      "dateShared": ""
+      "education": "Clear",
+      "employment": "Clear",
+      "overall": "Clear",
+      "docsShared": "Yes - via Teams",
+      "dateShared": "10/09/2026"
     },
     {
       "name": "Carolina Adame",
@@ -595,6 +595,18 @@
       "role": "Financial and operation Analyst role",
       "country": "Nicaragua",
       "sent": "10/06/26",
+      "criminal": "Pending",
+      "education": "Pending",
+      "employment": "Pending",
+      "overall": "Pending",
+      "docsShared": "",
+      "dateShared": ""
+    },
+    {
+      "name": "Vivian Aguilar de Hernández:",
+      "role": "AP Operations Analyst",
+      "country": "Guatemala",
+      "sent": "10/09/26",
       "criminal": "Pending",
       "education": "Pending",
       "employment": "Pending",
