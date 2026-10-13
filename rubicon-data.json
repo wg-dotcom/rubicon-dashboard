@@ -1,72 +1,9 @@
 {
-  "updated": "2026-10-13T18:24:32.000Z",
+  "updated": "2026-10-13T18:25:22.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Kath",
   "requests": [
-    {
-      "hr": "HR38830",
-      "role": "Client Services Team Lead",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "May 7, 2026",
-      "datePlaced": "Jun 24, 2026",
-      "notes": "Evanan -  Accepted another offer. BGC took a month. · Kelly placed"
-    },
-    {
-      "hr": "HR95911",
-      "role": "Client Service Associate",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "May 7, 2026",
-      "datePlaced": "June 5, 2026",
-      "notes": "Ronald hired, invoice sent · Francisco - Background completed; signed the offer, start date 08/31, invoice paid"
-    },
-    {
-      "hr": "HR95269",
-      "role": "Intake Analyst",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "May 26, 2026",
-      "datePlaced": "May 27, 2026",
-      "notes": "Alex hired - Start date July 6\npayment Reflected · Abilene BGC completed, offer signed, pending paid"
-    },
-    {
-      "hr": "HR60297",
-      "role": "Key Account Analyst",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "May 28, 2026",
-      "datePlaced": "June 12,2026",
-      "notes": "Emilio  - hired - payment reflected · Samuel, offer letter. BCG complete, signed offer, invoice payed on 08/27 · Juan - BGC completed, offer signed, invoice paid"
-    },
-    {
-      "hr": "HR78147",
-      "role": "Accounts Payable Operations Analyst role.",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "June 2,2026",
-      "datePlaced": "June 2,2026",
-      "notes": "Judy - start date June 22 - pending reflected"
-    },
-    {
-      "hr": "HR83733",
-      "role": "Sales Development Representative",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 3, 2026",
-      "datePlaced": "",
-      "notes": "Carlos and Marlon 2nd interview - feedback pending\nNew batch July 13 - 5 cddts\n07/21: ON HOLD"
-    },
-    {
-      "hr": "HR70870",
-      "role": "Sr Developer, Business Intelligence",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "N/A",
-      "notes": "ON HOLD - All IT roles are on hold within the company - internal changes"
-    },
     {
       "hr": "HR47113",
       "role": "Regional Sourcing Associate",
@@ -75,6 +12,15 @@
       "kickoff": "June 8,2026",
       "datePlaced": "July 10,2026",
       "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer, iinvoice payed on 08/27"
+    },
+    {
+      "hr": "HR60297",
+      "role": "Key Account Analyst",
+      "status": "8. Placed",
+      "advisor": "Vicky",
+      "kickoff": "June 12, 2026",
+      "datePlaced": "August 10,2026",
+      "notes": "Samuel, offer letter. BCG complete, signed offer, invoice payed on 08/27 · Juan - BGC completed, offer signed, invoice paid"
     },
     {
       "hr": "HR82449",
@@ -93,6 +39,15 @@
       "kickoff": "July 8,2026",
       "datePlaced": "July 31,2026",
       "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid"
+    },
+    {
+      "hr": "HR95269",
+      "role": "Intake Analyst",
+      "status": "8. Placed",
+      "advisor": "Vicky",
+      "kickoff": "July 8, 2026",
+      "datePlaced": "August 7, 2026",
+      "notes": "Abilene BGC completed, offer signed, pending paid"
     },
     {
       "hr": "HR50452",
