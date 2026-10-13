@@ -1,73 +1,9 @@
 {
-  "updated": "2026-10-13T18:25:22.000Z",
+  "updated": "2026-10-13T18:26:12.000Z",
   "customer": "Rubicon",
   "contact": "JossLyn Castor",
   "advisor": "Kath",
-  "requests": [
-    {
-      "hr": "HR47113",
-      "role": "Regional Sourcing Associate",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "June 8,2026",
-      "datePlaced": "July 10,2026",
-      "notes": "Fernando hired · Carlos (GTC) - hired · Jose Offered 07/16\n08/17: Jose signed the offer, iinvoice payed on 08/27"
-    },
-    {
-      "hr": "HR60297",
-      "role": "Key Account Analyst",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "June 12, 2026",
-      "datePlaced": "August 10,2026",
-      "notes": "Samuel, offer letter. BCG complete, signed offer, invoice payed on 08/27 · Juan - BGC completed, offer signed, invoice paid"
-    },
-    {
-      "hr": "HR82449",
-      "role": "Data Management Analyst",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 8,2026",
-      "datePlaced": "",
-      "notes": "07/16: Presented Batch 1 (8 candidates), pending feedback\nFollow up on 08/21, Lu mentioned she'll follow up with the Hiring Managers \n09/01: Lu sent this: Hi team, the Data Management Analyst and Key Account Analyst roles are now closed. I’ll keep you posted on the status of the remaining roles."
-    },
-    {
-      "hr": "HR98287",
-      "role": "Training Content Specialist",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "July 8,2026",
-      "datePlaced": "July 31,2026",
-      "notes": "Andrea - signed the offer, invoice sent · Sadeak Offered, BGC completed, signed the offer, invoice paid"
-    },
-    {
-      "hr": "HR95269",
-      "role": "Intake Analyst",
-      "status": "8. Placed",
-      "advisor": "Vicky",
-      "kickoff": "July 8, 2026",
-      "datePlaced": "August 7, 2026",
-      "notes": "Abilene BGC completed, offer signed, pending paid"
-    },
-    {
-      "hr": "HR50452",
-      "role": "Revenue Project Specialist",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "08/10: Lu said: I just received an update this morning that the Revenue Project Specialist position has been closed."
-    },
-    {
-      "hr": "HR42533",
-      "role": "Regional Sourcing Manager",
-      "status": "9. Closed / Paused / M.I.A.",
-      "advisor": "Vicky",
-      "kickoff": "July 16,2026",
-      "datePlaced": "",
-      "notes": "Carolina, Lourdes, and Adriana - first interviews completed, waiting feedback\n08/13: Batch 2 (4 candidates), waiting feedback\nFollow up on 08/21\n09/01: Lu sent us this: As an update, the regional sourcing manager role has now been closed."
-    }
-  ],
+  "requests": [],
   "rows": [
     {
       "batch": "7",
